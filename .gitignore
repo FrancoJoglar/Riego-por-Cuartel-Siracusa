@@ -1,0 +1,14 @@
+*.xlsx
+*.xls
+*.xlsm
+*.db
+*.db-journal
+Output/
+Historial/
+__pycache__/
+*.pyc
+*.pyo
+~$*
+.vscode/
+.idea/
+*.code-workspace
