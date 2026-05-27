@@ -263,6 +263,15 @@ def run_audit(sectores_df, cuartel_sector_df, riego_files, equipo):
             continue
         cc, eq, snum = int(row["cc"]), int(row["equipo"]), int(row["sector"])
         sn = f"E{eq}S{snum}"
+        # Auto-crear sector si no existe en la tabla sectores
+        existing = conn.execute(
+            "SELECT 1 FROM sectores WHERE sector_nom = ?", (sn,)
+        ).fetchone()
+        if not existing:
+            conn.execute(
+                "INSERT OR IGNORE INTO sectores VALUES (?,?,?,?,?,?)",
+                (sn, eq, snum, None, 0.0, ""),
+            )
         conn.execute(
             "INSERT OR REPLACE INTO cuarteles VALUES (?,?,?,?,?,?)",
             (
