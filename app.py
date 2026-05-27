@@ -1,5 +1,6 @@
-import streamlit as st, pandas as pd, sqlite3, openpyxl, re
+import streamlit as st, pandas as pd, sqlite3, openpyxl, re, json
 from io import BytesIO
+from pathlib import Path
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
@@ -75,8 +76,43 @@ MESES_ES = {
     "12": "Diciembre",
 }
 
+# ─── CARGA INICIAL DE DATOS ───────────────────────────
+DATA_JSON = Path(__file__).parent / "data_base.json"
 
-# ─── CLEANERS ─────────────────────────────────────────
+
+def load_sectores():
+    if "sectores_df" not in st.session_state:
+        with open(DATA_JSON, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        st.session_state.sectores_df = pd.DataFrame(data["sectores"])
+        st.session_state.cuartel_sector_df = pd.DataFrame(data["cuartel_sector"])
+    return st.session_state.sectores_df, st.session_state.cuartel_sector_df
+
+
+def save_session_data():
+    sectores_df, cuartel_sector_df = load_sectores()
+    buf = BytesIO()
+    with pd.ExcelWriter(buf, engine="openpyxl") as writer:
+        sectores_df.to_excel(writer, sheet_name="Sectores", index=False)
+        cs_df = cuartel_sector_df.copy()
+        cs_df.columns = [
+            "CC",
+            "Variedad",
+            "Dist Hilera",
+            "Dist Plantas",
+            "Anio",
+            "Equipo",
+            "Sector",
+            "%",
+            "Ha Cuartel",
+            "Ha en Sector",
+        ]
+        cs_df.to_excel(writer, sheet_name="Cuartel x Sector", index=False)
+    buf.seek(0)
+    return buf
+
+
+# ─── CLEANER ──────────────────────────────────────────
 def parse_duration_hours(value):
     if pd.isna(value):
         return None
@@ -166,7 +202,6 @@ def clean_agronic(uploaded_file):
         if len(latch) > 0
         else df_normal.copy()
     )
-
     planilla = []
     for _, row in riego_final.iterrows():
         eqn = row.get("equipo_num")
@@ -194,7 +229,7 @@ def clean_agronic(uploaded_file):
 
 
 # ─── AUDITOR ──────────────────────────────────────────
-def run_audit(desglose_file, riego_files, equipo):
+def run_audit(sectores_df, cuartel_sector_df, riego_files, equipo):
     conn = sqlite3.connect(":memory:")
     conn.execute("PRAGMA foreign_keys = ON")
     conn.executescript("""
@@ -205,41 +240,46 @@ def run_audit(desglose_file, riego_files, equipo):
     CREATE TABLE riegos_cuartel (riego_id INTEGER NOT NULL REFERENCES riegos(id), cuartel_id INTEGER NOT NULL REFERENCES cuarteles(cc), sector_nom TEXT NOT NULL, volumen_m3 REAL NOT NULL);
     """)
 
-    # Cargar desglose
-    wb = openpyxl.load_workbook(BytesIO(desglose_file.read()), data_only=True)
-    ws_sec = wb["Sectores"]
-    for row in ws_sec.iter_rows(min_row=2, values_only=True):
-        eq, snum, caudal, has_tot, caseta = row[0], row[1], row[2], row[3], row[4]
-        if eq is None:
+    # Cargar sectores desde session state
+    for _, row in sectores_df.iterrows():
+        if equipo is not None and row["equipo"] != equipo:
             continue
-        eq = int(eq)
-        if equipo is not None and eq != equipo:
-            continue
-        sn = f"E{eq}S{int(snum)}"
+        sn = f"E{int(row['equipo'])}S{int(row['sector'])}"
         conn.execute(
             "INSERT INTO sectores VALUES (?,?,?,?,?,?)",
-            (sn, eq, int(snum), caudal, has_tot, str(caseta) if caseta else None),
+            (
+                sn,
+                int(row["equipo"]),
+                int(row["sector"]),
+                row.get("caudal"),
+                row["has"],
+                str(row.get("caseta", "")),
+            ),
         )
-    ws_cs = wb["Cuartel x Sector"]
-    for row in ws_cs.iter_rows(min_row=2, values_only=True):
-        cc, var, dh, dp, anio, eq, snum, pct, has_cuar, has_sec = row
-        if cc is None or eq is None:
+
+    # Cargar cuartel x sector desde session state
+    for _, row in cuartel_sector_df.iterrows():
+        if equipo is not None and row["equipo"] != equipo:
             continue
-        eq = int(eq)
-        if equipo is not None and eq != equipo:
-            continue
-        cc, snum = int(cc), int(snum)
+        cc, eq, snum = int(row["cc"]), int(row["equipo"]), int(row["sector"])
         sn = f"E{eq}S{snum}"
         conn.execute(
             "INSERT OR REPLACE INTO cuarteles VALUES (?,?,?,?,?,?)",
-            (cc, str(var), int(anio) if anio else None, dh, dp, has_cuar),
+            (
+                cc,
+                str(row["variedad"]),
+                int(row["anio"]) if pd.notna(row["anio"]) else None,
+                row.get("dh"),
+                row.get("dp"),
+                row["has_total"],
+            ),
         )
         conn.execute(
             "INSERT OR REPLACE INTO cuartel_sector VALUES (?,?,?,?,?,?)",
-            (cc, sn, eq, snum, pct, has_sec),
+            (cc, sn, eq, snum, row["pct"], row["has_en_sector"]),
         )
 
-    # Cargar historial
+    # Cargar historial de riegos
     for rf in riego_files:
         wb_hist = openpyxl.load_workbook(BytesIO(rf.read()), data_only=True)
         if "Riegos" not in wb_hist.sheetnames:
@@ -276,6 +316,7 @@ def run_audit(desglose_file, riego_files, equipo):
                     rf.name,
                 ),
             )
+    conn.commit()
 
     # Distribuir
     conn.row_factory = sqlite3.Row
@@ -286,6 +327,7 @@ def run_audit(desglose_file, riego_files, equipo):
             cs_by_sector[s] = []
         cs_by_sector[s].append({"cc": cs["cuartel_id"], "ha": cs["has_en_sector"]})
     sum_ha = {s: sum(c["ha"] for c in lst) for s, lst in cs_by_sector.items()}
+
     for riego in conn.execute("SELECT * FROM riegos").fetchall():
         s = riego["sector_nom"]
         if s not in cs_by_sector or sum_ha.get(s, 0) == 0:
@@ -296,10 +338,9 @@ def run_audit(desglose_file, riego_files, equipo):
                 "INSERT INTO riegos_cuartel VALUES (?,?,?,?)",
                 (riego["id"], c["cc"], s, round(m3, 4)),
             )
-
     conn.commit()
 
-    # Construir Excel
+    # Construir Excel output
     wb_out = openpyxl.Workbook()
     HF = Font(bold=True, color="FFFFFF", size=11)
     HFL = PatternFill(start_color="2F5496", end_color="2F5496", fill_type="solid")
@@ -357,7 +398,7 @@ def run_audit(desglose_file, riego_files, equipo):
     ws2 = wb_out.create_sheet("Cuartel_x_Sector")
     for i, h in enumerate(
         [
-            "Cuartel (CC)",
+            "CC",
             "Variedad",
             "Anio",
             "Dist. Hilera",
@@ -370,10 +411,8 @@ def run_audit(desglose_file, riego_files, equipo):
         1,
     ):
         ws2.cell(row=1, column=i, value=h)
-    r2 = conn.execute("""
-        SELECT cs.cuartel_id, c.variedad, c.anio, c.dist_hilera, c.dist_plantas, c.has_total, cs.sector_nom, cs.porcentaje, cs.has_en_sector
-        FROM cuartel_sector cs JOIN cuarteles c ON cs.cuartel_id = c.cc ORDER BY cs.cuartel_id, cs.sector_nom
-    """).fetchall()
+    r2 = conn.execute("""SELECT cs.cuartel_id, c.variedad, c.anio, c.dist_hilera, c.dist_plantas, c.has_total, cs.sector_nom, cs.porcentaje, cs.has_en_sector
+                          FROM cuartel_sector cs JOIN cuarteles c ON cs.cuartel_id = c.cc ORDER BY cs.cuartel_id, cs.sector_nom""").fetchall()
     for r, row in enumerate(r2, 2):
         for c, v in enumerate(row, 1):
             cell = ws2.cell(row=r, column=c, value=v)
@@ -425,16 +464,14 @@ def run_audit(desglose_file, riego_files, equipo):
     meses = conn.execute(
         "SELECT DISTINCT strftime('%Y-%m', fecha) as mes FROM riegos ORDER BY mes"
     ).fetchall()
-    mes_raw = [m["mes"] for m in meses]
+    mes_raw = [m["mes"] for m in meses] if meses else []
     mes_disp = [f"{MESES_ES[ml.split('-')[1]]} {ml.split('-')[0]}" for ml in mes_raw]
 
-    cuarteles = conn.execute("""
-        SELECT rc.cuartel_id, c.variedad, c.has_total,
-               (SELECT SUM(cs.has_en_sector) FROM cuartel_sector cs WHERE cs.cuartel_id = rc.cuartel_id) as ha_regada,
-               GROUP_CONCAT(DISTINCT rc.sector_nom ORDER BY rc.sector_nom) as sectores
+    cuarteles = conn.execute("""SELECT rc.cuartel_id, c.variedad, c.has_total,
+        (SELECT SUM(cs.has_en_sector) FROM cuartel_sector cs WHERE cs.cuartel_id = rc.cuartel_id) as ha_regada,
+        GROUP_CONCAT(DISTINCT rc.sector_nom ORDER BY rc.sector_nom) as sectores
         FROM riegos_cuartel rc JOIN cuarteles c ON rc.cuartel_id = c.cc
-        GROUP BY rc.cuartel_id ORDER BY rc.cuartel_id
-    """).fetchall()
+        GROUP BY rc.cuartel_id ORDER BY rc.cuartel_id""").fetchall()
 
     m3_dict = {}
     for row in conn.execute("""SELECT rc.cuartel_id, strftime('%Y-%m', r.fecha) as mes, ROUND(SUM(rc.volumen_m3),1) as m3
@@ -442,6 +479,7 @@ def run_audit(desglose_file, riego_files, equipo):
         m3_dict[(row["cuartel_id"], row["mes"])] = row["m3"]
 
     MI = 5
+    nc4 = MI + len(mes_raw) + 2
     for i, h in enumerate(
         ["Cuartel", "Variedad", "Ha Regada", "Sector(es)"]
         + [f"{m} (m3)" for m in mes_disp]
@@ -449,8 +487,6 @@ def run_audit(desglose_file, riego_files, equipo):
         1,
     ):
         ws4.cell(row=1, column=i, value=h)
-    nc4 = 5 + len(mes_raw) + 2
-
     for r, cd in enumerate(cuarteles, 2):
         cc, has, sn = cd["cuartel_id"], cd["ha_regada"], cd["sectores"]
         for c, v in enumerate([cc, cd["variedad"], has, sn], 1):
@@ -499,13 +535,12 @@ def run_audit(desglose_file, riego_files, equipo):
     ws5 = wb_out.create_sheet("Resumen_Detallado")
     h5h = ["Cuartel", "Variedad", "Ha Regada", "Sector(es)"]
     for m in mes_disp:
-        h5h.append(f"{m} (m3)")
-        h5h.append(f"{m} (m3/ha)")
+        h5h += [f"{m} (m3)", f"{m} (m3/ha)"]
     h5h += ["Total (m3)", "m3/ha temp"]
     nc5 = len(h5h)
+    MI5 = 5
     for i, h in enumerate(h5h, 1):
         ws5.cell(row=1, column=i, value=h)
-    MI5 = 5
     for r, cd in enumerate(cuarteles, 2):
         cc, has, sn = cd["cuartel_id"], cd["ha_regada"], cd["sectores"]
         for c, v in enumerate([cc, cd["variedad"], has, sn], 1):
@@ -562,18 +597,19 @@ def run_audit(desglose_file, riego_files, equipo):
     output = BytesIO()
     wb_out.save(output)
     output.seek(0)
-
-    # Stats
     n_riegos = conn.execute("SELECT COUNT(*) FROM riegos").fetchone()[0]
-    n_cuartel_rows = conn.execute("SELECT COUNT(*) FROM riegos_cuartel").fetchone()[0]
+    n_cr = conn.execute("SELECT COUNT(*) FROM riegos_cuartel").fetchone()[0]
     vol = conn.execute("SELECT COALESCE(SUM(volumen_m3),0) FROM riegos").fetchone()[0]
     conn.close()
-    return output, n_riegos, n_cuartel_rows, vol
+    return output, n_riegos, n_cr, vol
 
 
 # ─── UI ───────────────────────────────────────────────
-tab1, tab2 = st.tabs(["1. Limpiar Datos Agronic", "2. Auditar Riegos"])
+tab1, tab2, tab3 = st.tabs(
+    ["1. Limpiar Datos", "2. Auditar Riegos", "3. Configurar Cuarteles"]
+)
 
+# ─── TAB 1: LIMPIAR DATOS ─────────────────────────────
 with tab1:
     st.subheader("Subi el archivo .xls de Agronic")
     raw_file = st.file_uploader("Archivo crudo (.xls)", type=["xls"], key="raw")
@@ -581,42 +617,56 @@ with tab1:
         with st.spinner("Limpiando..."):
             df_limpio = clean_agronic(raw_file)
         st.success(
-            f"Listo: {len(df_limpio)} registros limpios, {df_limpio['Volumen_m3'].sum():,.1f} m³"
+            f"Listo: {len(df_limpio)} registros, {df_limpio['Volumen_m3'].sum():,.1f} m3"
         )
         st.dataframe(df_limpio, use_container_width=True, height=300)
-        output = BytesIO()
-        with pd.ExcelWriter(output, engine="openpyxl") as writer:
-            df_limpio.to_excel(writer, sheet_name="Riegos", index=False)
+        buf = BytesIO()
+        with pd.ExcelWriter(buf, engine="openpyxl") as w:
+            df_limpio.to_excel(w, sheet_name="Riegos", index=False)
         st.download_button(
             "Descargar Planilla Limpiada",
-            output.getvalue(),
+            buf.getvalue(),
             f"Planilla_Limpiada_{raw_file.name.replace('.xls', '')}.xlsx",
             "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
 
+# ─── TAB 2: AUDITAR RIEGOS ────────────────────────────
 with tab2:
-    st.subheader("1. Subi el archivo de Desglose (Cuartel x Sector)")
-    desglose = st.file_uploader("Cuartel x Sector.xlsx", type=["xlsx"], key="desglose")
+    sectores_df, cuartel_sector_df = load_sectores()
+    cols = st.columns([1, 1, 1])
+    equipo = cols[0].number_input("Equipo (0 = TODOS)", 0, 30, 1)
+    cols[1].metric(
+        "Sectores configurados",
+        len(
+            sectores_df[sectores_df["equipo"] == equipo] if equipo > 0 else sectores_df
+        ),
+    )
+    cols[2].metric(
+        "Relaciones CC-Sector",
+        len(
+            cuartel_sector_df[cuartel_sector_df["equipo"] == equipo]
+            if equipo > 0
+            else cuartel_sector_df
+        ),
+    )
 
-    st.subheader("2. Subi las planillas de riego (limpias o crudas)")
+    st.subheader("Subi las planillas de riego")
     riegos_files = st.file_uploader(
         "Planillas .xlsx o .xls",
         type=["xlsx", "xls"],
         accept_multiple_files=True,
-        key="riegos",
+        key="riegos2",
     )
 
-    equipo = st.number_input("Equipo a procesar (0 = TODOS)", 0, 30, 1)
-
-    if desglose and riegos_files and st.button("Procesar Auditoria", type="primary"):
+    if riegos_files and st.button("Procesar Auditoria", type="primary"):
         cleaned = []
         for f in riegos_files:
             if f.name.endswith(".xls"):
                 with st.spinner(f"Limpiando {f.name}..."):
                     df_clean = clean_agronic(f)
                     buf = BytesIO()
-                    with pd.ExcelWriter(buf, engine="openpyxl") as writer:
-                        df_clean.to_excel(writer, sheet_name="Riegos", index=False)
+                    with pd.ExcelWriter(buf, engine="openpyxl") as w:
+                        df_clean.to_excel(w, sheet_name="Riegos", index=False)
                     buf.seek(0)
                     buf.name = f.name.replace(".xls", ".xlsx")
                     cleaned.append(buf)
@@ -624,18 +674,138 @@ with tab2:
                 cleaned.append(f)
 
         with st.spinner("Ejecutando auditoria..."):
-            output, n_riegos, n_cuartel, vol = run_audit(
-                desglose, cleaned, equipo if equipo > 0 else None
+            out, n_riegos, n_cr, vol = run_audit(
+                sectores_df, cuartel_sector_df, cleaned, equipo if equipo > 0 else None
             )
 
         st.success(
-            f"Auditoria completa: {n_riegos} riegos procesados, {n_cuartel} registros cuartel, {vol:,.1f} m³ totales"
+            f"Auditoria: {n_riegos} riegos, {n_cr} registros cuartel, {vol:,.1f} m3"
         )
-
-        equipo_label = f"Equipo{equipo}" if equipo > 0 else "Completo"
+        eq_label = f"Equipo{equipo}" if equipo > 0 else "Completo"
         st.download_button(
-            f"Descargar Auditoria_Riego_{equipo_label}.xlsx",
-            output.getvalue(),
-            f"Auditoria_Riego_{equipo_label}.xlsx",
+            f"Descargar Auditoria_Riego_{eq_label}.xlsx",
+            out.getvalue(),
+            f"Auditoria_Riego_{eq_label}.xlsx",
             "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
+
+# ─── TAB 3: CONFIGURAR CUARTELES ──────────────────────
+with tab3:
+    st.subheader("Base de datos interna de Cuarteles y Sectores")
+    st.caption(
+        "Acá podés ver y editar la relacion cuartel-sector. Los cambios se usan en la auditoria."
+    )
+
+    sectores_df, cuartel_sector_df = load_sectores()
+
+    sub1, sub2 = st.tabs(["Sectores", "Cuartel x Sector"])
+
+    with sub1:
+        st.caption(f"{len(sectores_df)} sectores configurados")
+        edited_sectores = st.data_editor(
+            sectores_df,
+            num_rows="dynamic",
+            use_container_width=True,
+            column_config={
+                "equipo": st.column_config.NumberColumn(
+                    "Equipo", min_value=1, max_value=50, step=1
+                ),
+                "sector": st.column_config.NumberColumn("Sector", min_value=1, step=1),
+                "caudal": st.column_config.NumberColumn("Caudal (m3/h)", format="%.1f"),
+                "has": st.column_config.NumberColumn("Ha", format="%.2f"),
+                "caseta": st.column_config.TextColumn("Caseta"),
+            },
+            key="edit_sectores",
+        )
+        if not edited_sectores.equals(sectores_df):
+            st.session_state.sectores_df = edited_sectores
+            st.success("Sectores actualizados")
+
+    with sub2:
+        st.caption(f"{len(cuartel_sector_df)} relaciones cuartel-sector")
+        edited_cs = st.data_editor(
+            cuartel_sector_df,
+            num_rows="dynamic",
+            use_container_width=True,
+            column_config={
+                "cc": st.column_config.NumberColumn("CC", min_value=1, step=1),
+                "variedad": st.column_config.TextColumn("Variedad"),
+                "dh": st.column_config.NumberColumn("Dist. Hilera", format="%.1f"),
+                "dp": st.column_config.NumberColumn("Dist. Plantas", format="%.1f"),
+                "anio": st.column_config.NumberColumn("Anio", min_value=2000, step=1),
+                "equipo": st.column_config.NumberColumn("Equipo", min_value=1, step=1),
+                "sector": st.column_config.NumberColumn("Sector", min_value=1, step=1),
+                "pct": st.column_config.NumberColumn(
+                    "% en Sector", format="%.2f", min_value=0.0, max_value=1.0
+                ),
+                "has_total": st.column_config.NumberColumn("Ha Cuartel", format="%.2f"),
+                "has_en_sector": st.column_config.NumberColumn(
+                    "Ha en Sector", format="%.2f"
+                ),
+            },
+            key="edit_cuartel_sector",
+        )
+        if not edited_cs.equals(cuartel_sector_df):
+            st.session_state.cuartel_sector_df = edited_cs
+            st.success("Cuartel x Sector actualizado")
+
+    st.divider()
+    col1, col2 = st.columns(2)
+    with col1:
+        st.download_button(
+            "Descargar configuracion actual (Excel)",
+            save_session_data().getvalue(),
+            "Cuartel_x_Sector_Config.xlsx",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        )
+    with col2:
+        uploaded_config = st.file_uploader(
+            "Cargar configuracion desde Excel", type=["xlsx"], key="upload_config"
+        )
+        if uploaded_config:
+            wb_up = openpyxl.load_workbook(uploaded_config, data_only=True)
+            if (
+                "Sectores" in wb_up.sheetnames
+                and "Cuartel x Sector" in wb_up.sheetnames
+            ):
+                ws_s = wb_up["Sectores"]
+                new_s = []
+                for row in ws_s.iter_rows(min_row=2, values_only=True):
+                    if row[0] is None:
+                        continue
+                    new_s.append(
+                        {
+                            "equipo": int(row[0]),
+                            "sector": int(row[1]),
+                            "caudal": row[2],
+                            "has": row[3],
+                            "caseta": str(row[4]) if row[4] else None,
+                        }
+                    )
+                ws_cs = wb_up["Cuartel x Sector"]
+                new_cs = []
+                for row in ws_cs.iter_rows(min_row=2, values_only=True):
+                    if row[0] is None or row[5] is None:
+                        continue
+                    new_cs.append(
+                        {
+                            "cc": int(row[0]),
+                            "variedad": str(row[1]),
+                            "dh": row[2],
+                            "dp": row[3],
+                            "anio": int(row[4]) if row[4] else None,
+                            "equipo": int(row[5]),
+                            "sector": int(row[6]),
+                            "pct": row[7],
+                            "has_total": row[8],
+                            "has_en_sector": row[9],
+                        }
+                    )
+                st.session_state.sectores_df = pd.DataFrame(new_s)
+                st.session_state.cuartel_sector_df = pd.DataFrame(new_cs)
+                st.success(
+                    f"Configuracion cargada: {len(new_s)} sectores, {len(new_cs)} relaciones"
+                )
+                st.rerun()
+            else:
+                st.error("El Excel debe tener hojas 'Sectores' y 'Cuartel x Sector'")
