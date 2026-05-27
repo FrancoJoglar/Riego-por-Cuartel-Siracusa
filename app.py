@@ -1,4 +1,4 @@
-import streamlit as st, pandas as pd, sqlite3, openpyxl, re, xlrd
+import streamlit as st, pandas as pd, sqlite3, openpyxl, re
 from io import BytesIO
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
@@ -101,7 +101,7 @@ def extraer_numero_equipo(equipo_str):
 
 
 def clean_agronic(uploaded_file):
-    df = pd.read_excel(uploaded_file, engine="xlrd")
+    df = pd.read_excel(uploaded_file, engine="calamine")
     df["fecha"] = pd.to_datetime(df["Desde"], dayfirst=True, errors="coerce")
     df["hora_inicio"] = df["fecha"].dt.time
     df["fecha_fin"] = pd.to_datetime(df["Hasta"], dayfirst=True, errors="coerce")
