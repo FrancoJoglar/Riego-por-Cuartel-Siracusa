@@ -468,8 +468,6 @@ def run_audit(sectores_df, cuartel_sector_df, riego_files, equipo):
     style_h(ws3, 8)
     auto_w(ws3, 8, len(r3) + 1)
 
-    # Hoja 4: Resumen Simple
-    ws4 = wb_out.create_sheet("Resumen_Cuartel_x_Mes")
     meses = conn.execute(
         "SELECT DISTINCT strftime('%Y-%m', fecha) as mes FROM riegos ORDER BY mes"
     ).fetchall()
