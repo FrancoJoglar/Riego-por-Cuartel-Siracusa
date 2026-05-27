@@ -106,6 +106,7 @@ def save_session_data():
             "%",
             "Ha Cuartel",
             "Ha en Sector",
+            "Activo",
         ]
         cs_df.to_excel(writer, sheet_name="Cuartel x Sector", index=False)
     buf.seek(0)
@@ -257,9 +258,11 @@ def run_audit(sectores_df, cuartel_sector_df, riego_files, equipo):
             ),
         )
 
-    # Cargar cuartel x sector desde session state
+    # Cargar cuartel x sector desde session state (solo activos)
     for _, row in cuartel_sector_df.iterrows():
         if equipo is not None and row["equipo"] != equipo:
+            continue
+        if "activo" in row and not row["activo"]:
             continue
         cc, eq, snum = int(row["cc"]), int(row["equipo"]), int(row["sector"])
         sn = f"E{eq}S{snum}"
@@ -676,11 +679,12 @@ with tab2:
         ),
     )
     cols[2].metric(
-        "Relaciones CC-Sector",
+        "CC-Sector activos",
         len(
-            cuartel_sector_df[cuartel_sector_df["equipo"] == equipo]
-            if equipo > 0
-            else cuartel_sector_df
+            cuartel_sector_df[
+                (cuartel_sector_df["equipo"] == equipo if equipo > 0 else True)
+                & cuartel_sector_df["activo"]
+            ]
         ),
     )
 
@@ -735,28 +739,15 @@ with tab3:
     sub1, sub2 = st.tabs(["Cuartel x Sector", "Sectores"])
 
     with sub1:
-        st.caption(f"{len(sectores_df)} sectores configurados")
-        edited_sectores = st.data_editor(
-            sectores_df,
-            num_rows="dynamic",
-            use_container_width=True,
-            column_config={
-                "equipo": st.column_config.NumberColumn(
-                    "Equipo", min_value=1, max_value=50, step=1
-                ),
-                "sector": st.column_config.NumberColumn("Sector", min_value=1, step=1),
-                "caudal": st.column_config.NumberColumn("Caudal (m3/h)", format="%.1f"),
-                "has": st.column_config.NumberColumn("Ha", format="%.2f"),
-                "caseta": st.column_config.TextColumn("Caseta"),
-            },
-            key="edit_sectores",
-        )
-        if not edited_sectores.equals(sectores_df):
-            st.session_state.sectores_df = edited_sectores
-            st.success("Sectores actualizados")
-
-    with sub2:
         st.caption(f"{len(cuartel_sector_df)} relaciones cuartel-sector")
+        activos_count = (
+            int(cuartel_sector_df["activo"].sum())
+            if "activo" in cuartel_sector_df.columns
+            else len(cuartel_sector_df)
+        )
+        st.caption(
+            f"{activos_count} activos / {len(cuartel_sector_df) - activos_count} inactivos"
+        )
         edited_cs = st.data_editor(
             cuartel_sector_df,
             num_rows="dynamic",
@@ -776,12 +767,47 @@ with tab3:
                 "has_en_sector": st.column_config.NumberColumn(
                     "Ha en Sector", format="%.2f"
                 ),
+                "activo": st.column_config.CheckboxColumn("Activo", default=True),
             },
+            column_order=[
+                "cc",
+                "variedad",
+                "equipo",
+                "sector",
+                "pct",
+                "has_total",
+                "has_en_sector",
+                "dh",
+                "dp",
+                "anio",
+                "activo",
+            ],
             key="edit_cuartel_sector",
         )
         if not edited_cs.equals(cuartel_sector_df):
             st.session_state.cuartel_sector_df = edited_cs
             st.success("Cuartel x Sector actualizado")
+
+    with sub2:
+        st.caption(f"{len(sectores_df)} sectores configurados")
+        edited_sectores = st.data_editor(
+            sectores_df,
+            num_rows="dynamic",
+            use_container_width=True,
+            column_config={
+                "equipo": st.column_config.NumberColumn(
+                    "Equipo", min_value=1, max_value=50, step=1
+                ),
+                "sector": st.column_config.NumberColumn("Sector", min_value=1, step=1),
+                "caudal": st.column_config.NumberColumn("Caudal (m3/h)", format="%.1f"),
+                "has": st.column_config.NumberColumn("Ha", format="%.2f"),
+                "caseta": st.column_config.TextColumn("Caseta"),
+            },
+            key="edit_sectores",
+        )
+        if not edited_sectores.equals(sectores_df):
+            st.session_state.sectores_df = edited_sectores
+            st.success("Sectores actualizados")
 
     st.divider()
     col1, col2 = st.columns(2)
@@ -833,6 +859,9 @@ with tab3:
                             "pct": row[7],
                             "has_total": row[8],
                             "has_en_sector": row[9],
+                            "activo": bool(row[10])
+                            if len(row) > 10 and row[10] is not None
+                            else True,
                         }
                     )
                 st.session_state.sectores_df = pd.DataFrame(new_s)

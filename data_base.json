@@ -880,7 +880,8 @@
       "sector": 3,
       "pct": 0.39,
       "has_total": 11.78019,
-      "has_en_sector": 4.5942741
+      "has_en_sector": 4.5942741,
+      "activo": true
     },
     {
       "cc": 100,
@@ -892,7 +893,8 @@
       "sector": 4,
       "pct": 0.61,
       "has_total": 11.78019,
-      "has_en_sector": 7.1859158999999995
+      "has_en_sector": 7.1859158999999995,
+      "activo": true
     },
     {
       "cc": 101,
@@ -904,7 +906,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 5.656566,
-      "has_en_sector": 5.656566
+      "has_en_sector": 5.656566,
+      "activo": true
     },
     {
       "cc": 102,
@@ -916,7 +919,8 @@
       "sector": 3,
       "pct": 0.3,
       "has_total": 7.302840000000001,
-      "has_en_sector": 2.190852
+      "has_en_sector": 2.190852,
+      "activo": true
     },
     {
       "cc": 102,
@@ -928,7 +932,8 @@
       "sector": 4,
       "pct": 0.7,
       "has_total": 7.302840000000001,
-      "has_en_sector": 5.111988
+      "has_en_sector": 5.111988,
+      "activo": true
     },
     {
       "cc": 103,
@@ -940,7 +945,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 1.591896,
-      "has_en_sector": 1.591896
+      "has_en_sector": 1.591896,
+      "activo": true
     },
     {
       "cc": 104,
@@ -952,7 +958,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 7.7506319999999995,
-      "has_en_sector": 7.7506319999999995
+      "has_en_sector": 7.7506319999999995,
+      "activo": true
     },
     {
       "cc": 105,
@@ -964,7 +971,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 9.223132,
-      "has_en_sector": 9.223132
+      "has_en_sector": 9.223132,
+      "activo": true
     },
     {
       "cc": 106,
@@ -976,7 +984,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.6871400000000003,
-      "has_en_sector": 3.6871400000000003
+      "has_en_sector": 3.6871400000000003,
+      "activo": true
     },
     {
       "cc": 107,
@@ -988,7 +997,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 6.01692,
-      "has_en_sector": 6.01692
+      "has_en_sector": 6.01692,
+      "activo": true
     },
     {
       "cc": 108,
@@ -1000,7 +1010,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.7418519999999997,
-      "has_en_sector": 2.7418519999999997
+      "has_en_sector": 2.7418519999999997,
+      "activo": true
     },
     {
       "cc": 109,
@@ -1012,7 +1023,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 0.507756,
-      "has_en_sector": 0.507756
+      "has_en_sector": 0.507756,
+      "activo": true
     },
     {
       "cc": 110,
@@ -1024,7 +1036,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 2.412088,
-      "has_en_sector": 2.412088
+      "has_en_sector": 2.412088,
+      "activo": true
     },
     {
       "cc": 111,
@@ -1036,7 +1049,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 1.604588,
-      "has_en_sector": 1.604588
+      "has_en_sector": 1.604588,
+      "activo": true
     },
     {
       "cc": 112,
@@ -1048,7 +1062,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 0.8762039999999999,
-      "has_en_sector": 0.8762039999999999
+      "has_en_sector": 0.8762039999999999,
+      "activo": true
     },
     {
       "cc": 113,
@@ -1060,7 +1075,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 1.313356,
-      "has_en_sector": 1.313356
+      "has_en_sector": 1.313356,
+      "activo": true
     },
     {
       "cc": 114,
@@ -1072,7 +1088,8 @@
       "sector": 2,
       "pct": 0.38,
       "has_total": 10.233894,
-      "has_en_sector": 3.88887972
+      "has_en_sector": 3.88887972,
+      "activo": true
     },
     {
       "cc": 114,
@@ -1084,7 +1101,8 @@
       "sector": 3,
       "pct": 0.62,
       "has_total": 10.233894,
-      "has_en_sector": 6.34501428
+      "has_en_sector": 6.34501428,
+      "activo": true
     },
     {
       "cc": 115,
@@ -1096,7 +1114,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 2.2936799999999997,
-      "has_en_sector": 2.2936799999999997
+      "has_en_sector": 2.2936799999999997,
+      "activo": true
     },
     {
       "cc": 116,
@@ -1108,7 +1127,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 6.719502,
-      "has_en_sector": 6.719502
+      "has_en_sector": 6.719502,
+      "activo": true
     },
     {
       "cc": 117,
@@ -1120,7 +1140,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 2.125872,
-      "has_en_sector": 2.125872
+      "has_en_sector": 2.125872,
+      "activo": true
     },
     {
       "cc": 118,
@@ -1132,7 +1153,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 6.191567999999999,
-      "has_en_sector": 6.191567999999999
+      "has_en_sector": 6.191567999999999,
+      "activo": true
     },
     {
       "cc": 119,
@@ -1144,7 +1166,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 8.765916,
-      "has_en_sector": 8.765916
+      "has_en_sector": 8.765916,
+      "activo": true
     },
     {
       "cc": 120,
@@ -1156,7 +1179,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.440292,
-      "has_en_sector": 3.440292
+      "has_en_sector": 3.440292,
+      "activo": true
     },
     {
       "cc": 121,
@@ -1168,7 +1192,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.5908399999999996,
-      "has_en_sector": 2.5908399999999996
+      "has_en_sector": 2.5908399999999996,
+      "activo": true
     },
     {
       "cc": 122,
@@ -1180,7 +1205,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.4295299999999997,
-      "has_en_sector": 2.4295299999999997
+      "has_en_sector": 2.4295299999999997,
+      "activo": true
     },
     {
       "cc": 123,
@@ -1192,7 +1218,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 8.317782,
-      "has_en_sector": 8.317782
+      "has_en_sector": 8.317782,
+      "activo": true
     },
     {
       "cc": 124,
@@ -1204,7 +1231,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 10.633464,
-      "has_en_sector": 10.633464
+      "has_en_sector": 10.633464,
+      "activo": true
     },
     {
       "cc": 125,
@@ -1216,7 +1244,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.8031539999999997,
-      "has_en_sector": 3.8031539999999997
+      "has_en_sector": 3.8031539999999997,
+      "activo": true
     },
     {
       "cc": 126,
@@ -1228,7 +1257,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.1059299999999994,
-      "has_en_sector": 3.1059299999999994
+      "has_en_sector": 3.1059299999999994,
+      "activo": true
     },
     {
       "cc": 127,
@@ -1240,7 +1270,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 9.544649999999999,
-      "has_en_sector": 9.544649999999999
+      "has_en_sector": 9.544649999999999,
+      "activo": true
     },
     {
       "cc": 128,
@@ -1252,7 +1283,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 9.62806,
-      "has_en_sector": 9.62806
+      "has_en_sector": 9.62806,
+      "activo": true
     },
     {
       "cc": 129,
@@ -1264,7 +1296,8 @@
       "sector": 4,
       "pct": 0.53,
       "has_total": 6.944424,
-      "has_en_sector": 3.68054472
+      "has_en_sector": 3.68054472,
+      "activo": true
     },
     {
       "cc": 129,
@@ -1276,7 +1309,8 @@
       "sector": 5,
       "pct": 0.47,
       "has_total": 6.944424,
-      "has_en_sector": 3.26387928
+      "has_en_sector": 3.26387928,
+      "activo": true
     },
     {
       "cc": 130,
@@ -1288,7 +1322,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.17569,
-      "has_en_sector": 2.17569
+      "has_en_sector": 2.17569,
+      "activo": true
     },
     {
       "cc": 131,
@@ -1300,7 +1335,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 4.927308,
-      "has_en_sector": 4.927308
+      "has_en_sector": 4.927308,
+      "activo": true
     },
     {
       "cc": 132,
@@ -1312,7 +1348,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 5.482564,
-      "has_en_sector": 5.482564
+      "has_en_sector": 5.482564,
+      "activo": true
     },
     {
       "cc": 133,
@@ -1324,7 +1361,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 7.4809079999999994,
-      "has_en_sector": 7.4809079999999994
+      "has_en_sector": 7.4809079999999994,
+      "activo": true
     },
     {
       "cc": 134,
@@ -1336,7 +1374,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 4.253112,
-      "has_en_sector": 4.253112
+      "has_en_sector": 4.253112,
+      "activo": true
     },
     {
       "cc": 135,
@@ -1348,7 +1387,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 6.971328,
-      "has_en_sector": 6.971328
+      "has_en_sector": 6.971328,
+      "activo": true
     },
     {
       "cc": 136,
@@ -1360,7 +1400,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.6936,
-      "has_en_sector": 3.6936
+      "has_en_sector": 3.6936,
+      "activo": true
     },
     {
       "cc": 137,
@@ -1372,7 +1413,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.6936,
-      "has_en_sector": 3.6936
+      "has_en_sector": 3.6936,
+      "activo": true
     },
     {
       "cc": 138,
@@ -1384,7 +1426,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.4050249999999997,
-      "has_en_sector": 2.4050249999999997
+      "has_en_sector": 2.4050249999999997,
+      "activo": false
     },
     {
       "cc": 139,
@@ -1396,7 +1439,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.208675,
-      "has_en_sector": 2.208675
+      "has_en_sector": 2.208675,
+      "activo": false
     },
     {
       "cc": 140,
@@ -1408,7 +1452,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.8102,
-      "has_en_sector": 1.8102
+      "has_en_sector": 1.8102,
+      "activo": false
     },
     {
       "cc": 141,
@@ -1420,7 +1465,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 4.991148,
-      "has_en_sector": 4.991148
+      "has_en_sector": 4.991148,
+      "activo": false
     },
     {
       "cc": 142,
@@ -1432,7 +1478,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 6.760997999999999,
-      "has_en_sector": 6.760997999999999
+      "has_en_sector": 6.760997999999999,
+      "activo": true
     },
     {
       "cc": 143,
@@ -1444,7 +1491,8 @@
       "sector": 4,
       "pct": 0.67,
       "has_total": 6.777071999999999,
-      "has_en_sector": 4.540638239999999
+      "has_en_sector": 4.540638239999999,
+      "activo": true
     },
     {
       "cc": 143,
@@ -1456,7 +1504,8 @@
       "sector": 5,
       "pct": 0.33,
       "has_total": 6.777071999999999,
-      "has_en_sector": 2.2364337599999997
+      "has_en_sector": 2.2364337599999997,
+      "activo": true
     },
     {
       "cc": 144,
@@ -1468,7 +1517,8 @@
       "sector": 3,
       "pct": 0.67,
       "has_total": 7.152360000000001,
-      "has_en_sector": 4.792081200000001
+      "has_en_sector": 4.792081200000001,
+      "activo": true
     },
     {
       "cc": 144,
@@ -1480,7 +1530,8 @@
       "sector": 4,
       "pct": 0.33,
       "has_total": 7.152360000000001,
-      "has_en_sector": 2.3602788000000006
+      "has_en_sector": 2.3602788000000006,
+      "activo": true
     },
     {
       "cc": 145,
@@ -1492,7 +1543,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 5.734579999999999,
-      "has_en_sector": 5.734579999999999
+      "has_en_sector": 5.734579999999999,
+      "activo": true
     },
     {
       "cc": 146,
@@ -1504,7 +1556,8 @@
       "sector": 2,
       "pct": 0.29,
       "has_total": 8.675247999999998,
-      "has_en_sector": 2.515821919999999
+      "has_en_sector": 2.515821919999999,
+      "activo": true
     },
     {
       "cc": 146,
@@ -1516,7 +1569,8 @@
       "sector": 4,
       "pct": 0.71,
       "has_total": 8.675247999999998,
-      "has_en_sector": 6.1594260799999985
+      "has_en_sector": 6.1594260799999985,
+      "activo": true
     },
     {
       "cc": 147,
@@ -1528,7 +1582,8 @@
       "sector": 5,
       "pct": 0.41,
       "has_total": 10.047161999999998,
-      "has_en_sector": 4.119336419999999
+      "has_en_sector": 4.119336419999999,
+      "activo": true
     },
     {
       "cc": 147,
@@ -1540,7 +1595,8 @@
       "sector": 3,
       "pct": 0.59,
       "has_total": 10.047161999999998,
-      "has_en_sector": 5.927825579999999
+      "has_en_sector": 5.927825579999999,
+      "activo": true
     },
     {
       "cc": 148,
@@ -1552,7 +1608,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 8.345483999999999,
-      "has_en_sector": 8.345483999999999
+      "has_en_sector": 8.345483999999999,
+      "activo": true
     },
     {
       "cc": 149,
@@ -1564,7 +1621,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 7.160948,
-      "has_en_sector": 7.160948
+      "has_en_sector": 7.160948,
+      "activo": false
     },
     {
       "cc": 150,
@@ -1576,7 +1634,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 3.7775799999999995,
-      "has_en_sector": 3.7775799999999995
+      "has_en_sector": 3.7775799999999995,
+      "activo": false
     },
     {
       "cc": 151,
@@ -1588,7 +1647,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 5.527556,
-      "has_en_sector": 5.527556
+      "has_en_sector": 5.527556,
+      "activo": false
     },
     {
       "cc": 152,
@@ -1600,7 +1660,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 6.966767999999999,
-      "has_en_sector": 6.966767999999999
+      "has_en_sector": 6.966767999999999,
+      "activo": false
     },
     {
       "cc": 153,
@@ -1612,7 +1673,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.78355,
-      "has_en_sector": 2.78355
+      "has_en_sector": 2.78355,
+      "activo": false
     },
     {
       "cc": 154,
@@ -1624,7 +1686,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.369156,
-      "has_en_sector": 3.369156
+      "has_en_sector": 3.369156,
+      "activo": false
     },
     {
       "cc": 155,
@@ -1636,7 +1699,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 4.5313479999999995,
-      "has_en_sector": 4.5313479999999995
+      "has_en_sector": 4.5313479999999995,
+      "activo": false
     },
     {
       "cc": 156,
@@ -1648,7 +1712,8 @@
       "sector": 2,
       "pct": 0.14,
       "has_total": 7.583356,
-      "has_en_sector": 1.0616698400000002
+      "has_en_sector": 1.0616698400000002,
+      "activo": true
     },
     {
       "cc": 156,
@@ -1660,7 +1725,8 @@
       "sector": 4,
       "pct": 0.86,
       "has_total": 7.583356,
-      "has_en_sector": 6.52168616
+      "has_en_sector": 6.52168616,
+      "activo": false
     },
     {
       "cc": 157,
@@ -1672,7 +1738,8 @@
       "sector": 3,
       "pct": 0.39,
       "has_total": 5.149304,
-      "has_en_sector": 2.00822856
+      "has_en_sector": 2.00822856,
+      "activo": false
     },
     {
       "cc": 157,
@@ -1684,7 +1751,8 @@
       "sector": 4,
       "pct": 0.61,
       "has_total": 5.149304,
-      "has_en_sector": 3.14107544
+      "has_en_sector": 3.14107544,
+      "activo": false
     },
     {
       "cc": 158,
@@ -1696,7 +1764,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.343985,
-      "has_en_sector": 2.343985
+      "has_en_sector": 2.343985,
+      "activo": true
     },
     {
       "cc": 159,
@@ -1708,7 +1777,8 @@
       "sector": 4,
       "pct": 0.68,
       "has_total": 9.692432,
-      "has_en_sector": 6.590853760000001
+      "has_en_sector": 6.590853760000001,
+      "activo": false
     },
     {
       "cc": 159,
@@ -1720,7 +1790,8 @@
       "sector": 5,
       "pct": 0.32,
       "has_total": 9.692432,
-      "has_en_sector": 3.1015782400000003
+      "has_en_sector": 3.1015782400000003,
+      "activo": false
     },
     {
       "cc": 160,
@@ -1732,7 +1803,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 3.1961999999999997,
-      "has_en_sector": 3.1961999999999997
+      "has_en_sector": 3.1961999999999997,
+      "activo": false
     },
     {
       "cc": 161,
@@ -1744,7 +1816,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.716096,
-      "has_en_sector": 3.716096
+      "has_en_sector": 3.716096,
+      "activo": false
     },
     {
       "cc": 162,
@@ -1756,7 +1829,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 3.0182949999999997,
-      "has_en_sector": 3.0182949999999997
+      "has_en_sector": 3.0182949999999997,
+      "activo": true
     },
     {
       "cc": 163,
@@ -1768,7 +1842,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 1.055108,
-      "has_en_sector": 1.055108
+      "has_en_sector": 1.055108,
+      "activo": true
     },
     {
       "cc": 164,
@@ -1780,7 +1855,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.4979679999999997,
-      "has_en_sector": 2.4979679999999997
+      "has_en_sector": 2.4979679999999997,
+      "activo": true
     },
     {
       "cc": 165,
@@ -1792,7 +1868,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.2497599999999998,
-      "has_en_sector": 3.2497599999999998
+      "has_en_sector": 3.2497599999999998,
+      "activo": true
     },
     {
       "cc": 166,
@@ -1804,7 +1881,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 4.15492,
-      "has_en_sector": 4.15492
+      "has_en_sector": 4.15492,
+      "activo": true
     },
     {
       "cc": 167,
@@ -1816,7 +1894,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 4.82503,
-      "has_en_sector": 4.82503
+      "has_en_sector": 4.82503,
+      "activo": true
     },
     {
       "cc": 168,
@@ -1828,7 +1907,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.028372,
-      "has_en_sector": 3.028372
+      "has_en_sector": 3.028372,
+      "activo": false
     },
     {
       "cc": 169,
@@ -1840,7 +1920,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 4.113044,
-      "has_en_sector": 4.113044
+      "has_en_sector": 4.113044,
+      "activo": false
     },
     {
       "cc": 170,
@@ -1852,7 +1933,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 4.221525,
-      "has_en_sector": 4.221525
+      "has_en_sector": 4.221525,
+      "activo": false
     },
     {
       "cc": 171,
@@ -1864,7 +1946,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 3.7444049999999995,
-      "has_en_sector": 3.7444049999999995
+      "has_en_sector": 3.7444049999999995,
+      "activo": false
     },
     {
       "cc": 172,
@@ -1876,7 +1959,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 8.947974,
-      "has_en_sector": 8.947974
+      "has_en_sector": 8.947974,
+      "activo": false
     },
     {
       "cc": 173,
@@ -1888,7 +1972,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 3.5501199999999997,
-      "has_en_sector": 3.5501199999999997
+      "has_en_sector": 3.5501199999999997,
+      "activo": false
     },
     {
       "cc": 174,
@@ -1900,7 +1985,8 @@
       "sector": 1,
       "pct": 0.55,
       "has_total": 5.234424,
-      "has_en_sector": 2.8789332
+      "has_en_sector": 2.8789332,
+      "activo": false
     },
     {
       "cc": 174,
@@ -1912,7 +1998,8 @@
       "sector": 2,
       "pct": 0.45,
       "has_total": 5.234424,
-      "has_en_sector": 2.3554908
+      "has_en_sector": 2.3554908,
+      "activo": false
     },
     {
       "cc": 175,
@@ -1924,7 +2011,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 3.306555,
-      "has_en_sector": 3.306555
+      "has_en_sector": 3.306555,
+      "activo": false
     },
     {
       "cc": 176,
@@ -1936,7 +2024,8 @@
       "sector": 3,
       "pct": 0.505,
       "has_total": 5.937225,
-      "has_en_sector": 2.998298625
+      "has_en_sector": 2.998298625,
+      "activo": false
     },
     {
       "cc": 176,
@@ -1948,7 +2037,8 @@
       "sector": 4,
       "pct": 0.495,
       "has_total": 5.937225,
-      "has_en_sector": 2.938926375
+      "has_en_sector": 2.938926375,
+      "activo": false
     },
     {
       "cc": 177,
@@ -1960,7 +2050,8 @@
       "sector": 2,
       "pct": 0.57,
       "has_total": 8.221566,
-      "has_en_sector": 4.686292619999999
+      "has_en_sector": 4.686292619999999,
+      "activo": false
     },
     {
       "cc": 177,
@@ -1972,7 +2063,8 @@
       "sector": 5,
       "pct": 0.43,
       "has_total": 8.221566,
-      "has_en_sector": 3.5352733799999996
+      "has_en_sector": 3.5352733799999996,
+      "activo": false
     },
     {
       "cc": 178,
@@ -1984,7 +2076,8 @@
       "sector": 2,
       "pct": 0.502,
       "has_total": 7.449102,
-      "has_en_sector": 3.739449204
+      "has_en_sector": 3.739449204,
+      "activo": false
     },
     {
       "cc": 178,
@@ -1996,7 +2089,8 @@
       "sector": 5,
       "pct": 0.498,
       "has_total": 7.449102,
-      "has_en_sector": 3.709652796
+      "has_en_sector": 3.709652796,
+      "activo": false
     },
     {
       "cc": 179,
@@ -2008,7 +2102,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.03238,
-      "has_en_sector": 2.03238
+      "has_en_sector": 2.03238,
+      "activo": false
     },
     {
       "cc": 180,
@@ -2020,7 +2115,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 0.68936,
-      "has_en_sector": 0.68936
+      "has_en_sector": 0.68936,
+      "activo": false
     },
     {
       "cc": 181,
@@ -2032,7 +2128,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 6.262969999999999,
-      "has_en_sector": 6.262969999999999
+      "has_en_sector": 6.262969999999999,
+      "activo": false
     },
     {
       "cc": 182,
@@ -2044,7 +2141,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 1.736805,
-      "has_en_sector": 1.736805
+      "has_en_sector": 1.736805,
+      "activo": false
     },
     {
       "cc": 183,
@@ -2056,7 +2154,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 1.02704,
-      "has_en_sector": 1.02704
+      "has_en_sector": 1.02704,
+      "activo": false
     },
     {
       "cc": 184,
@@ -2068,7 +2167,8 @@
       "sector": 1,
       "pct": 0.49,
       "has_total": 11.316666,
-      "has_en_sector": 5.54516634
+      "has_en_sector": 5.54516634,
+      "activo": false
     },
     {
       "cc": 184,
@@ -2080,7 +2180,8 @@
       "sector": 2,
       "pct": 0.51,
       "has_total": 11.316666,
-      "has_en_sector": 5.77149966
+      "has_en_sector": 5.77149966,
+      "activo": false
     },
     {
       "cc": 185,
@@ -2092,7 +2193,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 4.659750000000001,
-      "has_en_sector": 4.659750000000001
+      "has_en_sector": 4.659750000000001,
+      "activo": false
     },
     {
       "cc": 186,
@@ -2104,7 +2206,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 7.795547999999999,
-      "has_en_sector": 7.795547999999999
+      "has_en_sector": 7.795547999999999,
+      "activo": false
     },
     {
       "cc": 187,
@@ -2116,7 +2219,8 @@
       "sector": 1,
       "pct": 0.51,
       "has_total": 8.273664,
-      "has_en_sector": 4.21956864
+      "has_en_sector": 4.21956864,
+      "activo": false
     },
     {
       "cc": 187,
@@ -2128,7 +2232,8 @@
       "sector": 2,
       "pct": 0.49,
       "has_total": 8.273664,
-      "has_en_sector": 4.05409536
+      "has_en_sector": 4.05409536,
+      "activo": false
     },
     {
       "cc": 188,
@@ -2140,7 +2245,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 7.826669999999999,
-      "has_en_sector": 7.826669999999999
+      "has_en_sector": 7.826669999999999,
+      "activo": false
     },
     {
       "cc": 189,
@@ -2152,7 +2258,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.067975,
-      "has_en_sector": 2.067975
+      "has_en_sector": 2.067975,
+      "activo": false
     },
     {
       "cc": 190,
@@ -2164,7 +2271,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 5.575512,
-      "has_en_sector": 5.575512
+      "has_en_sector": 5.575512,
+      "activo": false
     },
     {
       "cc": 191,
@@ -2176,7 +2284,8 @@
       "sector": 3,
       "pct": 0.89,
       "has_total": 8.358936,
-      "has_en_sector": 7.43945304
+      "has_en_sector": 7.43945304,
+      "activo": false
     },
     {
       "cc": 191,
@@ -2188,7 +2297,8 @@
       "sector": 4,
       "pct": 0.11,
       "has_total": 8.358936,
-      "has_en_sector": 0.91948296
+      "has_en_sector": 0.91948296,
+      "activo": false
     },
     {
       "cc": 192,
@@ -2200,7 +2310,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.09727,
-      "has_en_sector": 2.09727
+      "has_en_sector": 2.09727,
+      "activo": false
     },
     {
       "cc": 193,
@@ -2212,7 +2323,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.68177,
-      "has_en_sector": 2.68177
+      "has_en_sector": 2.68177,
+      "activo": false
     },
     {
       "cc": 194,
@@ -2224,7 +2336,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.901065,
-      "has_en_sector": 3.901065
+      "has_en_sector": 3.901065,
+      "activo": false
     },
     {
       "cc": 195,
@@ -2236,7 +2349,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.4043099999999997,
-      "has_en_sector": 3.4043099999999997
+      "has_en_sector": 3.4043099999999997,
+      "activo": false
     },
     {
       "cc": 196,
@@ -2248,7 +2362,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 1.78318,
-      "has_en_sector": 1.78318
+      "has_en_sector": 1.78318,
+      "activo": false
     },
     {
       "cc": 197,
@@ -2260,7 +2375,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 1.6740849999999998,
-      "has_en_sector": 1.6740849999999998
+      "has_en_sector": 1.6740849999999998,
+      "activo": false
     },
     {
       "cc": 198,
@@ -2272,7 +2388,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 6.651216,
-      "has_en_sector": 6.651216
+      "has_en_sector": 6.651216,
+      "activo": false
     },
     {
       "cc": 199,
@@ -2284,7 +2401,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 4.8879779999999995,
-      "has_en_sector": 4.8879779999999995
+      "has_en_sector": 4.8879779999999995,
+      "activo": false
     },
     {
       "cc": 200,
@@ -2296,7 +2414,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 4.540962,
-      "has_en_sector": 4.540962
+      "has_en_sector": 4.540962,
+      "activo": false
     },
     {
       "cc": 201,
@@ -2308,7 +2427,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 5.129429999999999,
-      "has_en_sector": 5.129429999999999
+      "has_en_sector": 5.129429999999999,
+      "activo": false
     },
     {
       "cc": 202,
@@ -2320,7 +2440,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.79865,
-      "has_en_sector": 1.79865
+      "has_en_sector": 1.79865,
+      "activo": false
     },
     {
       "cc": 203,
@@ -2332,7 +2453,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.07116,
-      "has_en_sector": 3.07116
+      "has_en_sector": 3.07116,
+      "activo": true
     },
     {
       "cc": 204,
@@ -2344,7 +2466,8 @@
       "sector": 1,
       "pct": 0.17,
       "has_total": 9.04647,
-      "has_en_sector": 1.5378999
+      "has_en_sector": 1.5378999,
+      "activo": true
     },
     {
       "cc": 204,
@@ -2356,7 +2479,8 @@
       "sector": 4,
       "pct": 0.59,
       "has_total": 9.04647,
-      "has_en_sector": 5.337417299999999
+      "has_en_sector": 5.337417299999999,
+      "activo": true
     },
     {
       "cc": 204,
@@ -2368,7 +2492,8 @@
       "sector": 5,
       "pct": 0.24,
       "has_total": 9.04647,
-      "has_en_sector": 2.1711527999999998
+      "has_en_sector": 2.1711527999999998,
+      "activo": true
     },
     {
       "cc": 205,
@@ -2380,7 +2505,8 @@
       "sector": 1,
       "pct": 0.27,
       "has_total": 13.2753,
-      "has_en_sector": 3.584331
+      "has_en_sector": 3.584331,
+      "activo": true
     },
     {
       "cc": 205,
@@ -2392,7 +2518,8 @@
       "sector": 2,
       "pct": 0.36,
       "has_total": 13.2753,
-      "has_en_sector": 4.779108
+      "has_en_sector": 4.779108,
+      "activo": true
     },
     {
       "cc": 205,
@@ -2404,7 +2531,8 @@
       "sector": 3,
       "pct": 0.37,
       "has_total": 13.2753,
-      "has_en_sector": 4.911861
+      "has_en_sector": 4.911861,
+      "activo": true
     },
     {
       "cc": 500,
@@ -2416,7 +2544,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 3.0384,
-      "has_en_sector": 3.0384
+      "has_en_sector": 3.0384,
+      "activo": true
     },
     {
       "cc": 501,
@@ -2428,7 +2557,8 @@
       "sector": 1,
       "pct": 0.59,
       "has_total": 5.8271999999999995,
-      "has_en_sector": 3.4380479999999993
+      "has_en_sector": 3.4380479999999993,
+      "activo": true
     },
     {
       "cc": 501,
@@ -2440,7 +2570,8 @@
       "sector": 2,
       "pct": 0.41,
       "has_total": 5.8271999999999995,
-      "has_en_sector": 2.3891519999999997
+      "has_en_sector": 2.3891519999999997,
+      "activo": true
     },
     {
       "cc": 502,
@@ -2452,7 +2583,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 5.0448,
-      "has_en_sector": 5.0448
+      "has_en_sector": 5.0448,
+      "activo": true
     },
     {
       "cc": 503,
@@ -2464,7 +2596,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 5.037599999999999,
-      "has_en_sector": 5.037599999999999
+      "has_en_sector": 5.037599999999999,
+      "activo": true
     },
     {
       "cc": 504,
@@ -2476,7 +2609,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 5.9016,
-      "has_en_sector": 5.9016
+      "has_en_sector": 5.9016,
+      "activo": true
     },
     {
       "cc": 505,
@@ -2488,7 +2622,8 @@
       "sector": 3,
       "pct": 0.44,
       "has_total": 5.5104,
-      "has_en_sector": 2.424576
+      "has_en_sector": 2.424576,
+      "activo": true
     },
     {
       "cc": 505,
@@ -2500,7 +2635,8 @@
       "sector": 4,
       "pct": 0.56,
       "has_total": 5.5104,
-      "has_en_sector": 3.085824
+      "has_en_sector": 3.085824,
+      "activo": true
     },
     {
       "cc": 506,
@@ -2512,7 +2648,8 @@
       "sector": 3,
       "pct": 0.33,
       "has_total": 9.0216,
-      "has_en_sector": 2.977128
+      "has_en_sector": 2.977128,
+      "activo": true
     },
     {
       "cc": 506,
@@ -2524,7 +2661,8 @@
       "sector": 4,
       "pct": 0.67,
       "has_total": 9.0216,
-      "has_en_sector": 6.044472
+      "has_en_sector": 6.044472,
+      "activo": true
     },
     {
       "cc": 507,
@@ -2536,7 +2674,8 @@
       "sector": 2,
       "pct": 0.3,
       "has_total": 7.6224,
-      "has_en_sector": 2.28672
+      "has_en_sector": 2.28672,
+      "activo": true
     },
     {
       "cc": 507,
@@ -2548,7 +2687,8 @@
       "sector": 4,
       "pct": 0.7,
       "has_total": 7.6224,
-      "has_en_sector": 5.33568
+      "has_en_sector": 5.33568,
+      "activo": true
     },
     {
       "cc": 508,
@@ -2560,7 +2700,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.3396979999999994,
-      "has_en_sector": 2.3396979999999994
+      "has_en_sector": 2.3396979999999994,
+      "activo": true
     },
     {
       "cc": 509,
@@ -2572,7 +2713,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.252458,
-      "has_en_sector": 3.252458
+      "has_en_sector": 3.252458,
+      "activo": true
     },
     {
       "cc": 510,
@@ -2584,7 +2726,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 0.8966099999999999,
-      "has_en_sector": 0.8966099999999999
+      "has_en_sector": 0.8966099999999999,
+      "activo": true
     },
     {
       "cc": 511,
@@ -2596,7 +2739,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.5362419999999997,
-      "has_en_sector": 3.5362419999999997
+      "has_en_sector": 3.5362419999999997,
+      "activo": true
     },
     {
       "cc": 512,
@@ -2608,7 +2752,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.9921199999999994,
-      "has_en_sector": 2.9921199999999994
+      "has_en_sector": 2.9921199999999994,
+      "activo": true
     },
     {
       "cc": 513,
@@ -2620,7 +2765,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.1845819999999994,
-      "has_en_sector": 2.1845819999999994
+      "has_en_sector": 2.1845819999999994,
+      "activo": true
     },
     {
       "cc": 514,
@@ -2632,7 +2778,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 7.096044,
-      "has_en_sector": 7.096044
+      "has_en_sector": 7.096044,
+      "activo": true
     },
     {
       "cc": 515,
@@ -2644,7 +2791,8 @@
       "sector": 4,
       "pct": 0.64,
       "has_total": 7.975059999999999,
-      "has_en_sector": 5.104038399999999
+      "has_en_sector": 5.104038399999999,
+      "activo": true
     },
     {
       "cc": 515,
@@ -2656,7 +2804,8 @@
       "sector": 5,
       "pct": 0.36,
       "has_total": 7.975059999999999,
-      "has_en_sector": 2.8710215999999997
+      "has_en_sector": 2.8710215999999997,
+      "activo": true
     },
     {
       "cc": 516,
@@ -2668,7 +2817,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 9.610997999999999,
-      "has_en_sector": 9.610997999999999
+      "has_en_sector": 9.610997999999999,
+      "activo": true
     },
     {
       "cc": 517,
@@ -2680,7 +2830,8 @@
       "sector": 3,
       "pct": 0.26,
       "has_total": 9.715877999999998,
-      "has_en_sector": 2.5261282799999996
+      "has_en_sector": 2.5261282799999996,
+      "activo": true
     },
     {
       "cc": 517,
@@ -2692,7 +2843,8 @@
       "sector": 1,
       "pct": 0.74,
       "has_total": 9.715877999999998,
-      "has_en_sector": 7.189749719999998
+      "has_en_sector": 7.189749719999998,
+      "activo": true
     },
     {
       "cc": 518,
@@ -2704,7 +2856,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 6.698069999999999,
-      "has_en_sector": 6.698069999999999
+      "has_en_sector": 6.698069999999999,
+      "activo": true
     },
     {
       "cc": 519,
@@ -2716,7 +2869,8 @@
       "sector": 1,
       "pct": 0.57,
       "has_total": 10.963417999999999,
-      "has_en_sector": 6.249148259999999
+      "has_en_sector": 6.249148259999999,
+      "activo": true
     },
     {
       "cc": 519,
@@ -2728,7 +2882,8 @@
       "sector": 4,
       "pct": 0.43,
       "has_total": 10.963417999999999,
-      "has_en_sector": 4.71426974
+      "has_en_sector": 4.71426974,
+      "activo": true
     },
     {
       "cc": 520,
@@ -2740,7 +2895,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 9.315433999999998,
-      "has_en_sector": 9.315433999999998
+      "has_en_sector": 9.315433999999998,
+      "activo": true
     },
     {
       "cc": 521,
@@ -2752,7 +2908,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.25,
-      "has_en_sector": 3.25
+      "has_en_sector": 3.25,
+      "activo": true
     },
     {
       "cc": 522,
@@ -2764,7 +2921,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 4.59,
-      "has_en_sector": 4.59
+      "has_en_sector": 4.59,
+      "activo": true
     },
     {
       "cc": 523,
@@ -2776,7 +2934,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 1.4229859999999999,
-      "has_en_sector": 1.4229859999999999
+      "has_en_sector": 1.4229859999999999,
+      "activo": true
     },
     {
       "cc": 524,
@@ -2788,7 +2947,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 6.045686,
-      "has_en_sector": 6.045686
+      "has_en_sector": 6.045686,
+      "activo": false
     },
     {
       "cc": 525,
@@ -2800,7 +2960,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.0607399999999996,
-      "has_en_sector": 2.0607399999999996
+      "has_en_sector": 2.0607399999999996,
+      "activo": false
     },
     {
       "cc": 526,
@@ -2812,7 +2973,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 1.257952,
-      "has_en_sector": 1.257952
+      "has_en_sector": 1.257952,
+      "activo": false
     },
     {
       "cc": 527,
@@ -2824,7 +2986,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 4.223547999999999,
-      "has_en_sector": 4.223547999999999
+      "has_en_sector": 4.223547999999999,
+      "activo": true
     },
     {
       "cc": 528,
@@ -2836,7 +2999,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.461982,
-      "has_en_sector": 2.461982
+      "has_en_sector": 2.461982,
+      "activo": true
     },
     {
       "cc": 529,
@@ -2848,7 +3012,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.7672739999999996,
-      "has_en_sector": 2.7672739999999996
+      "has_en_sector": 2.7672739999999996,
+      "activo": false
     },
     {
       "cc": 530,
@@ -2860,7 +3025,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.76,
-      "has_en_sector": 3.76
+      "has_en_sector": 3.76,
+      "activo": true
     },
     {
       "cc": 531,
@@ -2872,7 +3038,8 @@
       "sector": 6,
       "pct": 1,
       "has_total": 6.2,
-      "has_en_sector": 6.2
+      "has_en_sector": 6.2,
+      "activo": true
     },
     {
       "cc": 532,
@@ -2884,7 +3051,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.2749459999999995,
-      "has_en_sector": 2.2749459999999995
+      "has_en_sector": 2.2749459999999995,
+      "activo": true
     },
     {
       "cc": 533,
@@ -2896,7 +3064,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.4855039999999997,
-      "has_en_sector": 2.4855039999999997
+      "has_en_sector": 2.4855039999999997,
+      "activo": true
     },
     {
       "cc": 534,
@@ -2908,7 +3077,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.138716,
-      "has_en_sector": 2.138716
+      "has_en_sector": 2.138716,
+      "activo": true
     },
     {
       "cc": 535,
@@ -2920,7 +3090,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.4327979999999996,
-      "has_en_sector": 2.4327979999999996
+      "has_en_sector": 2.4327979999999996,
+      "activo": true
     },
     {
       "cc": 536,
@@ -2932,7 +3103,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.327644,
-      "has_en_sector": 1.327644
+      "has_en_sector": 1.327644,
+      "activo": true
     },
     {
       "cc": 537,
@@ -2944,7 +3116,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 0.35556599999999994,
-      "has_en_sector": 0.35556599999999994
+      "has_en_sector": 0.35556599999999994,
+      "activo": true
     },
     {
       "cc": 539,
@@ -2956,7 +3129,8 @@
       "sector": 6,
       "pct": 1,
       "has_total": 6.01,
-      "has_en_sector": 6.01
+      "has_en_sector": 6.01,
+      "activo": true
     },
     {
       "cc": 540,
@@ -2968,7 +3142,8 @@
       "sector": 6,
       "pct": 1,
       "has_total": 2.45,
-      "has_en_sector": 2.45
+      "has_en_sector": 2.45,
+      "activo": true
     },
     {
       "cc": 541,
@@ -2980,7 +3155,8 @@
       "sector": 7,
       "pct": 1,
       "has_total": 6.15,
-      "has_en_sector": 6.15
+      "has_en_sector": 6.15,
+      "activo": true
     },
     {
       "cc": 542,
@@ -2992,7 +3168,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 8.64,
-      "has_en_sector": 8.64
+      "has_en_sector": 8.64,
+      "activo": true
     },
     {
       "cc": 543,
@@ -3004,7 +3181,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 4.84,
-      "has_en_sector": 4.84
+      "has_en_sector": 4.84,
+      "activo": true
     },
     {
       "cc": 544,
@@ -3016,7 +3194,8 @@
       "sector": 2,
       "pct": 0.657,
       "has_total": 15.93,
-      "has_en_sector": 10.46601
+      "has_en_sector": 10.46601,
+      "activo": true
     },
     {
       "cc": 544,
@@ -3028,7 +3207,8 @@
       "sector": 3,
       "pct": 0.343,
       "has_total": 15.93,
-      "has_en_sector": 5.46399
+      "has_en_sector": 5.46399,
+      "activo": true
     },
     {
       "cc": 547,
@@ -3040,7 +3220,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 0.42768999999999996,
-      "has_en_sector": 0.42768999999999996
+      "has_en_sector": 0.42768999999999996,
+      "activo": false
     },
     {
       "cc": 548,
@@ -3052,7 +3233,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.0084519999999997,
-      "has_en_sector": 2.0084519999999997
+      "has_en_sector": 2.0084519999999997,
+      "activo": false
     },
     {
       "cc": 549,
@@ -3064,7 +3246,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.37579,
-      "has_en_sector": 1.37579
+      "has_en_sector": 1.37579,
+      "activo": false
     },
     {
       "cc": 550,
@@ -3076,7 +3259,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 0.9492019999999999,
-      "has_en_sector": 0.9492019999999999
+      "has_en_sector": 0.9492019999999999,
+      "activo": false
     },
     {
       "cc": 551,
@@ -3088,7 +3272,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.498986,
-      "has_en_sector": 1.498986
+      "has_en_sector": 1.498986,
+      "activo": false
     },
     {
       "cc": 552,
@@ -3100,7 +3285,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.7795019999999997,
-      "has_en_sector": 1.7795019999999997
+      "has_en_sector": 1.7795019999999997,
+      "activo": false
     },
     {
       "cc": 553,
@@ -3112,7 +3298,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.9647519999999998,
-      "has_en_sector": 1.9647519999999998
+      "has_en_sector": 1.9647519999999998,
+      "activo": false
     },
     {
       "cc": 554,
@@ -3124,7 +3311,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 0.8492619999999999,
-      "has_en_sector": 0.8492619999999999
+      "has_en_sector": 0.8492619999999999,
+      "activo": false
     },
     {
       "cc": 555,
@@ -3136,7 +3324,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 0.5910139999999999,
-      "has_en_sector": 0.5910139999999999
+      "has_en_sector": 0.5910139999999999,
+      "activo": false
     },
     {
       "cc": 556,
@@ -3148,7 +3337,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 3.4315519999999995,
-      "has_en_sector": 3.4315519999999995
+      "has_en_sector": 3.4315519999999995,
+      "activo": false
     },
     {
       "cc": 557,
@@ -3160,7 +3350,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.4896759999999998,
-      "has_en_sector": 1.4896759999999998
+      "has_en_sector": 1.4896759999999998,
+      "activo": false
     },
     {
       "cc": 558,
@@ -3172,7 +3363,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 0.16529999999999997,
-      "has_en_sector": 0.16529999999999997
+      "has_en_sector": 0.16529999999999997,
+      "activo": false
     },
     {
       "cc": 559,
@@ -3184,7 +3376,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 0.6953999999999999,
-      "has_en_sector": 0.6953999999999999
+      "has_en_sector": 0.6953999999999999,
+      "activo": false
     },
     {
       "cc": 561,
@@ -3196,7 +3389,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 1.0169179999999998,
-      "has_en_sector": 1.0169179999999998
+      "has_en_sector": 1.0169179999999998,
+      "activo": false
     },
     {
       "cc": 562,
@@ -3208,7 +3402,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.33833,
-      "has_en_sector": 2.33833
+      "has_en_sector": 2.33833,
+      "activo": false
     },
     {
       "cc": 563,
@@ -3220,7 +3415,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 0.8382799999999999,
-      "has_en_sector": 0.8382799999999999
+      "has_en_sector": 0.8382799999999999,
+      "activo": false
     },
     {
       "cc": 564,
@@ -3232,7 +3428,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.4152799999999996,
-      "has_en_sector": 2.4152799999999996
+      "has_en_sector": 2.4152799999999996,
+      "activo": false
     },
     {
       "cc": 565,
@@ -3244,7 +3441,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.6508419999999995,
-      "has_en_sector": 2.6508419999999995
+      "has_en_sector": 2.6508419999999995,
+      "activo": false
     },
     {
       "cc": 566,
@@ -3256,7 +3454,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.8993999999999995,
-      "has_en_sector": 2.8993999999999995
+      "has_en_sector": 2.8993999999999995,
+      "activo": true
     },
     {
       "cc": 567,
@@ -3268,7 +3467,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.2337539999999994,
-      "has_en_sector": 2.2337539999999994
+      "has_en_sector": 2.2337539999999994,
+      "activo": true
     },
     {
       "cc": 568,
@@ -3280,7 +3480,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 1.336042,
-      "has_en_sector": 1.336042
+      "has_en_sector": 1.336042,
+      "activo": true
     },
     {
       "cc": 569,
@@ -3292,7 +3493,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.092272,
-      "has_en_sector": 1.092272
+      "has_en_sector": 1.092272,
+      "activo": true
     },
     {
       "cc": 570,
@@ -3304,7 +3506,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 0.47112399999999993,
-      "has_en_sector": 0.47112399999999993
+      "has_en_sector": 0.47112399999999993,
+      "activo": true
     },
     {
       "cc": 571,
@@ -3316,7 +3519,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 0.43939399999999995,
-      "has_en_sector": 0.43939399999999995
+      "has_en_sector": 0.43939399999999995,
+      "activo": true
     },
     {
       "cc": 572,
@@ -3328,7 +3532,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.6650999999999994,
-      "has_en_sector": 3.6650999999999994
+      "has_en_sector": 3.6650999999999994,
+      "activo": true
     },
     {
       "cc": 573,
@@ -3340,7 +3545,8 @@
       "sector": 1,
       "pct": 0.36,
       "has_total": 3.321313999999999,
-      "has_en_sector": 1.1956730399999997
+      "has_en_sector": 1.1956730399999997,
+      "activo": true
     },
     {
       "cc": 573,
@@ -3352,7 +3558,8 @@
       "sector": 2,
       "pct": 0.64,
       "has_total": 3.321313999999999,
-      "has_en_sector": 2.1256409599999997
+      "has_en_sector": 2.1256409599999997,
+      "activo": true
     },
     {
       "cc": 574,
@@ -3364,7 +3571,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 0.6489639999999999,
-      "has_en_sector": 0.6489639999999999
+      "has_en_sector": 0.6489639999999999,
+      "activo": true
     },
     {
       "cc": 575,
@@ -3376,7 +3584,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 3.8263339999999992,
-      "has_en_sector": 3.8263339999999992
+      "has_en_sector": 3.8263339999999992,
+      "activo": true
     },
     {
       "cc": 576,
@@ -3388,7 +3597,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.38225,
-      "has_en_sector": 1.38225
+      "has_en_sector": 1.38225,
+      "activo": true
     },
     {
       "cc": 577,
@@ -3400,7 +3610,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.6051579999999999,
-      "has_en_sector": 1.6051579999999999
+      "has_en_sector": 1.6051579999999999,
+      "activo": true
     },
     {
       "cc": 578,
@@ -3412,7 +3623,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 0.738188,
-      "has_en_sector": 0.738188
+      "has_en_sector": 0.738188,
+      "activo": true
     },
     {
       "cc": 579,
@@ -3424,7 +3636,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 4.283283999999999,
-      "has_en_sector": 4.283283999999999
+      "has_en_sector": 4.283283999999999,
+      "activo": false
     },
     {
       "cc": 580,
@@ -3436,7 +3649,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 7.7836919999999985,
-      "has_en_sector": 7.7836919999999985
+      "has_en_sector": 7.7836919999999985,
+      "activo": false
     },
     {
       "cc": 581,
@@ -3448,7 +3662,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.0302719999999996,
-      "has_en_sector": 3.0302719999999996
+      "has_en_sector": 3.0302719999999996,
+      "activo": false
     },
     {
       "cc": 582,
@@ -3460,7 +3675,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 0.6588439999999999,
-      "has_en_sector": 0.6588439999999999
+      "has_en_sector": 0.6588439999999999,
+      "activo": true
     },
     {
       "cc": 583,
@@ -3472,7 +3688,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.8347239999999996,
-      "has_en_sector": 2.8347239999999996
+      "has_en_sector": 2.8347239999999996,
+      "activo": false
     },
     {
       "cc": 584,
@@ -3484,7 +3701,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 5.343445999999999,
-      "has_en_sector": 5.343445999999999
+      "has_en_sector": 5.343445999999999,
+      "activo": false
     },
     {
       "cc": 585,
@@ -3496,7 +3714,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 5.443651999999999,
-      "has_en_sector": 5.443651999999999
+      "has_en_sector": 5.443651999999999,
+      "activo": true
     },
     {
       "cc": 586,
@@ -3508,7 +3727,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 0.4336939999999999,
-      "has_en_sector": 0.4336939999999999
+      "has_en_sector": 0.4336939999999999,
+      "activo": true
     },
     {
       "cc": 587,
@@ -3520,7 +3740,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 1.4918039999999997,
-      "has_en_sector": 1.4918039999999997
+      "has_en_sector": 1.4918039999999997,
+      "activo": true
     },
     {
       "cc": 588,
@@ -3532,7 +3753,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 0.4370379999999999,
-      "has_en_sector": 0.4370379999999999
+      "has_en_sector": 0.4370379999999999,
+      "activo": true
     },
     {
       "cc": 589,
@@ -3544,7 +3766,8 @@
       "sector": 8,
       "pct": 1,
       "has_total": 6.6,
-      "has_en_sector": 6.6
+      "has_en_sector": 6.6,
+      "activo": true
     },
     {
       "cc": 590,
@@ -3556,7 +3779,8 @@
       "sector": 8,
       "pct": 1,
       "has_total": 1.77,
-      "has_en_sector": 1.77
+      "has_en_sector": 1.77,
+      "activo": true
     },
     {
       "cc": 591,
@@ -3568,7 +3792,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.9535199999999997,
-      "has_en_sector": 3.9535199999999997
+      "has_en_sector": 3.9535199999999997,
+      "activo": true
     },
     {
       "cc": 592,
@@ -3580,7 +3805,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 4.70383,
-      "has_en_sector": 4.70383
+      "has_en_sector": 4.70383,
+      "activo": true
     },
     {
       "cc": 593,
@@ -3592,7 +3818,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 1.547094,
-      "has_en_sector": 1.547094
+      "has_en_sector": 1.547094,
+      "activo": false
     },
     {
       "cc": 594,
@@ -3604,7 +3831,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 4.773674,
-      "has_en_sector": 4.773674
+      "has_en_sector": 4.773674,
+      "activo": false
     },
     {
       "cc": 595,
@@ -3616,7 +3844,8 @@
       "sector": 2,
       "pct": 0.23,
       "has_total": 8.74247,
-      "has_en_sector": 2.0107681000000004
+      "has_en_sector": 2.0107681000000004,
+      "activo": false
     },
     {
       "cc": 595,
@@ -3628,7 +3857,8 @@
       "sector": 3,
       "pct": 0.39,
       "has_total": 8.74247,
-      "has_en_sector": 3.4095633000000003
+      "has_en_sector": 3.4095633000000003,
+      "activo": false
     },
     {
       "cc": 595,
@@ -3640,7 +3870,8 @@
       "sector": 5,
       "pct": 0.38,
       "has_total": 8.74247,
-      "has_en_sector": 3.3221386
+      "has_en_sector": 3.3221386,
+      "activo": false
     },
     {
       "cc": 596,
@@ -3652,7 +3883,8 @@
       "sector": 2,
       "pct": 0.22,
       "has_total": 8.982439999999999,
-      "has_en_sector": 1.9761367999999997
+      "has_en_sector": 1.9761367999999997,
+      "activo": false
     },
     {
       "cc": 596,
@@ -3664,7 +3896,8 @@
       "sector": 3,
       "pct": 0.78,
       "has_total": 8.982439999999999,
-      "has_en_sector": 7.0063032
+      "has_en_sector": 7.0063032,
+      "activo": false
     },
     {
       "cc": 597,
@@ -3676,7 +3909,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 8.535635999999998,
-      "has_en_sector": 8.535635999999998
+      "has_en_sector": 8.535635999999998,
+      "activo": true
     },
     {
       "cc": 598,
@@ -3688,7 +3922,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 4.57,
-      "has_en_sector": 4.57
+      "has_en_sector": 4.57,
+      "activo": false
     },
     {
       "cc": 599,
@@ -3700,7 +3935,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.14,
-      "has_en_sector": 3.14
+      "has_en_sector": 3.14,
+      "activo": false
     },
     {
       "cc": 600,
@@ -3712,7 +3948,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 1.1357819999999998,
-      "has_en_sector": 1.1357819999999998
+      "has_en_sector": 1.1357819999999998,
+      "activo": false
     },
     {
       "cc": 601,
@@ -3724,7 +3961,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.079102,
-      "has_en_sector": 3.079102
+      "has_en_sector": 3.079102,
+      "activo": false
     },
     {
       "cc": 602,
@@ -3736,7 +3974,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 6.011447999999999,
-      "has_en_sector": 6.011447999999999
+      "has_en_sector": 6.011447999999999,
+      "activo": false
     },
     {
       "cc": 603,
@@ -3748,7 +3987,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 5.263493999999999,
-      "has_en_sector": 5.263493999999999
+      "has_en_sector": 5.263493999999999,
+      "activo": false
     },
     {
       "cc": 604,
@@ -3760,7 +4000,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 4.311024,
-      "has_en_sector": 4.311024
+      "has_en_sector": 4.311024,
+      "activo": false
     },
     {
       "cc": 605,
@@ -3772,7 +4013,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 0.47652,
-      "has_en_sector": 0.47652
+      "has_en_sector": 0.47652,
+      "activo": false
     },
     {
       "cc": 606,
@@ -3784,7 +4026,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.990798,
-      "has_en_sector": 3.990798
+      "has_en_sector": 3.990798,
+      "activo": false
     },
     {
       "cc": 607,
@@ -3796,7 +4039,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 7.230411999999999,
-      "has_en_sector": 7.230411999999999
+      "has_en_sector": 7.230411999999999,
+      "activo": false
     },
     {
       "cc": 608,
@@ -3808,7 +4052,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 6.763543999999999,
-      "has_en_sector": 6.763543999999999
+      "has_en_sector": 6.763543999999999,
+      "activo": false
     },
     {
       "cc": 609,
@@ -3820,7 +4065,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.79471,
-      "has_en_sector": 2.79471
+      "has_en_sector": 2.79471,
+      "activo": false
     },
     {
       "cc": 610,
@@ -3832,7 +4078,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 1.932718,
-      "has_en_sector": 1.932718
+      "has_en_sector": 1.932718,
+      "activo": false
     },
     {
       "cc": 611,
@@ -3844,7 +4091,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 4.573186,
-      "has_en_sector": 4.573186
+      "has_en_sector": 4.573186,
+      "activo": false
     },
     {
       "cc": 612,
@@ -3856,7 +4104,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.4263759999999994,
-      "has_en_sector": 2.4263759999999994
+      "has_en_sector": 2.4263759999999994,
+      "activo": false
     },
     {
       "cc": 613,
@@ -3868,7 +4117,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 6.467524,
-      "has_en_sector": 6.467524
+      "has_en_sector": 6.467524,
+      "activo": false
     },
     {
       "cc": 614,
@@ -3880,7 +4130,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 3.7142339999999994,
-      "has_en_sector": 3.7142339999999994
+      "has_en_sector": 3.7142339999999994,
+      "activo": false
     },
     {
       "cc": 615,
@@ -3892,7 +4143,8 @@
       "sector": 3,
       "pct": 0.44,
       "has_total": 7.158021999999999,
-      "has_en_sector": 3.1495296799999997
+      "has_en_sector": 3.1495296799999997,
+      "activo": false
     },
     {
       "cc": 615,
@@ -3904,7 +4156,8 @@
       "sector": 4,
       "pct": 0.56,
       "has_total": 7.158021999999999,
-      "has_en_sector": 4.00849232
+      "has_en_sector": 4.00849232,
+      "activo": false
     },
     {
       "cc": 616,
@@ -3916,7 +4169,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 1.418844,
-      "has_en_sector": 1.418844
+      "has_en_sector": 1.418844,
+      "activo": false
     },
     {
       "cc": 617,
@@ -3928,7 +4182,8 @@
       "sector": 3,
       "pct": 0.42,
       "has_total": 3.8031919999999997,
-      "has_en_sector": 1.5973406399999999
+      "has_en_sector": 1.5973406399999999,
+      "activo": false
     },
     {
       "cc": 617,
@@ -3940,7 +4195,8 @@
       "sector": 4,
       "pct": 0.29,
       "has_total": 3.8031919999999997,
-      "has_en_sector": 1.1029256799999998
+      "has_en_sector": 1.1029256799999998,
+      "activo": false
     },
     {
       "cc": 617,
@@ -3952,7 +4208,8 @@
       "sector": 5,
       "pct": 0.29,
       "has_total": 3.8031919999999997,
-      "has_en_sector": 1.1029256799999998
+      "has_en_sector": 1.1029256799999998,
+      "activo": false
     },
     {
       "cc": 618,
@@ -3964,7 +4221,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 5.171761999999999,
-      "has_en_sector": 5.171761999999999
+      "has_en_sector": 5.171761999999999,
+      "activo": false
     },
     {
       "cc": 619,
@@ -3976,7 +4234,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 7.928243999999999,
-      "has_en_sector": 7.928243999999999
+      "has_en_sector": 7.928243999999999,
+      "activo": false
     },
     {
       "cc": 620,
@@ -3988,7 +4247,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 8.844766,
-      "has_en_sector": 8.844766
+      "has_en_sector": 8.844766,
+      "activo": false
     },
     {
       "cc": 621,
@@ -4000,7 +4260,8 @@
       "sector": 2,
       "pct": 0.48,
       "has_total": 7.242039999999999,
-      "has_en_sector": 3.4761791999999994
+      "has_en_sector": 3.4761791999999994,
+      "activo": false
     },
     {
       "cc": 621,
@@ -4012,7 +4273,8 @@
       "sector": 3,
       "pct": 0.52,
       "has_total": 7.242039999999999,
-      "has_en_sector": 3.7658608
+      "has_en_sector": 3.7658608,
+      "activo": false
     },
     {
       "cc": 622,
@@ -4024,7 +4286,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.4303739999999996,
-      "has_en_sector": 3.4303739999999996
+      "has_en_sector": 3.4303739999999996,
+      "activo": false
     },
     {
       "cc": 623,
@@ -4036,7 +4299,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.8040199999999995,
-      "has_en_sector": 2.8040199999999995
+      "has_en_sector": 2.8040199999999995,
+      "activo": false
     },
     {
       "cc": 624,
@@ -4048,7 +4312,8 @@
       "sector": 1,
       "pct": 0.28,
       "has_total": 4.707059999999999,
-      "has_en_sector": 1.3179767999999998
+      "has_en_sector": 1.3179767999999998,
+      "activo": false
     },
     {
       "cc": 624,
@@ -4060,7 +4325,8 @@
       "sector": 3,
       "pct": 0.72,
       "has_total": 4.707059999999999,
-      "has_en_sector": 3.3890831999999995
+      "has_en_sector": 3.3890831999999995,
+      "activo": false
     },
     {
       "cc": 625,
@@ -4072,7 +4338,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 5.345992,
-      "has_en_sector": 5.345992
+      "has_en_sector": 5.345992,
+      "activo": false
     },
     {
       "cc": 626,
@@ -4084,7 +4351,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 4.6391539999999996,
-      "has_en_sector": 4.6391539999999996
+      "has_en_sector": 4.6391539999999996,
+      "activo": false
     },
     {
       "cc": 627,
@@ -4096,7 +4364,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.4558339999999994,
-      "has_en_sector": 3.4558339999999994
+      "has_en_sector": 3.4558339999999994,
+      "activo": false
     },
     {
       "cc": 628,
@@ -4108,7 +4377,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 1.6573319999999998,
-      "has_en_sector": 1.6573319999999998
+      "has_en_sector": 1.6573319999999998,
+      "activo": false
     },
     {
       "cc": 629,
@@ -4120,7 +4390,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 2.087986,
-      "has_en_sector": 2.087986
+      "has_en_sector": 2.087986,
+      "activo": false
     },
     {
       "cc": 630,
@@ -4132,7 +4403,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.374612,
-      "has_en_sector": 1.374612
+      "has_en_sector": 1.374612,
+      "activo": false
     },
     {
       "cc": 631,
@@ -4144,7 +4416,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 1.201636,
-      "has_en_sector": 1.201636
+      "has_en_sector": 1.201636,
+      "activo": false
     },
     {
       "cc": 632,
@@ -4156,7 +4429,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.670419999999999,
-      "has_en_sector": 3.670419999999999
+      "has_en_sector": 3.670419999999999,
+      "activo": false
     },
     {
       "cc": 633,
@@ -4168,7 +4442,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 2.7742279999999995,
-      "has_en_sector": 2.7742279999999995
+      "has_en_sector": 2.7742279999999995,
+      "activo": false
     },
     {
       "cc": 634,
@@ -4180,7 +4455,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 8.08626,
-      "has_en_sector": 8.08626
+      "has_en_sector": 8.08626,
+      "activo": true
     },
     {
       "cc": 635,
@@ -4192,7 +4468,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.17021,
-      "has_en_sector": 2.17021
+      "has_en_sector": 2.17021,
+      "activo": true
     },
     {
       "cc": 636,
@@ -4204,7 +4481,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 2.087645,
-      "has_en_sector": 2.087645
+      "has_en_sector": 2.087645,
+      "activo": true
     },
     {
       "cc": 637,
@@ -4216,7 +4494,8 @@
       "sector": 3,
       "pct": 0.16,
       "has_total": 9.61425,
-      "has_en_sector": 1.53828
+      "has_en_sector": 1.53828,
+      "activo": true
     },
     {
       "cc": 637,
@@ -4228,7 +4507,8 @@
       "sector": 4,
       "pct": 0.84,
       "has_total": 9.61425,
-      "has_en_sector": 8.07597
+      "has_en_sector": 8.07597,
+      "activo": true
     },
     {
       "cc": 638,
@@ -4240,7 +4520,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 5.453037999999999,
-      "has_en_sector": 5.453037999999999
+      "has_en_sector": 5.453037999999999,
+      "activo": true
     },
     {
       "cc": 639,
@@ -4252,7 +4533,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.0390420000000002,
-      "has_en_sector": 2.0390420000000002
+      "has_en_sector": 2.0390420000000002,
+      "activo": true
     },
     {
       "cc": 640,
@@ -4264,7 +4546,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 5.2704,
-      "has_en_sector": 5.2704
+      "has_en_sector": 5.2704,
+      "activo": true
     },
     {
       "cc": 641,
@@ -4276,7 +4559,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 4.4238599999999995,
-      "has_en_sector": 4.4238599999999995
+      "has_en_sector": 4.4238599999999995,
+      "activo": true
     },
     {
       "cc": 642,
@@ -4288,7 +4572,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.232635,
-      "has_en_sector": 3.232635
+      "has_en_sector": 3.232635,
+      "activo": true
     },
     {
       "cc": 643,
@@ -4300,7 +4585,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.2260549999999997,
-      "has_en_sector": 3.2260549999999997
+      "has_en_sector": 3.2260549999999997,
+      "activo": true
     },
     {
       "cc": 644,
@@ -4312,7 +4598,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 4.122,
-      "has_en_sector": 4.122
+      "has_en_sector": 4.122,
+      "activo": true
     },
     {
       "cc": 645,
@@ -4324,7 +4611,8 @@
       "sector": 3,
       "pct": 0.78,
       "has_total": 7.57575,
-      "has_en_sector": 5.909085
+      "has_en_sector": 5.909085,
+      "activo": true
     },
     {
       "cc": 645,
@@ -4336,7 +4624,8 @@
       "sector": 4,
       "pct": 0.22,
       "has_total": 7.57575,
-      "has_en_sector": 1.666665
+      "has_en_sector": 1.666665,
+      "activo": true
     },
     {
       "cc": 646,
@@ -4348,7 +4637,8 @@
       "sector": 1,
       "pct": 0.32,
       "has_total": 4.842,
-      "has_en_sector": 1.54944
+      "has_en_sector": 1.54944,
+      "activo": true
     },
     {
       "cc": 646,
@@ -4360,7 +4650,8 @@
       "sector": 3,
       "pct": 0.68,
       "has_total": 4.842,
-      "has_en_sector": 3.29256
+      "has_en_sector": 3.29256,
+      "activo": true
     },
     {
       "cc": 647,
@@ -4372,7 +4663,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 3.66525,
-      "has_en_sector": 3.66525
+      "has_en_sector": 3.66525,
+      "activo": true
     },
     {
       "cc": 648,
@@ -4384,7 +4676,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 6.262875,
-      "has_en_sector": 6.262875
+      "has_en_sector": 6.262875,
+      "activo": true
     },
     {
       "cc": 649,
@@ -4396,7 +4689,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 6.4592,
-      "has_en_sector": 6.4592
+      "has_en_sector": 6.4592,
+      "activo": true
     },
     {
       "cc": 650,
@@ -4408,7 +4702,8 @@
       "sector": 3,
       "pct": 0.55,
       "has_total": 5.639625,
-      "has_en_sector": 3.10179375
+      "has_en_sector": 3.10179375,
+      "activo": true
     },
     {
       "cc": 650,
@@ -4420,7 +4715,8 @@
       "sector": 4,
       "pct": 0.45,
       "has_total": 5.639625,
-      "has_en_sector": 2.53783125
+      "has_en_sector": 2.53783125,
+      "activo": true
     },
     {
       "cc": 651,
@@ -4432,7 +4728,8 @@
       "sector": 2,
       "pct": 0.44,
       "has_total": 4.527,
-      "has_en_sector": 1.99188
+      "has_en_sector": 1.99188,
+      "activo": true
     },
     {
       "cc": 651,
@@ -4444,7 +4741,8 @@
       "sector": 4,
       "pct": 0.56,
       "has_total": 4.527,
-      "has_en_sector": 2.5351200000000005
+      "has_en_sector": 2.5351200000000005,
+      "activo": true
     },
     {
       "cc": 652,
@@ -4456,7 +4754,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 3.4464,
-      "has_en_sector": 3.4464
+      "has_en_sector": 3.4464,
+      "activo": true
     },
     {
       "cc": 653,
@@ -4468,7 +4767,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.3016,
-      "has_en_sector": 2.3016
+      "has_en_sector": 2.3016,
+      "activo": true
     },
     {
       "cc": 654,
@@ -4480,7 +4780,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.619,
-      "has_en_sector": 2.619
+      "has_en_sector": 2.619,
+      "activo": true
     },
     {
       "cc": 655,
@@ -4492,7 +4793,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 4.352625,
-      "has_en_sector": 4.352625
+      "has_en_sector": 4.352625,
+      "activo": true
     },
     {
       "cc": 656,
@@ -4504,7 +4806,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.724875,
-      "has_en_sector": 3.724875
+      "has_en_sector": 3.724875,
+      "activo": true
     },
     {
       "cc": 657,
@@ -4516,7 +4819,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 3.931875,
-      "has_en_sector": 3.931875
+      "has_en_sector": 3.931875,
+      "activo": true
     },
     {
       "cc": 658,
@@ -4528,7 +4832,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.0088,
-      "has_en_sector": 3.0088
+      "has_en_sector": 3.0088,
+      "activo": true
     },
     {
       "cc": 659,
@@ -4540,7 +4845,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 0.331875,
-      "has_en_sector": 0.331875
+      "has_en_sector": 0.331875,
+      "activo": true
     },
     {
       "cc": 660,
@@ -4552,7 +4858,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 2.664,
-      "has_en_sector": 2.664
+      "has_en_sector": 2.664,
+      "activo": true
     },
     {
       "cc": 661,
@@ -4564,7 +4871,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 3.506625,
-      "has_en_sector": 3.506625
+      "has_en_sector": 3.506625,
+      "activo": true
     },
     {
       "cc": 662,
@@ -4576,7 +4884,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 4.05675,
-      "has_en_sector": 4.05675
+      "has_en_sector": 4.05675,
+      "activo": true
     },
     {
       "cc": 663,
@@ -4588,7 +4897,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 5.593979999999999,
-      "has_en_sector": 5.593979999999999
+      "has_en_sector": 5.593979999999999,
+      "activo": true
     },
     {
       "cc": 664,
@@ -4600,7 +4910,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 6.961181999999999,
-      "has_en_sector": 6.961181999999999
+      "has_en_sector": 6.961181999999999,
+      "activo": true
     },
     {
       "cc": 665,
@@ -4612,7 +4923,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 5.620959999999999,
-      "has_en_sector": 5.620959999999999
+      "has_en_sector": 5.620959999999999,
+      "activo": true
     },
     {
       "cc": 666,
@@ -4624,7 +4936,8 @@
       "sector": 1,
       "pct": 1,
       "has_total": 1.2382299999999997,
-      "has_en_sector": 1.2382299999999997
+      "has_en_sector": 1.2382299999999997,
+      "activo": true
     },
     {
       "cc": 667,
@@ -4636,7 +4949,8 @@
       "sector": 2,
       "pct": 1,
       "has_total": 5.62,
-      "has_en_sector": 5.62
+      "has_en_sector": 5.62,
+      "activo": true
     },
     {
       "cc": 668,
@@ -4648,7 +4962,8 @@
       "sector": 2,
       "pct": 0.264,
       "has_total": 11.99,
-      "has_en_sector": 3.16536
+      "has_en_sector": 3.16536,
+      "activo": true
     },
     {
       "cc": 668,
@@ -4660,7 +4975,8 @@
       "sector": 6,
       "pct": 0.736,
       "has_total": 11.99,
-      "has_en_sector": 8.82464
+      "has_en_sector": 8.82464,
+      "activo": true
     },
     {
       "cc": 669,
@@ -4672,7 +4988,8 @@
       "sector": 7,
       "pct": 1,
       "has_total": 1.74,
-      "has_en_sector": 1.74
+      "has_en_sector": 1.74,
+      "activo": true
     },
     {
       "cc": 670,
@@ -4684,7 +5001,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.4295799999999996,
-      "has_en_sector": 3.4295799999999996
+      "has_en_sector": 3.4295799999999996,
+      "activo": true
     },
     {
       "cc": 671,
@@ -4696,7 +5014,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 5.110011999999999,
-      "has_en_sector": 5.110011999999999
+      "has_en_sector": 5.110011999999999,
+      "activo": true
     },
     {
       "cc": 672,
@@ -4708,7 +5027,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.0937199999999994,
-      "has_en_sector": 3.0937199999999994
+      "has_en_sector": 3.0937199999999994,
+      "activo": true
     },
     {
       "cc": 673,
@@ -4720,7 +5040,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 6.892364,
-      "has_en_sector": 6.892364
+      "has_en_sector": 6.892364,
+      "activo": true
     },
     {
       "cc": 674,
@@ -4732,7 +5053,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 7.719129999999999,
-      "has_en_sector": 7.719129999999999
+      "has_en_sector": 7.719129999999999,
+      "activo": true
     },
     {
       "cc": 675,
@@ -4744,7 +5066,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 6.66141,
-      "has_en_sector": 6.66141
+      "has_en_sector": 6.66141,
+      "activo": true
     },
     {
       "cc": 676,
@@ -4756,7 +5079,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 9.364180000000001,
-      "has_en_sector": 9.364180000000001
+      "has_en_sector": 9.364180000000001,
+      "activo": true
     },
     {
       "cc": 677,
@@ -4768,7 +5092,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 3.50371,
-      "has_en_sector": 3.50371
+      "has_en_sector": 3.50371,
+      "activo": true
     },
     {
       "cc": 678,
@@ -4780,7 +5105,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 1.70681,
-      "has_en_sector": 1.70681
+      "has_en_sector": 1.70681,
+      "activo": true
     },
     {
       "cc": 679,
@@ -4792,7 +5118,8 @@
       "sector": 4,
       "pct": 1,
       "has_total": 2.720025,
-      "has_en_sector": 2.720025
+      "has_en_sector": 2.720025,
+      "activo": true
     },
     {
       "cc": 680,
@@ -4804,7 +5131,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 2.40478,
-      "has_en_sector": 2.40478
+      "has_en_sector": 2.40478,
+      "activo": true
     },
     {
       "cc": 681,
@@ -4816,7 +5144,8 @@
       "sector": 5,
       "pct": 1,
       "has_total": 0.44645999999999997,
-      "has_en_sector": 0.44645999999999997
+      "has_en_sector": 0.44645999999999997,
+      "activo": true
     },
     {
       "cc": 682,
@@ -4828,7 +5157,8 @@
       "sector": 3,
       "pct": 1,
       "has_total": 3.32775,
-      "has_en_sector": 3.32775
+      "has_en_sector": 3.32775,
+      "activo": true
     }
   ]
 }
