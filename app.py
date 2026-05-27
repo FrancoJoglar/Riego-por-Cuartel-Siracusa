@@ -707,7 +707,7 @@ with tab3:
 
     sectores_df, cuartel_sector_df = load_sectores()
 
-    sub1, sub2 = st.tabs(["Sectores", "Cuartel x Sector"])
+    sub1, sub2 = st.tabs(["Cuartel x Sector", "Sectores"])
 
     with sub1:
         st.caption(f"{len(sectores_df)} sectores configurados")
