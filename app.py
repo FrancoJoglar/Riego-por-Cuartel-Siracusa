@@ -476,37 +476,53 @@ def run_audit(sectores_df, cuartel_sector_df, riego_files, equipo):
     mes_raw = [m["mes"] for m in meses] if meses else []
     mes_disp = [f"{MESES_ES[ml.split('-')[1]]} {ml.split('-')[0]}" for ml in mes_raw]
 
-    cuarteles = conn.execute("""SELECT rc.cuartel_id, c.variedad, c.has_total,
-        (SELECT SUM(cs.has_en_sector) FROM cuartel_sector cs WHERE cs.cuartel_id = rc.cuartel_id) as ha_regada,
-        GROUP_CONCAT(DISTINCT rc.sector_nom ORDER BY rc.sector_nom) as sectores
-        FROM riegos_cuartel rc JOIN cuarteles c ON rc.cuartel_id = c.cc
-        GROUP BY rc.cuartel_id ORDER BY rc.cuartel_id""").fetchall()
+    cuarteles = conn.execute("""SELECT rc.cuartel_id, c.variedad, cs.has_en_sector as ha_regada,
+        rc.sector_nom, cs.equipo,
+        (rc.cuartel_id || '-' || rc.sector_nom) as id_unico
+        FROM riegos_cuartel rc
+        JOIN cuarteles c ON rc.cuartel_id = c.cc
+        JOIN cuartel_sector cs ON rc.cuartel_id = cs.cuartel_id AND rc.sector_nom = cs.sector_nom
+        GROUP BY rc.cuartel_id, rc.sector_nom
+        ORDER BY rc.cuartel_id, rc.sector_nom""").fetchall()
 
     m3_dict = {}
-    for row in conn.execute("""SELECT rc.cuartel_id, strftime('%Y-%m', r.fecha) as mes, ROUND(SUM(rc.volumen_m3),1) as m3
-                                FROM riegos_cuartel rc JOIN riegos r ON rc.riego_id = r.id GROUP BY rc.cuartel_id, mes""").fetchall():
-        m3_dict[(row["cuartel_id"], row["mes"])] = row["m3"]
-
-    MI = 5
-    nc4 = MI + len(mes_raw) + 2
-    for i, h in enumerate(
-        ["Cuartel", "Variedad", "Ha Regada", "Sector(es)"]
-        + [f"{m} (m3)" for m in mes_disp]
-        + ["Total (m3)", "m3/ha"],
-        1,
+    for row in (
+        conn.execute("""SELECT rc.cuartel_id, rc.sector_nom, strftime('%Y-%m', r.fecha) as mes,
+                               ROUND(SUM(rc.volumen_m3),1) as m3
+                               FROM riegos_cuartel rc JOIN riegos r ON rc.riego_id = r.id
+                               GROUP BY rc.cuartel_id, rc.sector_nom, mes""").fetchall()
     ):
+        m3_dict[(row["cuartel_id"], row["sector_nom"], row["mes"])] = row["m3"]
+
+    # Hoja 4: Resumen Simple (normalizado)
+    ws4 = wb_out.create_sheet("Resumen_Cuartel_x_Mes")
+    MI = 7  # columna donde empiezan los meses
+    h4 = (
+        ["ID", "CC", "Variedad", "Ha en Sector", "Equipo", "Sector"]
+        + [f"{m} (m3)" for m in mes_disp]
+        + ["Total (m3)", "m3/ha"]
+    )
+    nc4 = len(h4)
+    for i, h in enumerate(h4, 1):
         ws4.cell(row=1, column=i, value=h)
     for r, cd in enumerate(cuarteles, 2):
-        cc, has, sn = cd["cuartel_id"], cd["ha_regada"], cd["sectores"]
-        for c, v in enumerate([cc, cd["variedad"], has, sn], 1):
+        cc, has, sn, eqn, uid = (
+            cd["cuartel_id"],
+            cd["ha_regada"],
+            cd["sector_nom"],
+            cd["equipo"],
+            cd["id_unico"],
+        )
+        for c, v in enumerate([uid, cc, cd["variedad"], has, eqn, sn], 1):
             cell = ws4.cell(row=r, column=c, value=v)
             cell.border = BDR
-            if c == 3:
+            if c == 4:
                 cell.number_format = "0.00"
         total_cc = 0
         for ci, mk in enumerate(mes_raw):
-            m3 = m3_dict.get((cc, mk), 0)
-            cell = ws4.cell(row=r, column=MI + ci, value=m3 if m3 else None)
+            m3 = m3_dict.get((cc, sn, mk), 0)
+            col = MI + ci
+            cell = ws4.cell(row=r, column=col, value=m3 if m3 else None)
             cell.border = BDR
             cell.alignment = BA
             cell.number_format = "#,##0.0"
@@ -534,34 +550,43 @@ def run_audit(sectores_df, cuartel_sector_df, riego_files, equipo):
         ws4.cell(row=tr, column=c).font = Font(bold=True, color="FFFFFF")
     ws4.cell(row=tr, column=1, value="TOTAL")
     for ci, mk in enumerate(mes_raw):
-        s = sum(m3_dict.get((cd["cuartel_id"], mk), 0) for cd in cuarteles)
+        s = sum(
+            m3_dict.get((cd["cuartel_id"], cd["sector_nom"], mk), 0) for cd in cuarteles
+        )
         cell = ws4.cell(row=tr, column=MI + ci, value=round(s, 1))
         cell.number_format = "#,##0.0"
     style_h(ws4, nc4)
     auto_w(ws4, nc4, tr + 1)
+    ws4.auto_filter.ref = f"A1:{get_column_letter(nc4)}{tr - 1}"
 
-    # Hoja 5: Resumen Detallado
+    # Hoja 5: Resumen Detallado (normalizado)
     ws5 = wb_out.create_sheet("Resumen_Detallado")
-    h5h = ["Cuartel", "Variedad", "Ha Regada", "Sector(es)"]
+    MI5 = 7
+    h5h = ["ID", "CC", "Variedad", "Ha en Sector", "Equipo", "Sector"]
     for m in mes_disp:
         h5h += [f"{m} (m3)", f"{m} (m3/ha)"]
     h5h += ["Total (m3)", "m3/ha temp"]
     nc5 = len(h5h)
-    MI5 = 5
     for i, h in enumerate(h5h, 1):
         ws5.cell(row=1, column=i, value=h)
     for r, cd in enumerate(cuarteles, 2):
-        cc, has, sn = cd["cuartel_id"], cd["ha_regada"], cd["sectores"]
-        for c, v in enumerate([cc, cd["variedad"], has, sn], 1):
+        cc, has, sn, eqn, uid = (
+            cd["cuartel_id"],
+            cd["ha_regada"],
+            cd["sector_nom"],
+            cd["equipo"],
+            cd["id_unico"],
+        )
+        for c, v in enumerate([uid, cc, cd["variedad"], has, eqn, sn], 1):
             cell = ws5.cell(row=r, column=c, value=v)
             cell.border = BDR
-            if c == 3:
+            if c == 4:
                 cell.number_format = "0.00"
         total_cc = 0
         for ci, mk in enumerate(mes_raw):
             cm3 = MI5 + ci * 2
             cmha = cm3 + 1
-            m3 = m3_dict.get((cc, mk), 0)
+            m3 = m3_dict.get((cc, sn, mk), 0)
             c1 = ws5.cell(row=r, column=cm3, value=m3 if m3 else None)
             c1.border = BDR
             c1.alignment = BA
@@ -597,7 +622,9 @@ def run_audit(sectores_df, cuartel_sector_df, riego_files, equipo):
     ws5.cell(row=tr5, column=1, value="TOTAL")
     for ci, mk in enumerate(mes_raw):
         cm3 = MI5 + ci * 2
-        s = sum(m3_dict.get((cd["cuartel_id"], mk), 0) for cd in cuarteles)
+        s = sum(
+            m3_dict.get((cd["cuartel_id"], cd["sector_nom"], mk), 0) for cd in cuarteles
+        )
         cell = ws5.cell(row=tr5, column=cm3, value=round(s, 1))
         cell.number_format = "#,##0.0"
     style_h(ws5, nc5)
