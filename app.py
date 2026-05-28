@@ -749,8 +749,44 @@ with tab3:
         st.caption(
             f"{activos_count} activos / {len(cuartel_sector_df) - activos_count} inactivos"
         )
+
+        # Filtros
+        with st.expander("Filtros", expanded=False):
+            f1, f2, f3, f4 = st.columns(4)
+            equipos_opts = sorted(
+                cuartel_sector_df["equipo"].dropna().unique().astype(int)
+            )
+            eq_filter = f1.multiselect("Equipo", equipos_opts, placeholder="Todos")
+
+            sectores_opts = sorted(
+                cuartel_sector_df["sector"].dropna().unique().astype(int)
+            )
+            sec_filter = f2.multiselect("Sector", sectores_opts, placeholder="Todos")
+
+            cc_opts = sorted(cuartel_sector_df["cc"].dropna().unique().astype(int))
+            cc_filter = f3.multiselect("Cuartel (CC)", cc_opts, placeholder="Todos")
+
+            var_opts = sorted(cuartel_sector_df["variedad"].dropna().unique())
+            var_filter = f4.multiselect("Variedad", var_opts, placeholder="Todas")
+
+            activo_filter = st.checkbox("Mostrar solo activos", value=False)
+
+        df_mostrar = cuartel_sector_df.copy()
+        if eq_filter:
+            df_mostrar = df_mostrar[df_mostrar["equipo"].astype(int).isin(eq_filter)]
+        if sec_filter:
+            df_mostrar = df_mostrar[df_mostrar["sector"].astype(int).isin(sec_filter)]
+        if cc_filter:
+            df_mostrar = df_mostrar[df_mostrar["cc"].astype(int).isin(cc_filter)]
+        if var_filter:
+            df_mostrar = df_mostrar[df_mostrar["variedad"].isin(var_filter)]
+        if activo_filter:
+            df_mostrar = df_mostrar[df_mostrar["activo"] == True]
+
+        st.caption(f"Mostrando {len(df_mostrar)} registros")
+
         edited_cs = st.data_editor(
-            cuartel_sector_df,
+            df_mostrar,
             num_rows="dynamic",
             use_container_width=True,
             column_config={
@@ -787,8 +823,12 @@ with tab3:
             ],
             key="edit_cuartel_sector",
         )
-        if not edited_cs.equals(cuartel_sector_df):
-            st.session_state.cuartel_sector_df = edited_cs
+        if not edited_cs.equals(df_mostrar):
+            # Merge edits back into full DF
+            full_df = cuartel_sector_df.copy()
+            for idx in edited_cs.index:
+                full_df.loc[idx] = edited_cs.loc[idx]
+            st.session_state.cuartel_sector_df = full_df
             st.success("Cuartel x Sector actualizado")
 
     with sub2:
