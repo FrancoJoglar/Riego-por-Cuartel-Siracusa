@@ -2043,7 +2043,7 @@
       "pct": 1,
       "has_total": 8.947974,
       "has_en_sector": 8.947974,
-      "activo": false,
+      "activo": true,
       "id": "172-E6S1"
     },
     {
@@ -2071,7 +2071,7 @@
       "pct": 0.55,
       "has_total": 5.234424,
       "has_en_sector": 2.8789332,
-      "activo": false,
+      "activo": true,
       "id": "174-E6S1"
     },
     {
@@ -2085,7 +2085,7 @@
       "pct": 0.45,
       "has_total": 5.234424,
       "has_en_sector": 2.3554908,
-      "activo": false,
+      "activo": true,
       "id": "174-E6S2"
     },
     {
@@ -2141,7 +2141,7 @@
       "pct": 0.57,
       "has_total": 8.221566,
       "has_en_sector": 4.686292619999999,
-      "activo": false,
+      "activo": true,
       "id": "177-E6S2"
     },
     {
@@ -2155,7 +2155,7 @@
       "pct": 0.43,
       "has_total": 8.221566,
       "has_en_sector": 3.5352733799999996,
-      "activo": false,
+      "activo": true,
       "id": "177-E6S5"
     },
     {
@@ -2169,7 +2169,7 @@
       "pct": 0.502,
       "has_total": 7.449102,
       "has_en_sector": 3.739449204,
-      "activo": false,
+      "activo": true,
       "id": "178-E6S2"
     },
     {
@@ -2183,7 +2183,7 @@
       "pct": 0.498,
       "has_total": 7.449102,
       "has_en_sector": 3.709652796,
-      "activo": false,
+      "activo": true,
       "id": "178-E6S5"
     },
     {
@@ -2295,7 +2295,7 @@
       "pct": 1,
       "has_total": 4.659750000000001,
       "has_en_sector": 4.659750000000001,
-      "activo": false,
+      "activo": true,
       "id": "185-E6S5"
     },
     {
