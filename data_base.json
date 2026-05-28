@@ -2253,7 +2253,7 @@
       "pct": 1,
       "has_total": 1.02704,
       "has_en_sector": 1.02704,
-      "activo": false,
+      "activo": true,
       "id": "183-E5S5"
     },
     {
@@ -2365,7 +2365,7 @@
       "pct": 1,
       "has_total": 2.067975,
       "has_en_sector": 2.067975,
-      "activo": false,
+      "activo": true,
       "id": "189-E5S5"
     },
     {
@@ -2421,7 +2421,7 @@
       "pct": 1,
       "has_total": 2.09727,
       "has_en_sector": 2.09727,
-      "activo": false,
+      "activo": true,
       "id": "192-E5S5"
     },
     {
@@ -2435,7 +2435,7 @@
       "pct": 1,
       "has_total": 2.68177,
       "has_en_sector": 2.68177,
-      "activo": false,
+      "activo": true,
       "id": "193-E5S5"
     },
     {
@@ -2449,7 +2449,7 @@
       "pct": 1,
       "has_total": 3.901065,
       "has_en_sector": 3.901065,
-      "activo": false,
+      "activo": true,
       "id": "194-E5S5"
     },
     {
@@ -2463,7 +2463,7 @@
       "pct": 1,
       "has_total": 3.4043099999999997,
       "has_en_sector": 3.4043099999999997,
-      "activo": false,
+      "activo": true,
       "id": "195-E5S5"
     },
     {
@@ -2477,7 +2477,7 @@
       "pct": 1,
       "has_total": 1.78318,
       "has_en_sector": 1.78318,
-      "activo": false,
+      "activo": true,
       "id": "196-E5S5"
     },
     {
@@ -2491,7 +2491,7 @@
       "pct": 1,
       "has_total": 1.6740849999999998,
       "has_en_sector": 1.6740849999999998,
-      "activo": false,
+      "activo": true,
       "id": "197-E5S5"
     },
     {
