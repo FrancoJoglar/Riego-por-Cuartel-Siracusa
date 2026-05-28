@@ -96,6 +96,7 @@ def save_session_data():
         sectores_df.to_excel(writer, sheet_name="Sectores", index=False)
         cs_df = cuartel_sector_df.copy()
         cs_df.columns = [
+            "ID",
             "CC",
             "Variedad",
             "Dist Hilera",
@@ -753,6 +754,7 @@ with tab3:
             num_rows="dynamic",
             use_container_width=True,
             column_config={
+                "id": st.column_config.TextColumn("ID", disabled=True),
                 "cc": st.column_config.NumberColumn("CC", min_value=1, step=1),
                 "variedad": st.column_config.TextColumn("Variedad"),
                 "dh": st.column_config.NumberColumn("Dist. Hilera", format="%.1f"),
@@ -770,6 +772,7 @@ with tab3:
                 "activo": st.column_config.CheckboxColumn("Activo", default=True),
             },
             column_order=[
+                "id",
                 "cc",
                 "variedad",
                 "equipo",
@@ -843,24 +846,35 @@ with tab3:
                         }
                     )
                 ws_cs = wb_up["Cuartel x Sector"]
+                # Detectar formato: col 0 = "ID" (nuevo) o "CC" (viejo)
+                first_header = str(ws_cs.cell(row=1, column=1).value or "").strip()
+                has_id_col = first_header == "ID"
                 new_cs = []
                 for row in ws_cs.iter_rows(min_row=2, values_only=True):
-                    if row[0] is None or row[5] is None:
+                    ofs = 1 if has_id_col else 0  # offset por columna ID
+                    if row[ofs] is None or row[5 + ofs] is None:
                         continue
+                    cc = int(row[ofs])
+                    eq = int(row[5 + ofs])
+                    sec = int(row[6 + ofs])
+                    sn = f"E{eq}S{sec}"
                     new_cs.append(
                         {
-                            "cc": int(row[0]),
-                            "variedad": str(row[1]),
-                            "dh": row[2],
-                            "dp": row[3],
-                            "anio": int(row[4]) if row[4] else None,
-                            "equipo": int(row[5]),
-                            "sector": int(row[6]),
-                            "pct": row[7],
-                            "has_total": row[8],
-                            "has_en_sector": row[9],
-                            "activo": bool(row[10])
-                            if len(row) > 10 and row[10] is not None
+                            "id": str(row[0]).strip()
+                            if has_id_col and row[0]
+                            else f"{cc}-{sn}",
+                            "cc": cc,
+                            "variedad": str(row[1 + ofs]),
+                            "dh": row[2 + ofs],
+                            "dp": row[3 + ofs],
+                            "anio": int(row[4 + ofs]) if row[4 + ofs] else None,
+                            "equipo": int(row[5 + ofs]),
+                            "sector": int(row[6 + ofs]),
+                            "pct": row[7 + ofs],
+                            "has_total": row[8 + ofs],
+                            "has_en_sector": row[9 + ofs],
+                            "activo": bool(row[10 + ofs])
+                            if len(row) > 10 + ofs and row[10 + ofs] is not None
                             else True,
                         }
                     )
