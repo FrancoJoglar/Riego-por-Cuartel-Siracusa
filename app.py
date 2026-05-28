@@ -824,12 +824,34 @@ with tab3:
             key="edit_cuartel_sector",
         )
         if not edited_cs.equals(df_mostrar):
+            # Push current state to undo stack (max 4)
+            if "undo_stack" not in st.session_state:
+                st.session_state.undo_stack = []
+            current = cuartel_sector_df.copy()
+            st.session_state.undo_stack.append(current)
+            if len(st.session_state.undo_stack) > 4:
+                st.session_state.undo_stack.pop(0)
+
             # Merge edits back into full DF
             full_df = cuartel_sector_df.copy()
             for idx in edited_cs.index:
                 full_df.loc[idx] = edited_cs.loc[idx]
             st.session_state.cuartel_sector_df = full_df
             st.success("Cuartel x Sector actualizado")
+            st.rerun()
+
+        # Undo button
+        undo_avail = len(st.session_state.get("undo_stack", []))
+        col_undo, col_empty = st.columns([1, 5])
+        if col_undo.button(
+            f"Deshacer ({undo_avail})",
+            disabled=undo_avail == 0,
+            help="Deshacer el ultimo cambio (hasta 4 veces)",
+        ):
+            prev = st.session_state.undo_stack.pop()
+            st.session_state.cuartel_sector_df = prev
+            st.success("Cambio deshecho")
+            st.rerun()
 
     with sub2:
         st.caption(f"{len(sectores_df)} sectores configurados")
