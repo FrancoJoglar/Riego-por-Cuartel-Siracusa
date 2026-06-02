@@ -76,21 +76,47 @@ MESES_ES = {
     "12": "Diciembre",
 }
 
+# ─── TEMPORADAS ────────────────────────────────────────
+DATA_DIR = Path(__file__).parent / "data"
+TEMPORADAS = ["2025_2026", "2026_2027"]
+TEMP_LABELS = {"2025_2026": "2025-2026", "2026_2027": "2026-2027"}
+
+
+def get_data_path(temporada=None):
+    if temporada is None:
+        temporada = st.session_state.get("temporada", TEMPORADAS[0])
+    return DATA_DIR / f"temporada_{temporada}.json"
+
+
+def persist_session_data():
+    temporada = st.session_state.get("temporada", TEMPORADAS[0])
+    data = {
+        "sectores": st.session_state.sectores_df.to_dict("records"),
+        "cuartel_sector": st.session_state.cuartel_sector_df.to_dict("records"),
+    }
+    with open(get_data_path(temporada), "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
 # ─── CARGA INICIAL DE DATOS ───────────────────────────
-DATA_JSON = Path(__file__).parent / "data_base.json"
-
-
 def load_sectores():
-    if "sectores_df" not in st.session_state:
-        with open(DATA_JSON, "r", encoding="utf-8") as f:
+    temporada = st.session_state.get("temporada", TEMPORADAS[0])
+    if (
+        "sectores_df" not in st.session_state
+        or st.session_state.get("temporada_cargada") != temporada
+    ):
+        with open(get_data_path(temporada), "r", encoding="utf-8") as f:
             data = json.load(f)
         st.session_state.sectores_df = pd.DataFrame(data["sectores"])
         st.session_state.cuartel_sector_df = pd.DataFrame(data["cuartel_sector"])
+        st.session_state.temporada_cargada = temporada
+        st.session_state.undo_stack = []
     return st.session_state.sectores_df, st.session_state.cuartel_sector_df
 
 
 def save_session_data():
     sectores_df, cuartel_sector_df = load_sectores()
+    temporada = st.session_state.get("temporada", TEMPORADAS[0])
     buf = BytesIO()
     with pd.ExcelWriter(buf, engine="openpyxl") as writer:
         sectores_df.to_excel(writer, sheet_name="Sectores", index=False)
@@ -111,7 +137,7 @@ def save_session_data():
         ]
         cs_df.to_excel(writer, sheet_name="Cuartel x Sector", index=False)
     buf.seek(0)
-    return buf
+    return buf, temporada
 
 
 # ─── CLEANER ──────────────────────────────────────────
@@ -642,6 +668,32 @@ def run_audit(sectores_df, cuartel_sector_df, riego_files, equipo):
     return output, n_riegos, n_cr, vol
 
 
+# ─── SIDEBAR ───────────────────────────────────────────
+with st.sidebar:
+    st.header("Temporada")
+    temps = st.session_state.get("temporada", TEMPORADAS[0])
+    idx = TEMPORADAS.index(temps) if temps in TEMPORADAS else 0
+    temp_seleccionada = st.selectbox(
+        "Seleccionar temporada",
+        TEMPORADAS,
+        format_func=lambda t: TEMP_LABELS.get(t, t),
+        index=idx,
+    )
+    if temp_seleccionada != st.session_state.get("temporada"):
+        for k in [
+            "sectores_df",
+            "cuartel_sector_df",
+            "temporada_cargada",
+            "undo_stack",
+        ]:
+            st.session_state.pop(k, None)
+        st.session_state.temporada = temp_seleccionada
+        st.rerun()
+    st.divider()
+    st.caption(
+        f"Archivo: `temporada_{st.session_state.get('temporada', TEMPORADAS[0])}.json`"
+    )
+
 # ─── UI ───────────────────────────────────────────────
 tab1, tab2, tab3 = st.tabs(
     ["1. Limpiar Datos", "2. Auditar Riegos", "3. Configurar Cuarteles"]
@@ -789,6 +841,7 @@ with tab3:
             df_mostrar,
             num_rows="dynamic",
             use_container_width=True,
+            hide_index=True,
             column_config={
                 "id": st.column_config.TextColumn("ID", disabled=True),
                 "cc": st.column_config.NumberColumn("CC", min_value=1, step=1),
@@ -837,6 +890,7 @@ with tab3:
             for idx in edited_cs.index:
                 full_df.loc[idx] = edited_cs.loc[idx]
             st.session_state.cuartel_sector_df = full_df
+            persist_session_data()
             st.success("Cuartel x Sector actualizado")
             st.rerun()
 
@@ -859,6 +913,7 @@ with tab3:
             sectores_df,
             num_rows="dynamic",
             use_container_width=True,
+            hide_index=True,
             column_config={
                 "equipo": st.column_config.NumberColumn(
                     "Equipo", min_value=1, max_value=50, step=1
@@ -872,15 +927,18 @@ with tab3:
         )
         if not edited_sectores.equals(sectores_df):
             st.session_state.sectores_df = edited_sectores
+            persist_session_data()
             st.success("Sectores actualizados")
 
     st.divider()
     col1, col2 = st.columns(2)
     with col1:
+        buf_excel, temp_label = save_session_data()
+        label = TEMP_LABELS.get(temp_label, temp_label)
         st.download_button(
-            "Descargar configuracion actual (Excel)",
-            save_session_data().getvalue(),
-            "Cuartel_x_Sector_Config.xlsx",
+            f"Descargar config {label} (Excel)",
+            buf_excel.getvalue(),
+            f"Cuartel_x_Sector_{temp_label}.xlsx",
             "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
     with col2:
@@ -942,6 +1000,7 @@ with tab3:
                     )
                 st.session_state.sectores_df = pd.DataFrame(new_s)
                 st.session_state.cuartel_sector_df = pd.DataFrame(new_cs)
+                persist_session_data()
                 st.success(
                     f"Configuracion cargada: {len(new_s)} sectores, {len(new_cs)} relaciones"
                 )

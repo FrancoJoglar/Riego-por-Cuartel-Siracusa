@@ -93,6 +93,14 @@ for row in ws_cs.iter_rows(min_row=2, values_only=True):
     cc = int(cc)
     snum = int(snum)
     sn = f"E{eq}S{snum}"
+    # Auto-crear sector si no existe
+    if not conn.execute(
+        "SELECT 1 FROM sectores WHERE sector_nom = ?", (sn,)
+    ).fetchone():
+        conn.execute(
+            "INSERT OR IGNORE INTO sectores VALUES (?,?,?,?,?,?)",
+            (sn, eq, snum, None, 0.0, ""),
+        )
     conn.execute(
         "INSERT OR REPLACE INTO cuarteles VALUES (?,?,?,?,?,?)",
         (cc, str(var), int(anio) if anio else None, dh, dp, has_cuar),
