@@ -5155,20 +5155,6 @@
       "activo": true
     },
     {
-      "id": "106",
-      "cc": 600,
-      "variedad": "Arbequina",
-      "dh": 3.8,
-      "dp": 1.5,
-      "anio": 2009,
-      "equipo": 16,
-      "sector": 4,
-      "pct": 1.0,
-      "has_total": 1.1357819999999998,
-      "has_en_sector": 1.135782,
-      "activo": true
-    },
-    {
       "id": "107",
       "cc": 601,
       "variedad": "Arbequina",
@@ -5180,34 +5166,6 @@
       "pct": 1.0,
       "has_total": 0.47,
       "has_en_sector": 0.47,
-      "activo": true
-    },
-    {
-      "id": "108",
-      "cc": 605,
-      "variedad": "Arbequina",
-      "dh": 3.8,
-      "dp": 1.5,
-      "anio": 2009,
-      "equipo": 16,
-      "sector": 4,
-      "pct": 1.0,
-      "has_total": 0.47652,
-      "has_en_sector": 0.47652,
-      "activo": true
-    },
-    {
-      "id": "109",
-      "cc": 606,
-      "variedad": "Arbequina",
-      "dh": 3.8,
-      "dp": 1.5,
-      "anio": 2009,
-      "equipo": 16,
-      "sector": 4,
-      "pct": 1.0,
-      "has_total": 3.990798,
-      "has_en_sector": 3.990798,
       "activo": true
     },
     {
