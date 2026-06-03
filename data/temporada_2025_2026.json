@@ -5,868 +5,992 @@
       "sector": 1,
       "caudal": 158,
       "has": 16.97,
-      "caseta": "5000"
+      "caseta": "5000",
+      "especie": ""
     },
     {
       "equipo": 1,
       "sector": 2,
       "caudal": 161.7,
       "has": 17.37,
-      "caseta": "5000"
+      "caseta": "5000",
+      "especie": ""
     },
     {
       "equipo": 1,
       "sector": 3,
       "caudal": 158.2,
       "has": 16.99,
-      "caseta": "5000"
+      "caseta": "5000",
+      "especie": ""
     },
     {
       "equipo": 1,
       "sector": 4,
       "caudal": 166.5,
       "has": 17.88,
-      "caseta": "5000"
+      "caseta": "5000",
+      "especie": ""
     },
     {
       "equipo": 1,
       "sector": 5,
       "caudal": 173.3,
       "has": 18.61,
-      "caseta": "5000"
+      "caseta": "5000",
+      "especie": ""
     },
     {
       "equipo": 2,
       "sector": 1,
       "caudal": 225.2,
       "has": 24.19,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 2,
       "sector": 2,
       "caudal": 227.3,
       "has": 24.41,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 2,
       "sector": 3,
       "caudal": 226,
       "has": 24.27,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 2,
       "sector": 4,
       "caudal": 217.4,
       "has": 23.35,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 2,
       "sector": 5,
       "caudal": 215.9,
       "has": 23.19,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 3,
       "sector": 1,
       "caudal": 169.7,
       "has": 18.42,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 3,
       "sector": 2,
       "caudal": 162.8,
       "has": 17.49,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 3,
       "sector": 3,
       "caudal": 166.2,
       "has": 8.77,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 3,
       "sector": 4,
       "caudal": 164.9,
       "has": 8.77,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 3,
       "sector": 5,
       "caudal": 161.3,
       "has": 17.33,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 4,
       "sector": 1,
       "caudal": 93.9,
       "has": 10.19,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 4,
       "sector": 2,
       "caudal": 135.4,
       "has": 14.54,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 4,
       "sector": 3,
       "caudal": 132.9,
       "has": 14.27,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 4,
       "sector": 4,
       "caudal": 132.7,
       "has": 14.25,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 4,
       "sector": 5,
       "caudal": 122.1,
       "has": 13.12,
-      "caseta": "20000"
+      "caseta": "20000",
+      "especie": ""
     },
     {
       "equipo": 5,
       "sector": 1,
       "caudal": 173.2,
       "has": 9.09,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 5,
       "sector": 2,
       "caudal": 172.8,
       "has": 9.08,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 5,
       "sector": 3,
       "caudal": 172.8,
       "has": 9.08,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 5,
       "sector": 4,
       "caudal": 172.8,
       "has": 9.09,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 5,
       "sector": 5,
       "caudal": 171.8,
       "has": 18.64,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 6,
       "sector": 1,
       "caudal": 125.3,
       "has": 13.6,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 6,
       "sector": 2,
       "caudal": 125.1,
       "has": 13.66,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 6,
       "sector": 3,
       "caudal": 116.6,
       "has": 6.13,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 6,
       "sector": 4,
       "caudal": 117.2,
       "has": 6.15,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 6,
       "sector": 5,
       "caudal": 116.1,
       "has": 6.16,
-      "caseta": "8x8"
+      "caseta": "8x8",
+      "especie": ""
     },
     {
       "equipo": 7,
       "sector": 1,
       "caudal": 45.6,
       "has": 5.12,
-      "caseta": "25"
+      "caseta": "25",
+      "especie": ""
     },
     {
       "equipo": 7,
       "sector": 2,
       "caudal": 42.6,
       "has": 4.78,
-      "caseta": "25"
+      "caseta": "25",
+      "especie": ""
     },
     {
       "equipo": 7,
       "sector": 3,
       "caudal": 43.7,
       "has": 4.91,
-      "caseta": "25"
+      "caseta": "25",
+      "especie": ""
     },
     {
       "equipo": 7,
       "sector": 4,
       "caudal": 47.5,
       "has": 5.34,
-      "caseta": "25"
+      "caseta": "25",
+      "especie": ""
     },
     {
       "equipo": 7,
       "sector": 5,
       "caudal": 46.6,
       "has": 5.24,
-      "caseta": "25"
+      "caseta": "25",
+      "especie": ""
     },
     {
       "equipo": 9,
       "sector": 1,
       "caudal": 76.7,
       "has": 11.51,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 9,
       "sector": 2,
       "caudal": 64.8,
       "has": 9.72,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 9,
       "sector": 3,
       "caudal": 75.3,
       "has": 11.3,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 9,
       "sector": 4,
       "caudal": 96.4,
       "has": 14.47,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 10,
       "sector": 1,
       "caudal": 102.9,
       "has": 11.02,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 10,
       "sector": 2,
       "caudal": 128.9,
       "has": 7.01,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 10,
       "sector": 3,
       "caudal": 129.8,
       "has": 13.9,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 10,
       "sector": 4,
       "caudal": 119.7,
       "has": 12.82,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 10,
       "sector": 6,
       "caudal": 114,
       "has": 6.2,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 11,
       "sector": 1,
       "caudal": 125.5,
       "has": 13.44,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 11,
       "sector": 2,
       "caudal": 110.8,
       "has": 11.87,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 11,
       "sector": 3,
       "caudal": 113.3,
       "has": 12.14,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 11,
       "sector": 4,
       "caudal": 113.9,
       "has": 12.2,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 11,
       "sector": 5,
       "caudal": 120.4,
       "has": 12.9,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 12,
       "sector": 1,
       "caudal": 158.9,
       "has": 8.64,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 12,
       "sector": 2,
       "caudal": 192.6,
       "has": 10.47,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 12,
       "sector": 3,
       "caudal": 189.5,
       "has": 10.3,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 12,
       "sector": 5,
       "caudal": 158.1,
       "has": 17.19,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 12,
       "sector": 6,
       "caudal": 155.6,
       "has": 8.46,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 12,
       "sector": 7,
       "caudal": 145.1,
       "has": 7.89,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 12,
       "sector": 8,
       "caudal": 154,
       "has": 8.37,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 13,
       "sector": 1,
       "caudal": 136.6,
       "has": 8.14,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 13,
       "sector": 2,
       "caudal": 145.5,
       "has": 15.8,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 13,
       "sector": 3,
       "caudal": 115.6,
       "has": 12.61,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 13,
       "sector": 4,
       "caudal": 125,
       "has": 13.58,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 13,
       "sector": 5,
       "caudal": 120.1,
       "has": 13.1,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 13,
       "sector": 6,
       "caudal": 136.6,
       "has": 6.07,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 14,
       "sector": 1,
       "caudal": 100.5,
       "has": 10.96,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 14,
       "sector": 2,
       "caudal": 116.9,
       "has": 12.7,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 14,
       "sector": 5,
       "caudal": 77.2,
       "has": 8.46,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 15,
       "sector": 1,
       "caudal": 118,
       "has": 12.68,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 15,
       "sector": 2,
       "caudal": 105,
       "has": 6.53,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 15,
       "sector": 3,
       "caudal": 99,
       "has": 13.0,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 15,
       "sector": 4,
       "caudal": 103.7,
       "has": 12.34,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 15,
       "sector": 5,
       "caudal": 111.2,
       "has": 12.08,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 15,
       "sector": 6,
       "caudal": 105,
       "has": 0.0,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 16,
       "sector": 1,
       "caudal": 106,
       "has": 9.57,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 16,
       "sector": 2,
       "caudal": 104,
       "has": 10.0,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 16,
       "sector": 3,
       "caudal": 105,
       "has": 10.42,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 16,
       "sector": 4,
       "caudal": 100.5,
       "has": 8.21,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 16,
       "sector": 5,
       "caudal": 97,
       "has": 10.11,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 17,
       "sector": 1,
       "caudal": 94.5,
       "has": 10.26,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 17,
       "sector": 2,
       "caudal": 60,
       "has": 6.51,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 17,
       "sector": 3,
       "caudal": 105,
       "has": 5.91,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 17,
       "sector": 4,
       "caudal": 102.9,
       "has": 5.79,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 17,
       "sector": 5,
       "caudal": 68.9,
       "has": 7.49,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 18,
       "sector": 1,
       "caudal": 129.2,
       "has": 6.46,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 18,
       "sector": 2,
       "caudal": 111.2,
       "has": 6.26,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 18,
       "sector": 3,
       "caudal": 105.4,
       "has": 5.27,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 18,
       "sector": 4,
       "caudal": 115,
       "has": 5.75,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 18,
       "sector": 5,
       "caudal": 60.2,
       "has": 3.01,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 19,
       "sector": 1,
       "caudal": 180.7,
       "has": 19.41,
-      "caseta": "Minitranque (sepulveda)"
+      "caseta": "Minitranque (sepulveda)",
+      "especie": ""
     },
     {
       "equipo": 19,
       "sector": 2,
       "caudal": 162.6,
       "has": 8.84,
-      "caseta": "Minitranque (sepulveda)"
+      "caseta": "Minitranque (sepulveda)",
+      "especie": ""
     },
     {
       "equipo": 19,
       "sector": 3,
       "caudal": 183.6,
       "has": 19.72,
-      "caseta": "Minitranque (sepulveda)"
+      "caseta": "Minitranque (sepulveda)",
+      "especie": ""
     },
     {
       "equipo": 19,
       "sector": 4,
       "caudal": 186.6,
       "has": 20.25,
-      "caseta": "Minitranque (sepulveda)"
+      "caseta": "Minitranque (sepulveda)",
+      "especie": ""
     },
     {
       "equipo": 19,
       "sector": 5,
       "caudal": 180,
       "has": 19.54,
-      "caseta": "Minitranque (sepulveda)"
+      "caseta": "Minitranque (sepulveda)",
+      "especie": ""
     },
     {
       "equipo": 19,
       "sector": 6,
       "caudal": 161.7,
       "has": 8.79,
-      "caseta": "Minitranque (sepulveda)"
+      "caseta": "Minitranque (sepulveda)",
+      "especie": ""
     },
     {
       "equipo": 20,
       "sector": 1,
       "caudal": 123.9,
       "has": 6.97,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 20,
       "sector": 2,
       "caudal": 101.7,
       "has": 5.72,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 20,
       "sector": 3,
       "caudal": 124.9,
       "has": 7.03,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 20,
       "sector": 4,
       "caudal": 90.1,
       "has": 5.07,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 21,
       "sector": 1,
       "caudal": 140,
       "has": 7.88,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 21,
       "sector": 2,
       "caudal": 140.4,
       "has": 7.9,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 21,
       "sector": 3,
       "caudal": 145,
       "has": 8.16,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 21,
       "sector": 4,
       "caudal": 143.4,
       "has": 8.07,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 22,
       "sector": 1,
       "caudal": 81.1,
       "has": 5.28,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 22,
       "sector": 2,
       "caudal": 92.9,
       "has": 5.09,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 22,
       "sector": 3,
       "caudal": 76.9,
       "has": 5.99,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 22,
       "sector": 4,
       "caudal": 94.5,
       "has": 4.93,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 22,
       "sector": 5,
       "caudal": 81.8,
       "has": 4.07,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 23,
       "sector": 1,
       "caudal": 107.6,
       "has": 5.61,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 23,
       "sector": 2,
       "caudal": 106.4,
       "has": 5.61,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 23,
       "sector": 3,
       "caudal": 106.7,
       "has": 5.61,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 23,
       "sector": 4,
       "caudal": 115.9,
       "has": 6.14,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 23,
       "sector": 5,
       "caudal": 117.1,
       "has": 6.11,
-      "caseta": "Las Pataguas"
+      "caseta": "Las Pataguas",
+      "especie": ""
     },
     {
       "equipo": 24,
       "sector": 1,
       "caudal": 120.2,
       "has": 6.36,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 24,
       "sector": 2,
       "caudal": 120.1,
       "has": 6.36,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 24,
       "sector": 3,
       "caudal": 105,
       "has": 5.49,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 24,
       "sector": 4,
       "caudal": 104.5,
       "has": 5.49,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 24,
       "sector": 5,
       "caudal": 105,
       "has": 5.5,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 25,
       "sector": 1,
       "caudal": 80,
       "has": 4.2,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 25,
       "sector": 2,
       "caudal": 80,
       "has": 4.21,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 25,
       "sector": 3,
       "caudal": 100,
       "has": 5.31,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 25,
       "sector": 4,
       "caudal": 88.3,
       "has": 4.58,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 25,
       "sector": 5,
       "caudal": 87,
       "has": 4.57,
-      "caseta": "10000"
+      "caseta": "10000",
+      "especie": ""
     },
     {
       "equipo": 26,
       "sector": 1,
       "caudal": 136.1,
       "has": 6.11,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 26,
       "sector": 2,
       "caudal": 134.8,
       "has": 6.11,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 26,
       "sector": 3,
       "caudal": 131.6,
       "has": 5.97,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     },
     {
       "equipo": 26,
       "sector": 4,
       "caudal": 118.3,
       "has": 5.41,
-      "caseta": "Embalse"
+      "caseta": "Embalse",
+      "especie": ""
     }
   ],
   "cuartel_sector": [
@@ -882,7 +1006,8 @@
       "has_total": 11.78019,
       "has_en_sector": 4.5942741,
       "activo": true,
-      "id": "100-E2S3"
+      "id": "100-E2S3",
+      "especie": "Olivo"
     },
     {
       "cc": 100,
@@ -896,7 +1021,8 @@
       "has_total": 11.78019,
       "has_en_sector": 7.1859158999999995,
       "activo": true,
-      "id": "100-E2S4"
+      "id": "100-E2S4",
+      "especie": "Olivo"
     },
     {
       "cc": 101,
@@ -910,7 +1036,8 @@
       "has_total": 5.656566,
       "has_en_sector": 5.656566,
       "activo": true,
-      "id": "101-E2S4"
+      "id": "101-E2S4",
+      "especie": "Olivo"
     },
     {
       "cc": 102,
@@ -924,7 +1051,8 @@
       "has_total": 7.302840000000001,
       "has_en_sector": 2.190852,
       "activo": true,
-      "id": "102-E2S3"
+      "id": "102-E2S3",
+      "especie": "Olivo"
     },
     {
       "cc": 102,
@@ -938,7 +1066,8 @@
       "has_total": 7.302840000000001,
       "has_en_sector": 5.111988,
       "activo": true,
-      "id": "102-E2S4"
+      "id": "102-E2S4",
+      "especie": "Olivo"
     },
     {
       "cc": 103,
@@ -952,7 +1081,8 @@
       "has_total": 1.591896,
       "has_en_sector": 1.591896,
       "activo": true,
-      "id": "103-E2S4"
+      "id": "103-E2S4",
+      "especie": "Olivo"
     },
     {
       "cc": 104,
@@ -966,7 +1096,8 @@
       "has_total": 7.7506319999999995,
       "has_en_sector": 7.7506319999999995,
       "activo": true,
-      "id": "104-E1S1"
+      "id": "104-E1S1",
+      "especie": "Olivo"
     },
     {
       "cc": 105,
@@ -980,7 +1111,8 @@
       "has_total": 9.223132,
       "has_en_sector": 9.223132,
       "activo": true,
-      "id": "105-E1S1"
+      "id": "105-E1S1",
+      "especie": "Olivo"
     },
     {
       "cc": 106,
@@ -994,7 +1126,8 @@
       "has_total": 3.6871400000000003,
       "has_en_sector": 3.6871400000000003,
       "activo": true,
-      "id": "106-E1S2"
+      "id": "106-E1S2",
+      "especie": "Olivo"
     },
     {
       "cc": 107,
@@ -1008,7 +1141,8 @@
       "has_total": 6.01692,
       "has_en_sector": 6.01692,
       "activo": true,
-      "id": "107-E1S2"
+      "id": "107-E1S2",
+      "especie": "Olivo"
     },
     {
       "cc": 108,
@@ -1022,7 +1156,8 @@
       "has_total": 2.7418519999999997,
       "has_en_sector": 2.7418519999999997,
       "activo": true,
-      "id": "108-E1S2"
+      "id": "108-E1S2",
+      "especie": "Olivo"
     },
     {
       "cc": 109,
@@ -1036,7 +1171,8 @@
       "has_total": 0.507756,
       "has_en_sector": 0.507756,
       "activo": true,
-      "id": "109-E1S3"
+      "id": "109-E1S3",
+      "especie": "Olivo"
     },
     {
       "cc": 110,
@@ -1050,7 +1186,8 @@
       "has_total": 2.412088,
       "has_en_sector": 2.412088,
       "activo": true,
-      "id": "110-E1S3"
+      "id": "110-E1S3",
+      "especie": "Olivo"
     },
     {
       "cc": 111,
@@ -1064,7 +1201,8 @@
       "has_total": 1.604588,
       "has_en_sector": 1.604588,
       "activo": true,
-      "id": "111-E1S3"
+      "id": "111-E1S3",
+      "especie": "Olivo"
     },
     {
       "cc": 112,
@@ -1078,7 +1216,8 @@
       "has_total": 0.8762039999999999,
       "has_en_sector": 0.8762039999999999,
       "activo": true,
-      "id": "112-E1S3"
+      "id": "112-E1S3",
+      "especie": "Olivo"
     },
     {
       "cc": 113,
@@ -1092,7 +1231,8 @@
       "has_total": 1.313356,
       "has_en_sector": 1.313356,
       "activo": true,
-      "id": "113-E1S3"
+      "id": "113-E1S3",
+      "especie": "Olivo"
     },
     {
       "cc": 114,
@@ -1106,7 +1246,8 @@
       "has_total": 10.233894,
       "has_en_sector": 3.88887972,
       "activo": true,
-      "id": "114-E2S2"
+      "id": "114-E2S2",
+      "especie": "Olivo"
     },
     {
       "cc": 114,
@@ -1120,7 +1261,8 @@
       "has_total": 10.233894,
       "has_en_sector": 6.34501428,
       "activo": true,
-      "id": "114-E2S3"
+      "id": "114-E2S3",
+      "especie": "Olivo"
     },
     {
       "cc": 115,
@@ -1134,7 +1276,8 @@
       "has_total": 2.2936799999999997,
       "has_en_sector": 2.2936799999999997,
       "activo": true,
-      "id": "115-E2S3"
+      "id": "115-E2S3",
+      "especie": "Olivo"
     },
     {
       "cc": 116,
@@ -1148,7 +1291,8 @@
       "has_total": 6.719502,
       "has_en_sector": 6.719502,
       "activo": true,
-      "id": "116-E2S3"
+      "id": "116-E2S3",
+      "especie": "Olivo"
     },
     {
       "cc": 117,
@@ -1162,7 +1306,8 @@
       "has_total": 2.125872,
       "has_en_sector": 2.125872,
       "activo": true,
-      "id": "117-E2S3"
+      "id": "117-E2S3",
+      "especie": "Olivo"
     },
     {
       "cc": 118,
@@ -1176,7 +1321,8 @@
       "has_total": 6.191567999999999,
       "has_en_sector": 6.191567999999999,
       "activo": true,
-      "id": "118-E2S5"
+      "id": "118-E2S5",
+      "especie": "Olivo"
     },
     {
       "cc": 119,
@@ -1190,7 +1336,8 @@
       "has_total": 8.765916,
       "has_en_sector": 8.765916,
       "activo": true,
-      "id": "119-E2S2"
+      "id": "119-E2S2",
+      "especie": "Olivo"
     },
     {
       "cc": 120,
@@ -1204,7 +1351,8 @@
       "has_total": 3.440292,
       "has_en_sector": 3.440292,
       "activo": true,
-      "id": "120-E2S2"
+      "id": "120-E2S2",
+      "especie": "Olivo"
     },
     {
       "cc": 121,
@@ -1218,7 +1366,8 @@
       "has_total": 2.5908399999999996,
       "has_en_sector": 2.5908399999999996,
       "activo": true,
-      "id": "121-E2S1"
+      "id": "121-E2S1",
+      "especie": "Olivo"
     },
     {
       "cc": 122,
@@ -1232,7 +1381,8 @@
       "has_total": 2.4295299999999997,
       "has_en_sector": 2.4295299999999997,
       "activo": true,
-      "id": "122-E2S1"
+      "id": "122-E2S1",
+      "especie": "Olivo"
     },
     {
       "cc": 123,
@@ -1246,7 +1396,8 @@
       "has_total": 8.317782,
       "has_en_sector": 8.317782,
       "activo": true,
-      "id": "123-E2S2"
+      "id": "123-E2S2",
+      "especie": "Olivo"
     },
     {
       "cc": 124,
@@ -1260,7 +1411,8 @@
       "has_total": 10.633464,
       "has_en_sector": 10.633464,
       "activo": true,
-      "id": "124-E2S5"
+      "id": "124-E2S5",
+      "especie": "Olivo"
     },
     {
       "cc": 125,
@@ -1274,7 +1426,8 @@
       "has_total": 3.8031539999999997,
       "has_en_sector": 3.8031539999999997,
       "activo": true,
-      "id": "125-E2S4"
+      "id": "125-E2S4",
+      "especie": "Olivo"
     },
     {
       "cc": 126,
@@ -1288,7 +1441,8 @@
       "has_total": 3.1059299999999994,
       "has_en_sector": 3.1059299999999994,
       "activo": true,
-      "id": "126-E2S5"
+      "id": "126-E2S5",
+      "especie": "Olivo"
     },
     {
       "cc": 127,
@@ -1302,7 +1456,8 @@
       "has_total": 9.544649999999999,
       "has_en_sector": 9.544649999999999,
       "activo": true,
-      "id": "127-E2S1"
+      "id": "127-E2S1",
+      "especie": "Olivo"
     },
     {
       "cc": 128,
@@ -1316,7 +1471,8 @@
       "has_total": 9.62806,
       "has_en_sector": 9.62806,
       "activo": true,
-      "id": "128-E2S1"
+      "id": "128-E2S1",
+      "especie": "Olivo"
     },
     {
       "cc": 129,
@@ -1330,7 +1486,8 @@
       "has_total": 6.944424,
       "has_en_sector": 3.68054472,
       "activo": true,
-      "id": "129-E1S4"
+      "id": "129-E1S4",
+      "especie": "Olivo"
     },
     {
       "cc": 129,
@@ -1344,7 +1501,8 @@
       "has_total": 6.944424,
       "has_en_sector": 3.26387928,
       "activo": true,
-      "id": "129-E2S5"
+      "id": "129-E2S5",
+      "especie": "Olivo"
     },
     {
       "cc": 130,
@@ -1358,7 +1516,8 @@
       "has_total": 2.17569,
       "has_en_sector": 2.17569,
       "activo": true,
-      "id": "130-E1S4"
+      "id": "130-E1S4",
+      "especie": "Olivo"
     },
     {
       "cc": 131,
@@ -1372,7 +1531,8 @@
       "has_total": 4.927308,
       "has_en_sector": 4.927308,
       "activo": true,
-      "id": "131-E1S2"
+      "id": "131-E1S2",
+      "especie": "Olivo"
     },
     {
       "cc": 132,
@@ -1386,7 +1546,8 @@
       "has_total": 5.482564,
       "has_en_sector": 5.482564,
       "activo": true,
-      "id": "132-E1S3"
+      "id": "132-E1S3",
+      "especie": "Olivo"
     },
     {
       "cc": 133,
@@ -1400,7 +1561,8 @@
       "has_total": 7.4809079999999994,
       "has_en_sector": 7.4809079999999994,
       "activo": true,
-      "id": "133-E1S4"
+      "id": "133-E1S4",
+      "especie": "Olivo"
     },
     {
       "cc": 134,
@@ -1414,7 +1576,8 @@
       "has_total": 4.253112,
       "has_en_sector": 4.253112,
       "activo": true,
-      "id": "134-E1S5"
+      "id": "134-E1S5",
+      "especie": "Olivo"
     },
     {
       "cc": 135,
@@ -1428,7 +1591,8 @@
       "has_total": 6.971328,
       "has_en_sector": 6.971328,
       "activo": true,
-      "id": "135-E1S5"
+      "id": "135-E1S5",
+      "especie": "Olivo"
     },
     {
       "cc": 136,
@@ -1442,7 +1606,8 @@
       "has_total": 3.6936,
       "has_en_sector": 3.6936,
       "activo": true,
-      "id": "136-E1S5"
+      "id": "136-E1S5",
+      "especie": "Olivo"
     },
     {
       "cc": 137,
@@ -1456,7 +1621,8 @@
       "has_total": 3.6936,
       "has_en_sector": 3.6936,
       "activo": true,
-      "id": "137-E1S5"
+      "id": "137-E1S5",
+      "especie": "Olivo"
     },
     {
       "cc": 142,
@@ -1470,7 +1636,8 @@
       "has_total": 6.760997999999999,
       "has_en_sector": 6.760997999999999,
       "activo": true,
-      "id": "142-E4S5"
+      "id": "142-E4S5",
+      "especie": "Olivo"
     },
     {
       "cc": 143,
@@ -1484,7 +1651,8 @@
       "has_total": 6.777071999999999,
       "has_en_sector": 4.540638239999999,
       "activo": true,
-      "id": "143-E1S4"
+      "id": "143-E1S4",
+      "especie": "Olivo"
     },
     {
       "cc": 143,
@@ -1498,7 +1666,8 @@
       "has_total": 6.777071999999999,
       "has_en_sector": 2.2364337599999997,
       "activo": true,
-      "id": "143-E4S5"
+      "id": "143-E4S5",
+      "especie": "Olivo"
     },
     {
       "cc": 144,
@@ -1512,7 +1681,8 @@
       "has_total": 7.152360000000001,
       "has_en_sector": 4.792081200000001,
       "activo": true,
-      "id": "144-E1S3"
+      "id": "144-E1S3",
+      "especie": "Olivo"
     },
     {
       "cc": 144,
@@ -1526,7 +1696,8 @@
       "has_total": 7.152360000000001,
       "has_en_sector": 2.3602788000000006,
       "activo": true,
-      "id": "144-E4S4"
+      "id": "144-E4S4",
+      "especie": "Olivo"
     },
     {
       "cc": 145,
@@ -1540,7 +1711,8 @@
       "has_total": 5.734579999999999,
       "has_en_sector": 5.734579999999999,
       "activo": true,
-      "id": "145-E4S4"
+      "id": "145-E4S4",
+      "especie": "Olivo"
     },
     {
       "cc": 146,
@@ -1554,7 +1726,8 @@
       "has_total": 8.675247999999998,
       "has_en_sector": 2.515821919999999,
       "activo": true,
-      "id": "146-E4S2"
+      "id": "146-E4S2",
+      "especie": "Olivo"
     },
     {
       "cc": 146,
@@ -1568,7 +1741,8 @@
       "has_total": 8.675247999999998,
       "has_en_sector": 6.1594260799999985,
       "activo": true,
-      "id": "146-E4S4"
+      "id": "146-E4S4",
+      "especie": "Olivo"
     },
     {
       "cc": 147,
@@ -1582,7 +1756,8 @@
       "has_total": 10.047161999999998,
       "has_en_sector": 4.119336419999999,
       "activo": true,
-      "id": "147-E4S5"
+      "id": "147-E4S5",
+      "especie": "Olivo"
     },
     {
       "cc": 147,
@@ -1596,7 +1771,8 @@
       "has_total": 10.047161999999998,
       "has_en_sector": 5.927825579999999,
       "activo": true,
-      "id": "147-E4S3"
+      "id": "147-E4S3",
+      "especie": "Olivo"
     },
     {
       "cc": 148,
@@ -1610,7 +1786,8 @@
       "has_total": 8.345483999999999,
       "has_en_sector": 8.345483999999999,
       "activo": true,
-      "id": "148-E4S3"
+      "id": "148-E4S3",
+      "especie": "Olivo"
     },
     {
       "cc": 156,
@@ -1624,7 +1801,8 @@
       "has_total": 7.583356,
       "has_en_sector": 1.0616698400000002,
       "activo": true,
-      "id": "156-E4S2"
+      "id": "156-E4S2",
+      "especie": "Olivo"
     },
     {
       "cc": 158,
@@ -1638,7 +1816,8 @@
       "has_total": 2.343985,
       "has_en_sector": 2.343985,
       "activo": true,
-      "id": "158-E4S1"
+      "id": "158-E4S1",
+      "especie": "Olivo"
     },
     {
       "cc": 162,
@@ -1652,7 +1831,8 @@
       "has_total": 3.0182949999999997,
       "has_en_sector": 3.0182949999999997,
       "activo": true,
-      "id": "162-E4S1"
+      "id": "162-E4S1",
+      "especie": "Olivo"
     },
     {
       "cc": 163,
@@ -1666,7 +1846,8 @@
       "has_total": 1.055108,
       "has_en_sector": 1.055108,
       "activo": true,
-      "id": "163-E4S2"
+      "id": "163-E4S2",
+      "especie": "Olivo"
     },
     {
       "cc": 164,
@@ -1680,7 +1861,8 @@
       "has_total": 2.4979679999999997,
       "has_en_sector": 2.4979679999999997,
       "activo": true,
-      "id": "164-E4S2"
+      "id": "164-E4S2",
+      "especie": "Olivo"
     },
     {
       "cc": 165,
@@ -1694,7 +1876,8 @@
       "has_total": 3.2497599999999998,
       "has_en_sector": 3.2497599999999998,
       "activo": true,
-      "id": "165-E4S2"
+      "id": "165-E4S2",
+      "especie": "Olivo"
     },
     {
       "cc": 166,
@@ -1708,7 +1891,8 @@
       "has_total": 4.15492,
       "has_en_sector": 4.15492,
       "activo": true,
-      "id": "166-E4S2"
+      "id": "166-E4S2",
+      "especie": "Olivo"
     },
     {
       "cc": 167,
@@ -1722,7 +1906,8 @@
       "has_total": 4.82503,
       "has_en_sector": 4.82503,
       "activo": true,
-      "id": "167-E4S1"
+      "id": "167-E4S1",
+      "especie": "Olivo"
     },
     {
       "cc": 203,
@@ -1736,7 +1921,8 @@
       "has_total": 3.07116,
       "has_en_sector": 3.07116,
       "activo": true,
-      "id": "203-E7S5"
+      "id": "203-E7S5",
+      "especie": "Olivo"
     },
     {
       "cc": 204,
@@ -1750,7 +1936,8 @@
       "has_total": 9.04647,
       "has_en_sector": 1.5378999,
       "activo": true,
-      "id": "204-E7S1"
+      "id": "204-E7S1",
+      "especie": "Olivo"
     },
     {
       "cc": 204,
@@ -1764,7 +1951,8 @@
       "has_total": 9.04647,
       "has_en_sector": 5.337417299999999,
       "activo": true,
-      "id": "204-E7S4"
+      "id": "204-E7S4",
+      "especie": "Olivo"
     },
     {
       "cc": 204,
@@ -1778,7 +1966,8 @@
       "has_total": 9.04647,
       "has_en_sector": 2.1711527999999998,
       "activo": true,
-      "id": "204-E7S5"
+      "id": "204-E7S5",
+      "especie": "Olivo"
     },
     {
       "cc": 205,
@@ -1792,7 +1981,8 @@
       "has_total": 13.2753,
       "has_en_sector": 3.584331,
       "activo": true,
-      "id": "205-E7S1"
+      "id": "205-E7S1",
+      "especie": "Olivo"
     },
     {
       "cc": 205,
@@ -1806,7 +1996,8 @@
       "has_total": 13.2753,
       "has_en_sector": 4.779108,
       "activo": true,
-      "id": "205-E7S2"
+      "id": "205-E7S2",
+      "especie": "Olivo"
     },
     {
       "cc": 205,
@@ -1820,7 +2011,8 @@
       "has_total": 13.2753,
       "has_en_sector": 4.911861,
       "activo": true,
-      "id": "205-E7S3"
+      "id": "205-E7S3",
+      "especie": "Olivo"
     },
     {
       "cc": 500,
@@ -1834,7 +2026,8 @@
       "has_total": 3.0384,
       "has_en_sector": 3.0384,
       "activo": true,
-      "id": "500-E9S1"
+      "id": "500-E9S1",
+      "especie": "Olivo"
     },
     {
       "cc": 501,
@@ -1848,7 +2041,8 @@
       "has_total": 5.8271999999999995,
       "has_en_sector": 3.4380479999999993,
       "activo": true,
-      "id": "501-E9S1"
+      "id": "501-E9S1",
+      "especie": "Olivo"
     },
     {
       "cc": 501,
@@ -1862,7 +2056,8 @@
       "has_total": 5.8271999999999995,
       "has_en_sector": 2.3891519999999997,
       "activo": true,
-      "id": "501-E9S2"
+      "id": "501-E9S2",
+      "especie": "Olivo"
     },
     {
       "cc": 502,
@@ -1876,7 +2071,8 @@
       "has_total": 5.0448,
       "has_en_sector": 5.0448,
       "activo": true,
-      "id": "502-E9S2"
+      "id": "502-E9S2",
+      "especie": "Olivo"
     },
     {
       "cc": 503,
@@ -1890,7 +2086,8 @@
       "has_total": 5.037599999999999,
       "has_en_sector": 5.037599999999999,
       "activo": true,
-      "id": "503-E9S1"
+      "id": "503-E9S1",
+      "especie": "Olivo"
     },
     {
       "cc": 504,
@@ -1904,7 +2101,8 @@
       "has_total": 5.9016,
       "has_en_sector": 5.9016,
       "activo": true,
-      "id": "504-E9S3"
+      "id": "504-E9S3",
+      "especie": "Olivo"
     },
     {
       "cc": 505,
@@ -1918,7 +2116,8 @@
       "has_total": 5.5104,
       "has_en_sector": 2.424576,
       "activo": true,
-      "id": "505-E9S3"
+      "id": "505-E9S3",
+      "especie": "Olivo"
     },
     {
       "cc": 505,
@@ -1932,7 +2131,8 @@
       "has_total": 5.5104,
       "has_en_sector": 3.085824,
       "activo": true,
-      "id": "505-E9S4"
+      "id": "505-E9S4",
+      "especie": "Olivo"
     },
     {
       "cc": 506,
@@ -1946,7 +2146,8 @@
       "has_total": 9.0216,
       "has_en_sector": 2.977128,
       "activo": true,
-      "id": "506-E9S3"
+      "id": "506-E9S3",
+      "especie": "Olivo"
     },
     {
       "cc": 506,
@@ -1960,7 +2161,8 @@
       "has_total": 9.0216,
       "has_en_sector": 6.044472,
       "activo": true,
-      "id": "506-E9S4"
+      "id": "506-E9S4",
+      "especie": "Olivo"
     },
     {
       "cc": 507,
@@ -1974,7 +2176,8 @@
       "has_total": 7.6224,
       "has_en_sector": 2.28672,
       "activo": true,
-      "id": "507-E9S2"
+      "id": "507-E9S2",
+      "especie": "Olivo"
     },
     {
       "cc": 507,
@@ -1988,7 +2191,8 @@
       "has_total": 7.6224,
       "has_en_sector": 5.33568,
       "activo": true,
-      "id": "507-E9S4"
+      "id": "507-E9S4",
+      "especie": "Olivo"
     },
     {
       "cc": 508,
@@ -2002,7 +2206,8 @@
       "has_total": 2.3396979999999994,
       "has_en_sector": 2.3396979999999994,
       "activo": true,
-      "id": "508-E11S5"
+      "id": "508-E11S5",
+      "especie": "Olivo"
     },
     {
       "cc": 509,
@@ -2016,7 +2221,8 @@
       "has_total": 3.252458,
       "has_en_sector": 3.252458,
       "activo": true,
-      "id": "509-E11S5"
+      "id": "509-E11S5",
+      "especie": "Olivo"
     },
     {
       "cc": 510,
@@ -2030,7 +2236,8 @@
       "has_total": 0.8966099999999999,
       "has_en_sector": 0.8966099999999999,
       "activo": true,
-      "id": "510-E11S5"
+      "id": "510-E11S5",
+      "especie": "Olivo"
     },
     {
       "cc": 511,
@@ -2044,7 +2251,8 @@
       "has_total": 3.5362419999999997,
       "has_en_sector": 3.5362419999999997,
       "activo": true,
-      "id": "511-E11S5"
+      "id": "511-E11S5",
+      "especie": "Olivo"
     },
     {
       "cc": 512,
@@ -2058,7 +2266,8 @@
       "has_total": 2.9921199999999994,
       "has_en_sector": 2.9921199999999994,
       "activo": true,
-      "id": "512-E11S2"
+      "id": "512-E11S2",
+      "especie": "Olivo"
     },
     {
       "cc": 513,
@@ -2072,7 +2281,8 @@
       "has_total": 2.1845819999999994,
       "has_en_sector": 2.1845819999999994,
       "activo": true,
-      "id": "513-E11S2"
+      "id": "513-E11S2",
+      "especie": "Olivo"
     },
     {
       "cc": 514,
@@ -2086,7 +2296,8 @@
       "has_total": 7.096044,
       "has_en_sector": 7.096044,
       "activo": true,
-      "id": "514-E11S4"
+      "id": "514-E11S4",
+      "especie": "Olivo"
     },
     {
       "cc": 515,
@@ -2100,7 +2311,8 @@
       "has_total": 7.975059999999999,
       "has_en_sector": 5.104038399999999,
       "activo": true,
-      "id": "515-E11S4"
+      "id": "515-E11S4",
+      "especie": "Olivo"
     },
     {
       "cc": 515,
@@ -2114,7 +2326,8 @@
       "has_total": 7.975059999999999,
       "has_en_sector": 2.8710215999999997,
       "activo": true,
-      "id": "515-E11S5"
+      "id": "515-E11S5",
+      "especie": "Olivo"
     },
     {
       "cc": 516,
@@ -2128,7 +2341,8 @@
       "has_total": 9.610997999999999,
       "has_en_sector": 9.610997999999999,
       "activo": true,
-      "id": "516-E11S3"
+      "id": "516-E11S3",
+      "especie": "Olivo"
     },
     {
       "cc": 517,
@@ -2142,7 +2356,8 @@
       "has_total": 9.715877999999998,
       "has_en_sector": 2.5261282799999996,
       "activo": true,
-      "id": "517-E11S3"
+      "id": "517-E11S3",
+      "especie": "Olivo"
     },
     {
       "cc": 517,
@@ -2156,7 +2371,8 @@
       "has_total": 9.715877999999998,
       "has_en_sector": 7.189749719999998,
       "activo": true,
-      "id": "517-E11S1"
+      "id": "517-E11S1",
+      "especie": "Olivo"
     },
     {
       "cc": 518,
@@ -2170,7 +2386,8 @@
       "has_total": 6.698069999999999,
       "has_en_sector": 6.698069999999999,
       "activo": true,
-      "id": "518-E11S2"
+      "id": "518-E11S2",
+      "especie": "Olivo"
     },
     {
       "cc": 519,
@@ -2184,7 +2401,8 @@
       "has_total": 10.963417999999999,
       "has_en_sector": 6.249148259999999,
       "activo": true,
-      "id": "519-E11S1"
+      "id": "519-E11S1",
+      "especie": "Olivo"
     },
     {
       "cc": 519,
@@ -2198,7 +2416,8 @@
       "has_total": 10.963417999999999,
       "has_en_sector": 4.71426974,
       "activo": true,
-      "id": "519-E10S4"
+      "id": "519-E10S4",
+      "especie": "Olivo"
     },
     {
       "cc": 520,
@@ -2212,7 +2431,8 @@
       "has_total": 9.315433999999998,
       "has_en_sector": 9.315433999999998,
       "activo": true,
-      "id": "520-E10S3"
+      "id": "520-E10S3",
+      "especie": "Olivo"
     },
     {
       "cc": 521,
@@ -2226,7 +2446,8 @@
       "has_total": 3.25,
       "has_en_sector": 3.25,
       "activo": true,
-      "id": "521-E10S2"
+      "id": "521-E10S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 522,
@@ -2240,7 +2461,8 @@
       "has_total": 4.59,
       "has_en_sector": 4.59,
       "activo": true,
-      "id": "522-E10S3"
+      "id": "522-E10S3",
+      "especie": "Olivo"
     },
     {
       "cc": 523,
@@ -2254,7 +2476,8 @@
       "has_total": 1.4229859999999999,
       "has_en_sector": 1.4229859999999999,
       "activo": true,
-      "id": "523-E10S4"
+      "id": "523-E10S4",
+      "especie": "Olivo"
     },
     {
       "cc": 524,
@@ -2268,7 +2491,8 @@
       "has_total": 6.045686,
       "has_en_sector": 6.045686,
       "activo": false,
-      "id": "524-E10S5"
+      "id": "524-E10S5",
+      "especie": "Olivo"
     },
     {
       "cc": 525,
@@ -2282,7 +2506,8 @@
       "has_total": 2.0607399999999996,
       "has_en_sector": 2.0607399999999996,
       "activo": false,
-      "id": "525-E10S5"
+      "id": "525-E10S5",
+      "especie": "Olivo"
     },
     {
       "cc": 526,
@@ -2296,7 +2521,8 @@
       "has_total": 1.257952,
       "has_en_sector": 1.257952,
       "activo": false,
-      "id": "526-E10S5"
+      "id": "526-E10S5",
+      "especie": "Olivo"
     },
     {
       "cc": 527,
@@ -2310,7 +2536,8 @@
       "has_total": 4.223547999999999,
       "has_en_sector": 4.223547999999999,
       "activo": true,
-      "id": "527-E10S4"
+      "id": "527-E10S4",
+      "especie": "Olivo"
     },
     {
       "cc": 528,
@@ -2324,7 +2551,8 @@
       "has_total": 2.461982,
       "has_en_sector": 2.461982,
       "activo": true,
-      "id": "528-E10S4"
+      "id": "528-E10S4",
+      "especie": "Olivo"
     },
     {
       "cc": 529,
@@ -2338,7 +2566,8 @@
       "has_total": 2.7672739999999996,
       "has_en_sector": 2.7672739999999996,
       "activo": false,
-      "id": "529-E10S5"
+      "id": "529-E10S5",
+      "especie": "Olivo"
     },
     {
       "cc": 530,
@@ -2352,7 +2581,8 @@
       "has_total": 3.76,
       "has_en_sector": 3.76,
       "activo": true,
-      "id": "530-E10S2"
+      "id": "530-E10S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 531,
@@ -2366,7 +2596,8 @@
       "has_total": 6.2,
       "has_en_sector": 6.2,
       "activo": true,
-      "id": "531-E10S6"
+      "id": "531-E10S6",
+      "especie": "Cerezo"
     },
     {
       "cc": 532,
@@ -2380,7 +2611,8 @@
       "has_total": 2.2749459999999995,
       "has_en_sector": 2.2749459999999995,
       "activo": true,
-      "id": "532-E10S1"
+      "id": "532-E10S1",
+      "especie": "Olivo"
     },
     {
       "cc": 533,
@@ -2394,7 +2626,8 @@
       "has_total": 2.4855039999999997,
       "has_en_sector": 2.4855039999999997,
       "activo": true,
-      "id": "533-E10S1"
+      "id": "533-E10S1",
+      "especie": "Olivo"
     },
     {
       "cc": 534,
@@ -2408,7 +2641,8 @@
       "has_total": 2.138716,
       "has_en_sector": 2.138716,
       "activo": true,
-      "id": "534-E10S1"
+      "id": "534-E10S1",
+      "especie": "Olivo"
     },
     {
       "cc": 535,
@@ -2422,7 +2656,8 @@
       "has_total": 2.4327979999999996,
       "has_en_sector": 2.4327979999999996,
       "activo": true,
-      "id": "535-E10S1"
+      "id": "535-E10S1",
+      "especie": "Olivo"
     },
     {
       "cc": 536,
@@ -2436,7 +2671,8 @@
       "has_total": 1.327644,
       "has_en_sector": 1.327644,
       "activo": true,
-      "id": "536-E10S1"
+      "id": "536-E10S1",
+      "especie": "Olivo"
     },
     {
       "cc": 537,
@@ -2450,7 +2686,8 @@
       "has_total": 0.35556599999999994,
       "has_en_sector": 0.35556599999999994,
       "activo": true,
-      "id": "537-E10S1"
+      "id": "537-E10S1",
+      "especie": "Olivo"
     },
     {
       "cc": 539,
@@ -2464,7 +2701,8 @@
       "has_total": 6.01,
       "has_en_sector": 6.01,
       "activo": true,
-      "id": "539-E12S6"
+      "id": "539-E12S6",
+      "especie": "Cerezo"
     },
     {
       "cc": 540,
@@ -2478,7 +2716,8 @@
       "has_total": 2.45,
       "has_en_sector": 2.45,
       "activo": true,
-      "id": "540-E12S6"
+      "id": "540-E12S6",
+      "especie": "Cerezo"
     },
     {
       "cc": 541,
@@ -2492,7 +2731,8 @@
       "has_total": 6.15,
       "has_en_sector": 6.15,
       "activo": true,
-      "id": "541-E12S7"
+      "id": "541-E12S7",
+      "especie": "Cerezo"
     },
     {
       "cc": 542,
@@ -2506,7 +2746,8 @@
       "has_total": 8.64,
       "has_en_sector": 8.64,
       "activo": true,
-      "id": "542-E12S1"
+      "id": "542-E12S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 543,
@@ -2520,7 +2761,8 @@
       "has_total": 4.84,
       "has_en_sector": 4.84,
       "activo": true,
-      "id": "543-E12S3"
+      "id": "543-E12S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 544,
@@ -2534,7 +2776,8 @@
       "has_total": 15.93,
       "has_en_sector": 10.46601,
       "activo": true,
-      "id": "544-E12S2"
+      "id": "544-E12S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 544,
@@ -2548,7 +2791,8 @@
       "has_total": 15.93,
       "has_en_sector": 5.46399,
       "activo": true,
-      "id": "544-E12S3"
+      "id": "544-E12S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 589,
@@ -2562,7 +2806,8 @@
       "has_total": 6.6,
       "has_en_sector": 6.6,
       "activo": true,
-      "id": "589-E12S8"
+      "id": "589-E12S8",
+      "especie": "Cerezo"
     },
     {
       "cc": 590,
@@ -2576,7 +2821,8 @@
       "has_total": 1.77,
       "has_en_sector": 1.77,
       "activo": true,
-      "id": "590-E12S8"
+      "id": "590-E12S8",
+      "especie": "Cerezo"
     },
     {
       "cc": 591,
@@ -2590,7 +2836,8 @@
       "has_total": 3.9535199999999997,
       "has_en_sector": 3.9535199999999997,
       "activo": true,
-      "id": "591-E12S5"
+      "id": "591-E12S5",
+      "especie": "Olivo"
     },
     {
       "cc": 592,
@@ -2604,7 +2851,8 @@
       "has_total": 4.70383,
       "has_en_sector": 4.70383,
       "activo": true,
-      "id": "592-E12S5"
+      "id": "592-E12S5",
+      "especie": "Olivo"
     },
     {
       "cc": 597,
@@ -2618,7 +2866,8 @@
       "has_total": 8.535635999999998,
       "has_en_sector": 8.535635999999998,
       "activo": true,
-      "id": "597-E12S5"
+      "id": "597-E12S5",
+      "especie": "Olivo"
     },
     {
       "cc": 634,
@@ -2632,7 +2881,8 @@
       "has_total": 8.08626,
       "has_en_sector": 8.08626,
       "activo": true,
-      "id": "634-E17S1"
+      "id": "634-E17S1",
+      "especie": "Olivo"
     },
     {
       "cc": 635,
@@ -2646,7 +2896,8 @@
       "has_total": 2.17021,
       "has_en_sector": 2.17021,
       "activo": true,
-      "id": "635-E17S1"
+      "id": "635-E17S1",
+      "especie": "Olivo"
     },
     {
       "cc": 636,
@@ -2660,7 +2911,8 @@
       "has_total": 2.087645,
       "has_en_sector": 2.087645,
       "activo": true,
-      "id": "636-E17S2"
+      "id": "636-E17S2",
+      "especie": "Olivo"
     },
     {
       "cc": 637,
@@ -2674,7 +2926,8 @@
       "has_total": 9.61425,
       "has_en_sector": 1.53828,
       "activo": true,
-      "id": "637-E21S3"
+      "id": "637-E21S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 637,
@@ -2688,7 +2941,8 @@
       "has_total": 9.61425,
       "has_en_sector": 8.07597,
       "activo": true,
-      "id": "637-E21S4"
+      "id": "637-E21S4",
+      "especie": "Cerezo"
     },
     {
       "cc": 638,
@@ -2702,7 +2956,8 @@
       "has_total": 5.453037999999999,
       "has_en_sector": 5.453037999999999,
       "activo": true,
-      "id": "638-E17S5"
+      "id": "638-E17S5",
+      "especie": "Olivo"
     },
     {
       "cc": 639,
@@ -2716,7 +2971,8 @@
       "has_total": 2.0390420000000002,
       "has_en_sector": 2.0390420000000002,
       "activo": true,
-      "id": "639-E17S5"
+      "id": "639-E17S5",
+      "especie": "Olivo"
     },
     {
       "cc": 640,
@@ -2730,7 +2986,8 @@
       "has_total": 5.2704,
       "has_en_sector": 5.2704,
       "activo": true,
-      "id": "640-E18S3"
+      "id": "640-E18S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 641,
@@ -2744,7 +3001,8 @@
       "has_total": 4.4238599999999995,
       "has_en_sector": 4.4238599999999995,
       "activo": true,
-      "id": "641-E17S2"
+      "id": "641-E17S2",
+      "especie": "Olivo"
     },
     {
       "cc": 642,
@@ -2758,7 +3016,8 @@
       "has_total": 3.232635,
       "has_en_sector": 3.232635,
       "activo": true,
-      "id": "642-E19S4"
+      "id": "642-E19S4",
+      "especie": "Olivo"
     },
     {
       "cc": 643,
@@ -2772,7 +3031,8 @@
       "has_total": 3.2260549999999997,
       "has_en_sector": 3.2260549999999997,
       "activo": true,
-      "id": "643-E19S4"
+      "id": "643-E19S4",
+      "especie": "Olivo"
     },
     {
       "cc": 644,
@@ -2786,7 +3046,8 @@
       "has_total": 4.122,
       "has_en_sector": 4.122,
       "activo": true,
-      "id": "644-E17S4"
+      "id": "644-E17S4",
+      "especie": "Cerezo"
     },
     {
       "cc": 645,
@@ -2800,7 +3061,8 @@
       "has_total": 7.57575,
       "has_en_sector": 5.909085,
       "activo": true,
-      "id": "645-E17S3"
+      "id": "645-E17S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 645,
@@ -2814,7 +3076,8 @@
       "has_total": 7.57575,
       "has_en_sector": 1.666665,
       "activo": true,
-      "id": "645-E17S4"
+      "id": "645-E17S4",
+      "especie": "Cerezo"
     },
     {
       "cc": 646,
@@ -2828,7 +3091,8 @@
       "has_total": 4.842,
       "has_en_sector": 1.54944,
       "activo": true,
-      "id": "646-E21S1"
+      "id": "646-E21S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 646,
@@ -2842,7 +3106,8 @@
       "has_total": 4.842,
       "has_en_sector": 3.29256,
       "activo": true,
-      "id": "646-E21S3"
+      "id": "646-E21S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 647,
@@ -2856,7 +3121,8 @@
       "has_total": 3.66525,
       "has_en_sector": 3.66525,
       "activo": true,
-      "id": "647-E21S1"
+      "id": "647-E21S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 648,
@@ -2870,7 +3136,8 @@
       "has_total": 6.262875,
       "has_en_sector": 6.262875,
       "activo": true,
-      "id": "648-E18S2"
+      "id": "648-E18S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 649,
@@ -2884,7 +3151,8 @@
       "has_total": 6.4592,
       "has_en_sector": 6.4592,
       "activo": true,
-      "id": "649-E18S1"
+      "id": "649-E18S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 650,
@@ -2898,7 +3166,8 @@
       "has_total": 5.639625,
       "has_en_sector": 3.10179375,
       "activo": true,
-      "id": "650-E20S3"
+      "id": "650-E20S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 650,
@@ -2912,7 +3181,8 @@
       "has_total": 5.639625,
       "has_en_sector": 2.53783125,
       "activo": true,
-      "id": "650-E20S4"
+      "id": "650-E20S4",
+      "especie": "Cerezo"
     },
     {
       "cc": 651,
@@ -2926,7 +3196,8 @@
       "has_total": 4.527,
       "has_en_sector": 1.99188,
       "activo": true,
-      "id": "651-E20S2"
+      "id": "651-E20S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 651,
@@ -2940,7 +3211,8 @@
       "has_total": 4.527,
       "has_en_sector": 2.5351200000000005,
       "activo": true,
-      "id": "651-E20S4"
+      "id": "651-E20S4",
+      "especie": "Cerezo"
     },
     {
       "cc": 652,
@@ -2954,7 +3226,8 @@
       "has_total": 3.4464,
       "has_en_sector": 3.4464,
       "activo": true,
-      "id": "652-E18S4"
+      "id": "652-E18S4",
+      "especie": "Cerezo"
     },
     {
       "cc": 653,
@@ -2968,7 +3241,8 @@
       "has_total": 2.3016,
       "has_en_sector": 2.3016,
       "activo": true,
-      "id": "653-E18S4"
+      "id": "653-E18S4",
+      "especie": "Cerezo"
     },
     {
       "cc": 654,
@@ -2982,7 +3256,8 @@
       "has_total": 2.619,
       "has_en_sector": 2.619,
       "activo": true,
-      "id": "654-E20S1"
+      "id": "654-E20S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 655,
@@ -2996,7 +3271,8 @@
       "has_total": 4.352625,
       "has_en_sector": 4.352625,
       "activo": true,
-      "id": "655-E20S1"
+      "id": "655-E20S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 656,
@@ -3010,7 +3286,8 @@
       "has_total": 3.724875,
       "has_en_sector": 3.724875,
       "activo": true,
-      "id": "656-E20S2"
+      "id": "656-E20S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 657,
@@ -3024,7 +3301,8 @@
       "has_total": 3.931875,
       "has_en_sector": 3.931875,
       "activo": true,
-      "id": "657-E20S3"
+      "id": "657-E20S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 658,
@@ -3038,7 +3316,8 @@
       "has_total": 3.0088,
       "has_en_sector": 3.0088,
       "activo": true,
-      "id": "658-E18S5"
+      "id": "658-E18S5",
+      "especie": "Cerezo"
     },
     {
       "cc": 659,
@@ -3052,7 +3331,8 @@
       "has_total": 0.331875,
       "has_en_sector": 0.331875,
       "activo": true,
-      "id": "659-E21S2"
+      "id": "659-E21S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 660,
@@ -3066,7 +3346,8 @@
       "has_total": 2.664,
       "has_en_sector": 2.664,
       "activo": true,
-      "id": "660-E21S1"
+      "id": "660-E21S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 661,
@@ -3080,7 +3361,8 @@
       "has_total": 3.506625,
       "has_en_sector": 3.506625,
       "activo": true,
-      "id": "661-E21S2"
+      "id": "661-E21S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 662,
@@ -3094,7 +3376,8 @@
       "has_total": 4.05675,
       "has_en_sector": 4.05675,
       "activo": true,
-      "id": "662-E21S2"
+      "id": "662-E21S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 663,
@@ -3108,7 +3391,8 @@
       "has_total": 5.593979999999999,
       "has_en_sector": 5.593979999999999,
       "activo": true,
-      "id": "663-E19S1"
+      "id": "663-E19S1",
+      "especie": "Olivo"
     },
     {
       "cc": 664,
@@ -3122,7 +3406,8 @@
       "has_total": 6.961181999999999,
       "has_en_sector": 6.961181999999999,
       "activo": true,
-      "id": "664-E19S1"
+      "id": "664-E19S1",
+      "especie": "Olivo"
     },
     {
       "cc": 665,
@@ -3136,7 +3421,8 @@
       "has_total": 5.620959999999999,
       "has_en_sector": 5.620959999999999,
       "activo": true,
-      "id": "665-E19S1"
+      "id": "665-E19S1",
+      "especie": "Olivo"
     },
     {
       "cc": 666,
@@ -3150,7 +3436,8 @@
       "has_total": 1.2382299999999997,
       "has_en_sector": 1.2382299999999997,
       "activo": true,
-      "id": "666-E19S1"
+      "id": "666-E19S1",
+      "especie": "Olivo"
     },
     {
       "cc": 667,
@@ -3164,7 +3451,8 @@
       "has_total": 5.62,
       "has_en_sector": 5.62,
       "activo": true,
-      "id": "667-E19S2"
+      "id": "667-E19S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 668,
@@ -3178,7 +3466,8 @@
       "has_total": 11.99,
       "has_en_sector": 3.16536,
       "activo": true,
-      "id": "668-E19S2"
+      "id": "668-E19S2",
+      "especie": "Cerezo"
     },
     {
       "cc": 668,
@@ -3192,7 +3481,8 @@
       "has_total": 11.99,
       "has_en_sector": 8.82464,
       "activo": true,
-      "id": "668-E19S6"
+      "id": "668-E19S6",
+      "especie": "Cerezo"
     },
     {
       "cc": 669,
@@ -3206,7 +3496,8 @@
       "has_total": 1.74,
       "has_en_sector": 1.74,
       "activo": true,
-      "id": "669-E12S7"
+      "id": "669-E12S7",
+      "especie": "Cerezo"
     },
     {
       "cc": 670,
@@ -3220,7 +3511,8 @@
       "has_total": 3.4295799999999996,
       "has_en_sector": 3.4295799999999996,
       "activo": true,
-      "id": "670-E19S5"
+      "id": "670-E19S5",
+      "especie": "Olivo"
     },
     {
       "cc": 671,
@@ -3234,7 +3526,8 @@
       "has_total": 5.110011999999999,
       "has_en_sector": 5.110011999999999,
       "activo": true,
-      "id": "671-E19S3"
+      "id": "671-E19S3",
+      "especie": "Olivo"
     },
     {
       "cc": 672,
@@ -3248,7 +3541,8 @@
       "has_total": 3.0937199999999994,
       "has_en_sector": 3.0937199999999994,
       "activo": true,
-      "id": "672-E19S5"
+      "id": "672-E19S5",
+      "especie": "Olivo"
     },
     {
       "cc": 673,
@@ -3262,7 +3556,8 @@
       "has_total": 6.892364,
       "has_en_sector": 6.892364,
       "activo": true,
-      "id": "673-E19S3"
+      "id": "673-E19S3",
+      "especie": "Olivo"
     },
     {
       "cc": 674,
@@ -3276,7 +3571,8 @@
       "has_total": 7.719129999999999,
       "has_en_sector": 7.719129999999999,
       "activo": true,
-      "id": "674-E19S3"
+      "id": "674-E19S3",
+      "especie": "Olivo"
     },
     {
       "cc": 675,
@@ -3290,7 +3586,8 @@
       "has_total": 6.66141,
       "has_en_sector": 6.66141,
       "activo": true,
-      "id": "675-E19S5"
+      "id": "675-E19S5",
+      "especie": "Olivo"
     },
     {
       "cc": 676,
@@ -3304,7 +3601,8 @@
       "has_total": 9.364180000000001,
       "has_en_sector": 9.364180000000001,
       "activo": true,
-      "id": "676-E19S4"
+      "id": "676-E19S4",
+      "especie": "Olivo"
     },
     {
       "cc": 677,
@@ -3318,7 +3616,8 @@
       "has_total": 3.50371,
       "has_en_sector": 3.50371,
       "activo": true,
-      "id": "677-E19S5"
+      "id": "677-E19S5",
+      "especie": "Olivo"
     },
     {
       "cc": 678,
@@ -3332,7 +3631,8 @@
       "has_total": 1.70681,
       "has_en_sector": 1.70681,
       "activo": true,
-      "id": "678-E19S4"
+      "id": "678-E19S4",
+      "especie": "Olivo"
     },
     {
       "cc": 679,
@@ -3346,7 +3646,8 @@
       "has_total": 2.720025,
       "has_en_sector": 2.720025,
       "activo": true,
-      "id": "679-E19S4"
+      "id": "679-E19S4",
+      "especie": "Olivo"
     },
     {
       "cc": 680,
@@ -3360,7 +3661,8 @@
       "has_total": 2.40478,
       "has_en_sector": 2.40478,
       "activo": true,
-      "id": "680-E19S5"
+      "id": "680-E19S5",
+      "especie": "Olivo"
     },
     {
       "cc": 681,
@@ -3374,7 +3676,8 @@
       "has_total": 0.44645999999999997,
       "has_en_sector": 0.44645999999999997,
       "activo": true,
-      "id": "681-E19S5"
+      "id": "681-E19S5",
+      "especie": "Olivo"
     },
     {
       "cc": 682,
@@ -3388,11 +3691,12 @@
       "has_total": 3.32775,
       "has_en_sector": 3.32775,
       "activo": true,
-      "id": "682-E21S3"
+      "id": "682-E21S3",
+      "especie": "Cerezo"
     },
     {
       "cc": 598,
-      "variedad": "Avellano",
+      "variedad": "Giffoni",
       "dh": 3.8,
       "dp": 1.5,
       "anio": 2009,
@@ -3402,11 +3706,12 @@
       "has_total": 4.57,
       "has_en_sector": 4.57,
       "activo": true,
-      "id": "598-E13S1"
+      "id": "598-E13S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 599,
-      "variedad": "Avellano",
+      "variedad": "Giffoni",
       "dh": 3.8,
       "dp": 1.5,
       "anio": 2009,
@@ -3416,11 +3721,12 @@
       "has_total": 3.14,
       "has_en_sector": 3.14,
       "activo": true,
-      "id": "599-E13S1"
+      "id": "599-E13S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 610,
-      "variedad": "Avellano",
+      "variedad": "Giffoni",
       "dh": 3.8,
       "dp": 1.5,
       "anio": 2010,
@@ -3430,7 +3736,8 @@
       "has_total": 1.932718,
       "has_en_sector": 0.4349,
       "activo": true,
-      "id": "610-E13S1"
+      "id": "610-E13S1",
+      "especie": "Cerezo"
     },
     {
       "cc": 612,
@@ -3444,7 +3751,8 @@
       "has_total": 2.4263759999999994,
       "has_en_sector": 2.426376,
       "activo": true,
-      "id": "612-E13S2"
+      "id": "612-E13S2",
+      "especie": "Olivo"
     },
     {
       "cc": 613,
@@ -3458,7 +3766,8 @@
       "has_total": 6.467524,
       "has_en_sector": 6.467524,
       "activo": true,
-      "id": "613-E13S2"
+      "id": "613-E13S2",
+      "especie": "Olivo"
     },
     {
       "cc": 621,
@@ -3472,7 +3781,8 @@
       "has_total": 7.242039999999999,
       "has_en_sector": 3.4762,
       "activo": true,
-      "id": "621-E13S2"
+      "id": "621-E13S2",
+      "especie": "Olivo"
     },
     {
       "cc": 622,
@@ -3486,7 +3796,8 @@
       "has_total": 3.4303739999999996,
       "has_en_sector": 3.430374,
       "activo": true,
-      "id": "622-E13S2"
+      "id": "622-E13S2",
+      "especie": "Olivo"
     },
     {
       "cc": 620,
@@ -3500,7 +3811,8 @@
       "has_total": 8.844766,
       "has_en_sector": 8.844766,
       "activo": true,
-      "id": "620-E13S3"
+      "id": "620-E13S3",
+      "especie": "Olivo"
     },
     {
       "cc": 621,
@@ -3514,7 +3826,8 @@
       "has_total": 7.242039999999999,
       "has_en_sector": 3.7659,
       "activo": true,
-      "id": "621-E13S3"
+      "id": "621-E13S3",
+      "especie": "Olivo"
     },
     {
       "cc": 558,
@@ -3528,7 +3841,8 @@
       "has_total": 0.16529999999999997,
       "has_en_sector": 0.1653,
       "activo": true,
-      "id": "558-E13S4"
+      "id": "558-E13S4",
+      "especie": "Olivo"
     },
     {
       "cc": 559,
@@ -3542,7 +3856,8 @@
       "has_total": 0.6953999999999999,
       "has_en_sector": 0.6954,
       "activo": true,
-      "id": "559-E13S4"
+      "id": "559-E13S4",
+      "especie": "Olivo"
     },
     {
       "cc": 561,
@@ -3556,7 +3871,8 @@
       "has_total": 1.0169179999999998,
       "has_en_sector": 1.016918,
       "activo": true,
-      "id": "561-E13S4"
+      "id": "561-E13S4",
+      "especie": "Olivo"
     },
     {
       "cc": 562,
@@ -3570,7 +3886,8 @@
       "has_total": 2.33833,
       "has_en_sector": 2.33833,
       "activo": true,
-      "id": "562-E13S4"
+      "id": "562-E13S4",
+      "especie": "Olivo"
     },
     {
       "cc": 563,
@@ -3584,7 +3901,8 @@
       "has_total": 0.8382799999999999,
       "has_en_sector": 0.83828,
       "activo": true,
-      "id": "563-E13S4"
+      "id": "563-E13S4",
+      "especie": "Olivo"
     },
     {
       "cc": 564,
@@ -3598,7 +3916,8 @@
       "has_total": 2.4152799999999996,
       "has_en_sector": 2.41528,
       "activo": true,
-      "id": "564-E13S4"
+      "id": "564-E13S4",
+      "especie": "Olivo"
     },
     {
       "cc": 565,
@@ -3612,7 +3931,8 @@
       "has_total": 2.6508419999999995,
       "has_en_sector": 2.650842,
       "activo": true,
-      "id": "565-E13S4"
+      "id": "565-E13S4",
+      "especie": "Olivo"
     },
     {
       "cc": 627,
@@ -3626,7 +3946,8 @@
       "has_total": 3.4558339999999994,
       "has_en_sector": 3.455834,
       "activo": true,
-      "id": "627-E13S4"
+      "id": "627-E13S4",
+      "especie": "Olivo"
     },
     {
       "cc": 618,
@@ -3640,7 +3961,8 @@
       "has_total": 5.171761999999999,
       "has_en_sector": 5.171762,
       "activo": true,
-      "id": "618-E13S5"
+      "id": "618-E13S5",
+      "especie": "Olivo"
     },
     {
       "cc": 619,
@@ -3654,11 +3976,12 @@
       "has_total": 7.928243999999999,
       "has_en_sector": 7.928244,
       "activo": true,
-      "id": "619-E13S5"
+      "id": "619-E13S5",
+      "especie": "Olivo"
     },
     {
       "cc": 611,
-      "variedad": "Avellano",
+      "variedad": "Giffoni",
       "dh": 3.8,
       "dp": 1.5,
       "anio": 2009,
@@ -3668,11 +3991,12 @@
       "has_total": 4.573186,
       "has_en_sector": 4.573186,
       "activo": true,
-      "id": "611-E13S6"
+      "id": "611-E13S6",
+      "especie": "Cerezo"
     },
     {
       "cc": 610,
-      "variedad": "Avellano",
+      "variedad": "Giffoni",
       "dh": 3.8,
       "dp": 1.5,
       "anio": 2010,
@@ -3682,7 +4006,8 @@
       "has_total": 1.932718,
       "has_en_sector": 1.4979,
       "activo": true,
-      "id": "610-E13S6"
+      "id": "610-E13S6",
+      "especie": "Cerezo"
     },
     {
       "id": "1",
@@ -3696,7 +4021,8 @@
       "pct": 1.0,
       "has_total": 8.947974,
       "has_en_sector": 8.947974,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "2",
@@ -3710,7 +4036,8 @@
       "pct": 0.55,
       "has_total": 5.234424,
       "has_en_sector": 2.878933,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "3",
@@ -3724,7 +4051,8 @@
       "pct": 0.45,
       "has_total": 5.234424,
       "has_en_sector": 2.355491,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "4",
@@ -3738,7 +4066,8 @@
       "pct": 0.57,
       "has_total": 8.221566,
       "has_en_sector": 4.686293,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "5",
@@ -3752,7 +4081,8 @@
       "pct": 0.5,
       "has_total": 7.449102,
       "has_en_sector": 3.724551,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "6",
@@ -3766,7 +4096,8 @@
       "pct": 1.0,
       "has_total": 3.7444049999999995,
       "has_en_sector": 3.744405,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "7",
@@ -3780,7 +4111,8 @@
       "pct": 1.0,
       "has_total": 3.5501199999999997,
       "has_en_sector": 3.55012,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "8",
@@ -3794,7 +4126,8 @@
       "pct": 1.0,
       "has_total": 3.306555,
       "has_en_sector": 3.306555,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "9",
@@ -3808,7 +4141,8 @@
       "pct": 0.51,
       "has_total": 5.937225,
       "has_en_sector": 3.027985,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "10",
@@ -3822,7 +4156,8 @@
       "pct": 0.5,
       "has_total": 5.937225,
       "has_en_sector": 2.968612,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "11",
@@ -3836,7 +4171,8 @@
       "pct": 1.0,
       "has_total": 2.03238,
       "has_en_sector": 2.03238,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "12",
@@ -3850,7 +4186,8 @@
       "pct": 1.0,
       "has_total": 0.68936,
       "has_en_sector": 0.68936,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "13",
@@ -3864,7 +4201,8 @@
       "pct": 1.0,
       "has_total": 6.262969999999999,
       "has_en_sector": 6.26297,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "14",
@@ -3878,7 +4216,8 @@
       "pct": 1.0,
       "has_total": 1.736805,
       "has_en_sector": 1.736805,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "15",
@@ -3892,7 +4231,8 @@
       "pct": 0.43,
       "has_total": 8.221566,
       "has_en_sector": 3.535273,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "16",
@@ -3906,7 +4246,8 @@
       "pct": 0.5,
       "has_total": 7.449102,
       "has_en_sector": 3.724551,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "17",
@@ -3920,7 +4261,8 @@
       "pct": 1.0,
       "has_total": 4.659750000000001,
       "has_en_sector": 4.65975,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "18",
@@ -3934,7 +4276,8 @@
       "pct": 1.0,
       "has_total": 2.4050249999999997,
       "has_en_sector": 2.405025,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "19",
@@ -3948,7 +4291,8 @@
       "pct": 1.0,
       "has_total": 2.208675,
       "has_en_sector": 2.208675,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "20",
@@ -3962,7 +4306,8 @@
       "pct": 1.0,
       "has_total": 1.8102,
       "has_en_sector": 1.8102,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "21",
@@ -3976,7 +4321,8 @@
       "pct": 1.0,
       "has_total": 2.78355,
       "has_en_sector": 2.78355,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "22",
@@ -3990,7 +4336,8 @@
       "pct": 1.0,
       "has_total": 3.1961999999999997,
       "has_en_sector": 3.1962,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "23",
@@ -4004,7 +4351,8 @@
       "pct": 1.0,
       "has_total": 4.221525,
       "has_en_sector": 4.221525,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "24",
@@ -4018,7 +4366,8 @@
       "pct": 1.0,
       "has_total": 1.79865,
       "has_en_sector": 1.79865,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "25",
@@ -4032,7 +4381,8 @@
       "pct": 1.0,
       "has_total": 4.991148,
       "has_en_sector": 4.991148,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "26",
@@ -4046,7 +4396,8 @@
       "pct": 1.0,
       "has_total": 5.527556,
       "has_en_sector": 5.527556,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "27",
@@ -4060,7 +4411,8 @@
       "pct": 1.0,
       "has_total": 6.966767999999999,
       "has_en_sector": 6.966768,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "28",
@@ -4074,7 +4426,8 @@
       "pct": 1.0,
       "has_total": 7.160948,
       "has_en_sector": 7.160948,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "29",
@@ -4088,7 +4441,8 @@
       "pct": 1.0,
       "has_total": 3.7775799999999995,
       "has_en_sector": 3.77758,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "30",
@@ -4102,7 +4456,8 @@
       "pct": 1.0,
       "has_total": 4.5313479999999995,
       "has_en_sector": 4.531348,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "31",
@@ -4116,7 +4471,8 @@
       "pct": 0.39,
       "has_total": 5.149304,
       "has_en_sector": 2.008229,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "32",
@@ -4130,7 +4486,8 @@
       "pct": 0.86,
       "has_total": 7.583356,
       "has_en_sector": 6.521686,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "33",
@@ -4144,7 +4501,8 @@
       "pct": 0.61,
       "has_total": 5.149304,
       "has_en_sector": 3.141075,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "34",
@@ -4158,7 +4516,8 @@
       "pct": 0.68,
       "has_total": 9.692432,
       "has_en_sector": 6.590854,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "35",
@@ -4172,7 +4531,8 @@
       "pct": 1.0,
       "has_total": 3.369156,
       "has_en_sector": 3.369156,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "36",
@@ -4186,7 +4546,8 @@
       "pct": 0.32,
       "has_total": 9.692432,
       "has_en_sector": 3.101578,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "37",
@@ -4200,7 +4561,8 @@
       "pct": 1.0,
       "has_total": 3.716096,
       "has_en_sector": 3.716096,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "38",
@@ -4214,7 +4576,8 @@
       "pct": 1.0,
       "has_total": 3.028372,
       "has_en_sector": 3.028372,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "39",
@@ -4228,7 +4591,8 @@
       "pct": 1.0,
       "has_total": 4.113044,
       "has_en_sector": 4.113044,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "40",
@@ -4242,7 +4606,8 @@
       "pct": 0.49,
       "has_total": 11.316666,
       "has_en_sector": 5.545166,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "41",
@@ -4256,7 +4621,8 @@
       "pct": 1.0,
       "has_total": 7.795547999999999,
       "has_en_sector": 7.795548,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "42",
@@ -4270,7 +4636,8 @@
       "pct": 0.51,
       "has_total": 8.273664,
       "has_en_sector": 4.219569,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "43",
@@ -4284,7 +4651,8 @@
       "pct": 0.51,
       "has_total": 11.316666,
       "has_en_sector": 5.7715,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "44",
@@ -4298,7 +4666,8 @@
       "pct": 0.49,
       "has_total": 8.273664,
       "has_en_sector": 4.054095,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "45",
@@ -4312,7 +4681,8 @@
       "pct": 1.0,
       "has_total": 7.826669999999999,
       "has_en_sector": 7.82667,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "46",
@@ -4326,7 +4696,8 @@
       "pct": 1.0,
       "has_total": 5.575512,
       "has_en_sector": 5.575512,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "47",
@@ -4340,7 +4711,8 @@
       "pct": 0.89,
       "has_total": 8.358936,
       "has_en_sector": 7.439453,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "48",
@@ -4354,7 +4726,8 @@
       "pct": 1.0,
       "has_total": 4.540962,
       "has_en_sector": 4.540962,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "49",
@@ -4368,7 +4741,8 @@
       "pct": 0.11,
       "has_total": 8.358936,
       "has_en_sector": 0.919483,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "50",
@@ -4382,7 +4756,8 @@
       "pct": 1.0,
       "has_total": 6.651216,
       "has_en_sector": 6.651216,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "51",
@@ -4396,7 +4771,8 @@
       "pct": 1.0,
       "has_total": 4.8879779999999995,
       "has_en_sector": 4.887978,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "52",
@@ -4410,7 +4786,8 @@
       "pct": 1.0,
       "has_total": 5.129429999999999,
       "has_en_sector": 5.12943,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "53",
@@ -4424,7 +4801,8 @@
       "pct": 1.0,
       "has_total": 1.02704,
       "has_en_sector": 1.02704,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "54",
@@ -4438,7 +4816,8 @@
       "pct": 1.0,
       "has_total": 2.067975,
       "has_en_sector": 2.067975,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "55",
@@ -4452,7 +4831,8 @@
       "pct": 1.0,
       "has_total": 2.09727,
       "has_en_sector": 2.09727,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "56",
@@ -4466,7 +4846,8 @@
       "pct": 1.0,
       "has_total": 3.901065,
       "has_en_sector": 3.901065,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "57",
@@ -4480,7 +4861,8 @@
       "pct": 1.0,
       "has_total": 3.4043099999999997,
       "has_en_sector": 3.40431,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "58",
@@ -4494,7 +4876,8 @@
       "pct": 1.0,
       "has_total": 1.78318,
       "has_en_sector": 1.78318,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "59",
@@ -4508,7 +4891,8 @@
       "pct": 1.0,
       "has_total": 1.6740849999999998,
       "has_en_sector": 1.674085,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "60",
@@ -4522,7 +4906,8 @@
       "pct": 1.0,
       "has_total": 1.092272,
       "has_en_sector": 1.092272,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "61",
@@ -4536,7 +4921,8 @@
       "pct": 1.0,
       "has_total": 0.47112399999999993,
       "has_en_sector": 0.471124,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "62",
@@ -4550,7 +4936,8 @@
       "pct": 0.36,
       "has_total": 3.321313999999999,
       "has_en_sector": 1.195673,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "63",
@@ -4564,7 +4951,8 @@
       "pct": 1.0,
       "has_total": 0.6489639999999999,
       "has_en_sector": 0.648964,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "64",
@@ -4578,7 +4966,8 @@
       "pct": 1.0,
       "has_total": 3.8263339999999992,
       "has_en_sector": 3.826334,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "65",
@@ -4592,7 +4981,8 @@
       "pct": 1.0,
       "has_total": 1.38225,
       "has_en_sector": 1.38225,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "66",
@@ -4606,7 +4996,8 @@
       "pct": 1.0,
       "has_total": 1.6051579999999999,
       "has_en_sector": 1.605158,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "67",
@@ -4620,7 +5011,8 @@
       "pct": 1.0,
       "has_total": 0.738188,
       "has_en_sector": 0.738188,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "68",
@@ -4634,7 +5026,8 @@
       "pct": 1.0,
       "has_total": 2.8993999999999995,
       "has_en_sector": 2.8994,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "69",
@@ -4648,7 +5041,8 @@
       "pct": 1.0,
       "has_total": 2.2337539999999994,
       "has_en_sector": 2.233754,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "70",
@@ -4662,7 +5056,8 @@
       "pct": 1.0,
       "has_total": 1.336042,
       "has_en_sector": 1.336042,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "71",
@@ -4676,7 +5071,8 @@
       "pct": 1.0,
       "has_total": 0.43939399999999995,
       "has_en_sector": 0.439394,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "72",
@@ -4690,7 +5086,8 @@
       "pct": 1.0,
       "has_total": 3.6650999999999994,
       "has_en_sector": 3.6651,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "73",
@@ -4704,7 +5101,8 @@
       "pct": 0.64,
       "has_total": 3.321313999999999,
       "has_en_sector": 2.125641,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "74",
@@ -4718,7 +5116,8 @@
       "pct": 1.0,
       "has_total": 0.6588439999999999,
       "has_en_sector": 0.658844,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "75",
@@ -4732,7 +5131,8 @@
       "pct": 1.0,
       "has_total": 5.443651999999999,
       "has_en_sector": 5.443652,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "76",
@@ -4746,7 +5146,8 @@
       "pct": 1.0,
       "has_total": 0.4336939999999999,
       "has_en_sector": 0.433694,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "77",
@@ -4760,7 +5161,8 @@
       "pct": 1.0,
       "has_total": 1.4918039999999997,
       "has_en_sector": 1.491804,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "78",
@@ -4774,7 +5176,8 @@
       "pct": 1.0,
       "has_total": 0.4370379999999999,
       "has_en_sector": 0.437038,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "79",
@@ -4788,7 +5191,8 @@
       "pct": 0.28,
       "has_total": 4.707059999999999,
       "has_en_sector": 1.317977,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "80",
@@ -4802,7 +5206,8 @@
       "pct": 1.0,
       "has_total": 5.345992,
       "has_en_sector": 5.345992,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "81",
@@ -4816,7 +5221,8 @@
       "pct": 1.0,
       "has_total": 4.6391539999999996,
       "has_en_sector": 4.639154,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "82",
@@ -4830,7 +5236,8 @@
       "pct": 1.0,
       "has_total": 1.374612,
       "has_en_sector": 1.374612,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "83",
@@ -4844,12 +5251,13 @@
       "pct": 1.0,
       "has_total": 2.7,
       "has_en_sector": 2.7,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "85",
       "cc": 631,
-      "variedad": "Cerezo",
+      "variedad": "",
       "dh": 3.8,
       "dp": 1.5,
       "anio": 2010,
@@ -4858,12 +5266,13 @@
       "pct": 1.0,
       "has_total": 1.201636,
       "has_en_sector": 1.201636,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "86",
       "cc": 632,
-      "variedad": "Cerezo",
+      "variedad": "",
       "dh": 3.8,
       "dp": 1.5,
       "anio": 2010,
@@ -4872,7 +5281,8 @@
       "pct": 1.0,
       "has_total": 3.670419999999999,
       "has_en_sector": 3.67042,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "87",
@@ -4886,7 +5296,8 @@
       "pct": 0.44,
       "has_total": 7.158021999999999,
       "has_en_sector": 3.14953,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "88",
@@ -4900,7 +5311,8 @@
       "pct": 0.42,
       "has_total": 3.8031919999999997,
       "has_en_sector": 1.597341,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "89",
@@ -4914,7 +5326,8 @@
       "pct": 0.72,
       "has_total": 4.707059999999999,
       "has_en_sector": 3.389083,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "90",
@@ -4928,7 +5341,8 @@
       "pct": 1.0,
       "has_total": 2.087986,
       "has_en_sector": 2.087986,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "91",
@@ -4942,7 +5356,8 @@
       "pct": 1.0,
       "has_total": 2.7742279999999995,
       "has_en_sector": 2.774228,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "92",
@@ -4956,7 +5371,8 @@
       "pct": 1.0,
       "has_total": 7.230411999999999,
       "has_en_sector": 7.230412,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "93",
@@ -4970,7 +5386,8 @@
       "pct": 0.56,
       "has_total": 7.158021999999999,
       "has_en_sector": 4.008492,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "94",
@@ -4984,7 +5401,8 @@
       "pct": 0.29,
       "has_total": 3.8031919999999997,
       "has_en_sector": 1.102926,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "95",
@@ -4998,7 +5416,8 @@
       "pct": 1.0,
       "has_total": 6.763543999999999,
       "has_en_sector": 6.763544,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "96",
@@ -5012,7 +5431,8 @@
       "pct": 1.0,
       "has_total": 2.79471,
       "has_en_sector": 2.79471,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "97",
@@ -5026,7 +5446,8 @@
       "pct": 1.0,
       "has_total": 1.418844,
       "has_en_sector": 1.418844,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "98",
@@ -5040,7 +5461,8 @@
       "pct": 0.29,
       "has_total": 3.8031919999999997,
       "has_en_sector": 1.102926,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "99",
@@ -5054,7 +5476,8 @@
       "pct": 1.0,
       "has_total": 5.263493999999999,
       "has_en_sector": 5.263494,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "100",
@@ -5068,7 +5491,8 @@
       "pct": 1.0,
       "has_total": 4.311024,
       "has_en_sector": 4.311024,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "101",
@@ -5082,7 +5506,8 @@
       "pct": 0.23,
       "has_total": 8.74247,
       "has_en_sector": 2.010768,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "102",
@@ -5096,7 +5521,8 @@
       "pct": 0.22,
       "has_total": 8.982439999999999,
       "has_en_sector": 1.976137,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "103",
@@ -5110,7 +5536,8 @@
       "pct": 1.0,
       "has_total": 6.011447999999999,
       "has_en_sector": 6.011448,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "104",
@@ -5124,7 +5551,8 @@
       "pct": 0.39,
       "has_total": 8.74247,
       "has_en_sector": 3.409563,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "105",
@@ -5138,7 +5566,8 @@
       "pct": 0.78,
       "has_total": 8.982439999999999,
       "has_en_sector": 7.006303,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "107",
@@ -5152,7 +5581,8 @@
       "pct": 1.0,
       "has_total": 0.47,
       "has_en_sector": 0.47,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "110",
@@ -5166,7 +5596,8 @@
       "pct": 1.0,
       "has_total": 1.547094,
       "has_en_sector": 1.547094,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "111",
@@ -5180,7 +5611,8 @@
       "pct": 1.0,
       "has_total": 4.773674,
       "has_en_sector": 4.773674,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "112",
@@ -5194,7 +5626,8 @@
       "pct": 0.38,
       "has_total": 8.74247,
       "has_en_sector": 3.322139,
-      "activo": true
+      "activo": true,
+      "especie": "Olivo"
     },
     {
       "id": "113",
@@ -5208,7 +5641,8 @@
       "pct": 1.0,
       "has_total": 0.37,
       "has_en_sector": 0.37,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "114",
@@ -5222,7 +5656,8 @@
       "pct": 1.0,
       "has_total": 3.43,
       "has_en_sector": 3.43,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "115",
@@ -5236,7 +5671,8 @@
       "pct": 1.0,
       "has_total": 1.48,
       "has_en_sector": 1.48,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "116",
@@ -5250,7 +5686,8 @@
       "pct": 0.81,
       "has_total": 5.1,
       "has_en_sector": 4.131,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "117",
@@ -5264,7 +5701,8 @@
       "pct": 1.0,
       "has_total": 0.96,
       "has_en_sector": 0.96,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "118",
@@ -5278,7 +5716,8 @@
       "pct": 1.0,
       "has_total": 3.49,
       "has_en_sector": 3.49,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "119",
@@ -5292,7 +5731,8 @@
       "pct": 1.0,
       "has_total": 1.53,
       "has_en_sector": 1.53,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "120",
@@ -5306,7 +5746,8 @@
       "pct": 0.19,
       "has_total": 5.1,
       "has_en_sector": 0.969,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "121",
@@ -5320,7 +5761,8 @@
       "pct": 1.0,
       "has_total": 4.93,
       "has_en_sector": 4.93,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "122",
@@ -5334,7 +5776,8 @@
       "pct": 1.0,
       "has_total": 1.37,
       "has_en_sector": 1.37,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     },
     {
       "id": "123",
@@ -5348,7 +5791,8 @@
       "pct": 1.0,
       "has_total": 2.7,
       "has_en_sector": 2.7,
-      "activo": true
+      "activo": true,
+      "especie": "Cerezo"
     }
   ]
 }
