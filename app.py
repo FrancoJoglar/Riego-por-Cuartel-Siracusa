@@ -121,20 +121,23 @@ def save_session_data():
     with pd.ExcelWriter(buf, engine="openpyxl") as writer:
         sectores_df.to_excel(writer, sheet_name="Sectores", index=False)
         cs_df = cuartel_sector_df.copy()
-        cs_df.columns = [
-            "ID",
-            "CC",
-            "Variedad",
-            "Dist Hilera",
-            "Dist Plantas",
-            "Anio",
-            "Equipo",
-            "Sector",
-            "%",
-            "Ha Cuartel",
-            "Ha en Sector",
-            "Activo",
-        ]
+        rename_map = {
+            "id": "ID",
+            "cc": "CC",
+            "variedad": "Variedad",
+            "especie": "Especie",
+            "dh": "Dist Hilera",
+            "dp": "Dist Plantas",
+            "anio": "Anio",
+            "equipo": "Equipo",
+            "sector": "Sector",
+            "pct": "%",
+            "has_total": "Ha Cuartel",
+            "has_en_sector": "Ha en Sector",
+            "activo": "Activo",
+        }
+        cs_df = cs_df.rename(columns=rename_map)
+        cs_df = cs_df[list(rename_map.values())]
         cs_df.to_excel(writer, sheet_name="Cuartel x Sector", index=False)
     buf.seek(0)
     return buf, temporada
